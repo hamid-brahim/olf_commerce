@@ -1,6 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Remote Debug" type="HybrisRemoteDebug" factoryName="HybrisRemoteDebug">
-    <hybris />
-    <method v="2" />
-  </configuration>
-</component>
