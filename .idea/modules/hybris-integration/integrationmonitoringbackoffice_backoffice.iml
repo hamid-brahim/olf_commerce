@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(integrationmonitoringbackoffice)" name="(integrationmonitoringbackoffice)" removed="false">
+          <dependency>(integrationbackoffice)==integrationbackoffice</dependency>
+          <dependency>(integrationbackoffice)==integrationbackoffice_backoffice</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(outboundservices)==outboundservices</dependency>
+          <dependency>(inboundservices)==inboundservices</dependency>
+          <dependency>(backoffice)==backoffice</dependency>
+          <dependency>(backoffice)==backoffice_web</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/resources/integrationmonitoringbackoffice-backoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/resources/integrationmonitoringbackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/eclipsebin_backoffice" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/eclipsebin_backoffice" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/backoffice/classes" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="backoffice lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/resources/backoffice" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/integration-apis/integrationmonitoringbackoffice/resources/backoffice" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="integrationmonitoringbackoffice" />
+    <orderEntry type="module" module-name="integrationbackoffice_backoffice" exported="" />
+    <orderEntry type="module" module-name="backoffice_web" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+    <list uuid="817c7e7a4beee9814c8c9c62e9da124625781a2600ffcedb35ba96d044aee102" id="65b4d8c1cec08e71a205ae3cc266c75276e5f491a9834e59830cf32c64eb495c" />
+  </component>
+</module>

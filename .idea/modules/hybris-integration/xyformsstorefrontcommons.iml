@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(xyformsstorefrontcommons)" name="(xyformsstorefrontcommons)" removed="false">
+          <dependency>(xyformsfacades)==xyformsfacades</dependency>
+          <dependency>(addonsupport)==addonsupport</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(cangubikestorefront)==cangubikestorefront</dependency>
+          <dependency>(cangubikestorefront)==cangubikestorefront_web</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/resources/xyformsstorefrontcommons-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/smartedit-custom-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/smartedit-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/.rush" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/eclipsebin_web" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/eclipsebin_backoffice" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/commonweb/commonwebtestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="classes with sources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="resources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="addon lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/yforms/deprecated/xyformsstorefrontcommons/acceleratoraddon/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="xyformsfacades" exported="" />
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+  </component>
+</module>

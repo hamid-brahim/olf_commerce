@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(merchandisingaddon)" name="(merchandisingaddon)" removed="false">
+          <dependency>(merchandisingservices)==merchandisingservices</dependency>
+          <dependency>(addonsupport)==addonsupport</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(acceleratorstorefrontcommons)==acceleratorstorefrontcommons</dependency>
+          <dependency>(apiregistryservices)==apiregistryservices</dependency>
+          <dependency>(cangubikestorefront)==cangubikestorefront</dependency>
+          <dependency>(cangubikestorefront)==cangubikestorefront_web</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/resources/merchandisingaddon-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/smartedit-custom-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/smartedit-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/.rush" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/eclipsebin_web" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/eclipsebin_backoffice" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/commonweb/commonwebtestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="classes with sources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="resources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="addon lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/deprecated/merchandisingaddon/acceleratoraddon/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="merchandisingservices" exported="" />
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="apiregistryservices" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+  </component>
+</module>

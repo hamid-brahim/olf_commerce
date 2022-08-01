@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(b2bocctests)" name="(b2bocctests)" removed="false">
+          <dependency>(commercewebservicestests)==commercewebservicestests</dependency>
+          <dependency>(b2bocc)==b2bocc</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(couponfacades)==couponfacades</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/resources/b2bocctests-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/smartedit-custom-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/smartedit-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/.rush" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/eclipsebin_web" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/eclipsebin_backoffice" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/commonweb/commonwebtestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/acceleratoraddon/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="classes with sources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="resources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/b2b-accelerator/b2bocctests/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commercewebservicestests" exported="" />
+    <orderEntry type="module" module-name="b2bocc" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="couponfacades" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+  </component>
+</module>

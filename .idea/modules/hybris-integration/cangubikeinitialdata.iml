@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(cangubikeinitialdata)" name="(cangubikeinitialdata)" removed="false">
+          <dependency>(cangubikecore)==cangubikecore</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/resources/cangubikeinitialdata-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/smartedit-custom-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/smartedit-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/.rush" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/eclipsebin_web" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/eclipsebin_backoffice" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/commonweb/commonwebtestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/web/webroot/WEB-INF/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/acceleratoraddon/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikeinitialdata/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="cangubikecore" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="7cd5885327fd60e825d67d32f9d22b018227a208aa3c4819da15b36b5d5869d3" />
+  </component>
+</module>

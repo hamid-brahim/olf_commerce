@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(subscriptionbackoffice)" name="(subscriptionbackoffice)" removed="false">
+          <dependency>(promotionsbackoffice)==promotionsbackoffice</dependency>
+          <dependency>(promotionsbackoffice)==promotionsbackoffice_backoffice</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(subscriptionservices)==subscriptionservices</dependency>
+          <dependency>(backoffice)==backoffice</dependency>
+          <dependency>(backoffice)==backoffice_web</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/resources/subscriptionbackoffice-backoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/resources/subscriptionbackoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/smartedit-custom-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/smartedit-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/.rush" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/eclipsebin_web" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/eclipsebin_backoffice" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/commonweb/commonwebtestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/acceleratoraddon/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="resources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="subscriptionbackofficeserver.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/bin/subscriptionbackofficeserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/subscriptions/subscriptionbackoffice/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="subscriptionbackoffice_backoffice" scope="RUNTIME" />
+    <orderEntry type="module" module-name="promotionsbackoffice" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="subscriptionservices" exported="" />
+    <orderEntry type="module" module-name="backoffice" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+  </component>
+</module>

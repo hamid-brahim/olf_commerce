@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(assistedserviceyprofileaddon)" name="(assistedserviceyprofileaddon)" removed="false">
+          <dependency>(addonsupport)==addonsupport</dependency>
+          <dependency>(assistedserviceyprofilefacades)==assistedserviceyprofilefacades</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(cangubikestorefront)==cangubikestorefront</dependency>
+          <dependency>(cangubikestorefront)==cangubikestorefront_web</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/resources/assistedserviceyprofileaddon-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/smartedit-custom-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/smartedit-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/.rush" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/eclipsebin_web" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/eclipsebin_backoffice" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/commonweb/commonwebtestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="classes with sources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="resources">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="addon lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/assisted-services-integrations/deprecated/assistedserviceyprofileaddon/acceleratoraddon/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="assistedserviceyprofilefacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+  </component>
+</module>

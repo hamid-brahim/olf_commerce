@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(commerceservicesbackoffice)" name="(commerceservicesbackoffice)" removed="false">
+          <dependency>(basecommercebackoffice)==basecommercebackoffice</dependency>
+          <dependency>(basecommercebackoffice)==basecommercebackoffice_backoffice</dependency>
+          <dependency>(promotionsbackoffice)==promotionsbackoffice</dependency>
+          <dependency>(promotionsbackoffice)==promotionsbackoffice_backoffice</dependency>
+          <dependency>(searchbackoffice)==searchbackoffice</dependency>
+          <dependency>(searchbackoffice)==searchbackoffice_backoffice</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(commerceservices)==commerceservices</dependency>
+          <dependency>(solrfacetsearchbackoffice)==solrfacetsearchbackoffice</dependency>
+          <dependency>(solrfacetsearchbackoffice)==solrfacetsearchbackoffice_backoffice</dependency>
+          <dependency>(backoffice)==backoffice</dependency>
+          <dependency>(backoffice)==backoffice_web</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/commerceservicesbackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/commerceservicesbackoffice-backoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/eclipsebin_backoffice" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/eclipsebin_backoffice" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/backoffice/classes" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="backoffice lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/backoffice" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/backoffice" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commerceservicesbackoffice" />
+    <orderEntry type="module" module-name="basecommercebackoffice_backoffice" exported="" />
+    <orderEntry type="module" module-name="promotionsbackoffice_backoffice" exported="" />
+    <orderEntry type="module" module-name="searchbackoffice_backoffice" exported="" />
+    <orderEntry type="module" module-name="solrfacetsearchbackoffice_backoffice" exported="" />
+    <orderEntry type="module" module-name="backoffice_web" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+    <list uuid="817c7e7a4beee9814c8c9c62e9da124625781a2600ffcedb35ba96d044aee102" id="65b4d8c1cec08e71a205ae3cc266c75276e5f491a9834e59830cf32c64eb495c" />
+  </component>
+</module>

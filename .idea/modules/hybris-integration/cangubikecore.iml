@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(cangubikecore)" name="(cangubikecore)" removed="false">
+          <dependency>(acceleratorcms)==acceleratorcms</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/integration/hot-folder-common-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/processes/quote/quote-to-expire-soon-email-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/processes/quote/quote-salesrep-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/integration/hot-folder-store-electronics-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/processes/quote/quote-seller-approval-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/integration/hot-folder-store-apparel-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/processes/quote/quote-post-cancellation-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/processes/quote/quote-buyer-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources/cangubikecore/processes/quote/quote-expired-email-process-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/eclipsebin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/smartedit-custom-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/smartedit-build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/.rush" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/eclipsebin_web" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/eclipsebin_backoffice" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/commonweb/commonwebtestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/web/webroot/WEB-INF/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/acceleratoraddon/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikecore/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="acceleratorcms" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="7cd5885327fd60e825d67d32f9d22b018227a208aa3c4819da15b36b5d5869d3" />
+  </component>
+</module>

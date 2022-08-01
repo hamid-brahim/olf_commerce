@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/src" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/groovysrc" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/scalasrc" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/gensrc" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(cmssmarteditwebservices)" name="(cmssmarteditwebservices)" removed="false">
+          <dependency>(webservicescommons)==webservicescommons</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(cmsfacades)==cmsfacades</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot/WEB-INF/config/field-mapping-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/resources/config/cmssmarteditwebservices-products-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot/WEB-INF/cmssmarteditwebservices-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/web-services-commons/webservicescommons/resources/webservicescommons/commons-security-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot/WEB-INF/config/filter-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot/WEB-INF/config/error-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot/WEB-INF/config/interceptor-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot/WEB-INF/config/cache-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/resources/cmssmarteditwebservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/resources/config/cmssmarteditwebservices-field-mapping-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/webroot/WEB-INF/config/security-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/eclipsebin_web" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/eclipsebin_web" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/smartedit/cmssmarteditwebservices/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="cmssmarteditwebservices" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+    <list uuid="817c7e7a4beee9814c8c9c62e9da124625781a2600ffcedb35ba96d044aee102" id="9dcfaae14b3986860f35731285d46834ad202fc40b9873256356ed551a1460fd" />
+  </component>
+</module>

@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Local Hybris Server" type="HybrisLocalTomcat" factoryName="HybrisLocalTomcat">
+    <hybris />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

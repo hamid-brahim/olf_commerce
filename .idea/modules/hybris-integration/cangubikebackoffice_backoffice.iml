@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(cangubikebackoffice)" name="(cangubikebackoffice)" removed="false">
+          <dependency>(cangubikecore)==cangubikecore</dependency>
+          <dependency>(backoffice)==backoffice</dependency>
+          <dependency>(backoffice)==backoffice_web</dependency>
+          <dependency>(acceleratorbackoffice)==acceleratorbackoffice</dependency>
+          <dependency>(acceleratorbackoffice)==acceleratorbackoffice_backoffice</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/resources/cangubikebackoffice-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/resources/cangubikebackoffice-backoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/eclipsebin_backoffice" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/eclipsebin_backoffice" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/custom/cangubike/cangubikebackoffice/backoffice/classes" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="cangubikebackoffice" />
+    <orderEntry type="module" module-name="backoffice_web" exported="" />
+    <orderEntry type="module" module-name="acceleratorbackoffice_backoffice" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="7cd5885327fd60e825d67d32f9d22b018227a208aa3c4819da15b36b5d5869d3" />
+    <list uuid="817c7e7a4beee9814c8c9c62e9da124625781a2600ffcedb35ba96d044aee102" id="65b4d8c1cec08e71a205ae3cc266c75276e5f491a9834e59830cf32c64eb495c" />
+  </component>
+</module>

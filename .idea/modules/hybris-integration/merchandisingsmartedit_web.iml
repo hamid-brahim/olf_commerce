@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/webroot" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/src" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/groovysrc" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/scalasrc" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/gensrc" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(merchandisingsmartedit)" name="(merchandisingsmartedit)" removed="false">
+          <dependency>(smartedit)==smartedit</dependency>
+          <dependency>(smartedit)==smartedit_web</dependency>
+          <dependency>(smarteditwebservices)==smarteditwebservices</dependency>
+          <dependency>(smarteditwebservices)==smarteditwebservices_web</dependency>
+          <dependency>(platform)==platform</dependency>
+          <dependency>(smartedittools)==smartedittools</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/webroot/WEB-INF/config/security-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/project.properties</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/webroot/WEB-INF/merchandisingsmartedit-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/resources/merchandisingsmartedit-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/eclipsebin_web" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/eclipsebin_web" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/modules/cds-merchandising/merchandisingsmartedit/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="merchandisingsmartedit" />
+    <orderEntry type="module" module-name="smartedit_web" exported="" />
+    <orderEntry type="module" module-name="smarteditwebservices_web" exported="" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="e04980d876c32789f5656e6b23eaf821eda020ee9a19996e1ae6544282ddd5ba" />
+    <list uuid="817c7e7a4beee9814c8c9c62e9da124625781a2600ffcedb35ba96d044aee102" id="9dcfaae14b3986860f35731285d46834ad202fc40b9873256356ed551a1460fd" />
+  </component>
+</module>

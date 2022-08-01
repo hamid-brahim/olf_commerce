@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/webroot" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/src" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/groovysrc" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/scalasrc" />
+          <root url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/gensrc" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="(mediaweb)" name="(mediaweb)" removed="false">
+          <dependency>(core)==core</dependency>
+          <file>file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/eclipsebin_web" />
+    <output-test url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/eclipsebin_web" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/addontestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../core-customize/hybris/bin/platform/ext/mediaweb/web/commonwebtestsrc" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="mediaweb" />
+    <orderEntry type="inheritedJdk" />
+  </component>
+  <component name="moduleReferences">
+    <list uuid="1b2d0986f7d4460fa557a25de9d3548721076040172a8bfa108bac245cb32f1f" id="b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b" />
+    <list uuid="3b1dcc6ddc00eea7c0e7437dabfdf5206f703fc1e08bb78e8ca990b6ed647c1b" id="0a96c088a259ac782c5a25f38985c659a4e01a36c9545a422bfcbb8f79ca8dbf" />
+    <list uuid="817c7e7a4beee9814c8c9c62e9da124625781a2600ffcedb35ba96d044aee102" id="9dcfaae14b3986860f35731285d46834ad202fc40b9873256356ed551a1460fd" />
+  </component>
+</module>
