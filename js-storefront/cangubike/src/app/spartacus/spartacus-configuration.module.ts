@@ -3,7 +3,7 @@ import { translationChunksConfig, translations } from "@spartacus/assets";
 import { FeaturesConfig, I18nConfig, OccConfig, provideConfig, SiteContextConfig } from "@spartacus/core";
 import { defaultB2bCheckoutConfig, defaultB2bOccConfig } from "@spartacus/setup";
 import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacus/storefront";
-import {environment} from 'src/environments/environment.prod'
+import { environment } from 'src/environments/environment.prod';
 
 @NgModule({
   declarations: [],
@@ -19,8 +19,8 @@ import {environment} from 'src/environments/environment.prod'
     context: {
       urlParameters: ['baseSite', 'language', 'currency'],
       baseSite: ['cangubike-spa'],
-      language: ['en'],
-      currency: ['USD'],
+      language: ['en', 'fr'],
+      currency: ['USD','EUR'],
     },
   }), provideConfig(<I18nConfig>{
     i18n: {
