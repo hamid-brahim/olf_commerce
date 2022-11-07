@@ -1,0 +1,253 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+
+//change the default font
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900&display=swap&subset=latin-ext");
+$font-family-base: "Raleway", sans-serif;
+
+$styleVersion: 4.3;
+// remove default styles for the header section and some components
+$skipComponentStyles: (header, cx-mini-cart);
+
+$styleVersion: 4.3;
+@import '~@spartacus/styles/index';
+@import '~@spartacus/styles/scss/theme/santorini';
+
+
+cx-navigation-ui > nav:nth-of-type(n + 6) {
+  display: none;
+}
+
+// define color variables
+:root {
+  // --cx-color-secondary: #f1f2f3;
+  --cx-color-primary: #43464e;
+}
+
+cx-navigation-ui.flyout {
+  a,
+  span {
+    font-weight: 400;
+  }
+}
+cx-navigation-ui.accNavComponent {
+  nav {
+    span {
+      height: 40px;
+      margin: 0;
+      opacity: 0;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      bottom: -7px;
+      width: 40px;
+    }
+  }
+}
+
+// generic link component styles
+cx-generic-link {
+  a {
+    text-decoration: underline;
+  }
+}
+
+// site context selector component styles
+cx-site-context-selector {
+  color: var(--cx-color-primary);
+  margin-top: 0;
+  margin-bottom: 0;
+  select {
+    background: none;
+  }
+}
+
+// mini cart component styles
+// remove default component styles first: `$skipComponentStyles: (cx-mini-cart);`
+cx-mini-cart {
+  margin-right: 1rem;
+  position: relative;
+  a {
+    color: initial;
+  }
+  .total {
+    display: none;
+  }
+  .count {
+    padding: 0 0.25rem;
+    position: absolute;
+    top: -0.5rem;
+  }
+}
+
+// searchbox component styles
+cx-searchbox > * {
+  background-color: transparent;
+}
+cx-searchbox {
+  position: relative;
+  z-index: 20;
+  //border-bottom: 2px solid var(--cx-color-primary);
+  //color: var(--cx-color-primary);
+  //margin-bottom: 0.25rem;
+  .searchbox {
+    height: 40px;
+    margin: 0;
+    position: relative;
+    width: 240px;
+
+    input {
+      background: #f1f2f3;
+      border-radius: 27px;
+      border: none;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      height: 100%;
+      line-height: 26px;
+      padding: 11px 20px;
+      width: 100%;
+    }
+  }
+
+}
+//position: relative;
+//z-index: 20;
+//
+//.searchbox {
+//  height: 40px;
+//  margin: 0;
+//  position: relative;
+//  width: 240px;
+//
+//
+//  &.dirty .search {
+//    display: none;
+//  }
+//
+//  &:not(.dirty) .reset {
+//    display: none;
+//  }
+//
+//  cx-icon {
+//    color: black;
+//    position: absolute;
+//    right: 20px;
+//    top: 50%;
+//    transform: translateY(-50%);
+//  }
+//
+//  input {
+//    background: #f1f2f3;
+//    border-radius: 27px;
+//    border: none;
+//    font-size: 14px;
+//    font-style: normal;
+//    font-weight: 300;
+//    height: 100%;
+//    line-height: 26px;
+//    padding: 11px 20px;
+//    width: 100%;
+//  }
+//}
+//
+//.results {
+//  background-color: #fff;
+//  color: #000;
+//  display: none;
+//  left: 0;
+//  position: absolute;
+//  top: 45px;
+//  width: 320px;
+//
+//  a {
+//    color: black;
+//    cursor: pointer;
+//    font-weight: 800;
+//    text-decoration: none;
+//
+//    .highlight,
+//    .search-results-highlight {
+//      font-style: normal;
+//      font-weight: normal;
+//    }
+//
+//    &:hover {
+//      background: var(--cx-color-light);
+//      color: currentColor;
+//    }
+//  }
+//
+//  .suggestions {
+//    display: flex;
+//    flex-wrap: wrap;
+//    padding: 0px 10px;
+//
+//    a {
+//      flex: 100%;
+//      line-height: 2rem;
+//    }
+//  }
+//
+//    .products {
+//      a {
+//        border-top: solid 1px var(--cx-color-light);
+//        display: grid;
+//        grid-column-gap: 16px;
+//
+//        &.has-media {
+//          grid-template-columns: 50px 1fr;
+//        }
+//
+//        cx-media {
+//          grid-row: 1 / 3;
+//
+//          &.is-missing {
+//            background-size: 48px;
+//            min-height: 48px;
+//          }
+//        }
+//        h4.name {
+//          font-size: inherit;
+//          font-weight: inherit;
+//          overflow: hidden;
+//          text-overflow: ellipsis;
+//          white-space: nowrap;
+//        }
+//        .price {
+//          font-weight: normal;
+//        }
+//      }
+//    }
+//  }
+//
+//.searchbox-is-active {
+//  cx-searchbox {
+//    .results {
+//      display: block;
+//    }
+//  }
+
+
+cx-page-layout.LandingPage2Template cx-page-slot.Section1 {
+  margin-top: unset;
+}
+
+//cx-media {
+//  img {
+//    height: 70%;
+//    width: 70%;
+//  }
+//}
+//
+//cx-product-images {
+//  height: 400px;
+//  width: 350px;
+//}
+
+header {
+  .NavigationBar {
+    margin-left: 0px;
+  }
+}
