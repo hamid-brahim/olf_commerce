@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+# ImpEx for Importing Categories into Cangubike Store
+
+
+# Macros / Replacement Parameter definitions
+$productCatalog=olfProductCatalog
+$productCatalogName=OLF Product Catalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+
+$lang=fr
+
+UPDATE Category;code[unique=true];$catalogVersion;name[lang=$lang];description[lang=$lang]
+;root;;Catégorie Root;
+;architecture;;Architecture;
+;art;;Art;
+;design;;Design;
+;photography;;Photographie;
+;audio_books;;Livres Audio;
+;children;;Jeunesse;
+;fiction;;Fiction;
+;non_fiction;;Non-Fiction;
+;economy;;Economie;
+;finance;;Fiance;
+;management;;Management;
+;marketing;;Marketing;
+;transport;;Transport;
+;history_and_politics;;Histoire & Politique;
+;history;;Histoire;
+;politics;;Politique;
+;society;;Société;

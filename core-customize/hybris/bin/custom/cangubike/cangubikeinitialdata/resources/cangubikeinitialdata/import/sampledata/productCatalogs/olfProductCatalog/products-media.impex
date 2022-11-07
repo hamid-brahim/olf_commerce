@@ -1,0 +1,222 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+# ImPex for Importing Product Media into Cangubike Store
+
+# Macros / Replacement Parameter definitions
+$productCatalog = olfProductCatalog
+$catalogVersion = catalogversion(catalog(id[default=$productCatalog]), version[default='Staged'])[unique=true, default=$productCatalog:Staged]
+$siteResource = jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/productCatalogs/$productCatalog
+$thumbnail = thumbnail(code, $catalogVersion)
+$picture = picture(code, $catalogVersion)
+$thumbnails = thumbnails(code, $catalogVersion)
+$detail = detail(code, $catalogVersion)
+$normal = normal(code, $catalogVersion)
+$others = others(code, $catalogVersion)
+$data_sheet = data_sheet(code, $catalogVersion)
+$medias = medias(code, $catalogVersion)
+$galleryImages = galleryImages(qualifier, $catalogVersion)
+
+#INSERT_UPDATE MediaFolder;qualifier[unique=true];path[unique=true]
+#;images;images
+
+INSERT_UPDATE Media; mediaFormat(qualifier); code[unique = true]                    ; @media[translator = de.hybris.platform.impex.jalo.media.MediaDataTranslator]; mime[default = 'image/jpeg']; $catalogVersion; folder(qualifier)[default = images]
+                   ; 1200Wx1200H           ; /1200Wx1200H/femme.jpg                 ; $siteResource/images/1200Wx1200H/femme.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/etat.jpg                  ; $siteResource/images/1200Wx1200H/etat.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/laicité.jpg               ; $siteResource/images/1200Wx1200H/laicité.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/voix.jpg                  ; $siteResource/images/1200Wx1200H/voix.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/revolution.jpg            ; $siteResource/images/1200Wx1200H/revolution.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/speech.jpg                ; $siteResource/images/1200Wx1200H/speech.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/relations.jpg             ; $siteResource/images/1200Wx1200H/relations.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/euro.jpg                  ; $siteResource/images/1200Wx1200H/euro.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/others_money.jpg          ; $siteResource/images/1200Wx1200H/others_money.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/blockchain.jpg            ; $siteResource/images/1200Wx1200H/blockchain.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/istanbul.jpg              ; $siteResource/images/1200Wx1200H/istanbul.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/african_history.jpg       ; $siteResource/images/1200Wx1200H/african_history.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/philosophie-du-voyage.jpg ; $siteResource/images/1200Wx1200H/philosophie-du-voyage.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/by_animals.jpg            ; $siteResource/images/1200Wx1200H/by_animals.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/green.jpg                 ; $siteResource/images/1200Wx1200H/green.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/global.jpg                ; $siteResource/images/1200Wx1200H/global.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/trade.jpg                 ; $siteResource/images/1200Wx1200H/trade.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/physics-of-finance.jpg    ; $siteResource/images/1200Wx1200H/physics-of-finance.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/money.jpg                 ; $siteResource/images/1200Wx1200H/money.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/leader.jpg                ; $siteResource/images/1200Wx1200H/leader.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/president.jpg             ; $siteResource/images/1200Wx1200H/president.jpg
+                   ; 1200Wx1200H           ; /1200Wx1200H/africa.jpg                ; $siteResource/images/1200Wx1200H/africa.jpg
+
+                   ; 515Wx515H             ; /515Wx515H/femme.jpg                   ; $siteResource/images/515Wx515H/femme.jpg
+                   ; 515Wx515H             ; /515Wx515H/etat.jpg                    ; $siteResource/images/515Wx515H/etat.jpg
+                   ; 515Wx515H             ; /515Wx515H/laicité.jpg                 ; $siteResource/images/515Wx515H/laicité.jpg
+                   ; 515Wx515H             ; /515Wx515H/voix.jpg                    ; $siteResource/images/515Wx515H/voix.jpg
+                   ; 515Wx515H             ; /515Wx515H/revolution.jpg              ; $siteResource/images/515Wx515H/revolution.jpg
+                   ; 515Wx515H             ; /515Wx515H/speech.jpg                  ; $siteResource/images/515Wx515H/speech.jpg
+                   ; 515Wx515H             ; /515Wx515H/relations.jpg               ; $siteResource/images/515Wx515H/relations.jpg
+                   ; 515Wx515H             ; /515Wx515H/euro.jpg                    ; $siteResource/images/515Wx515H/euro.jpg
+                   ; 515Wx515H             ; /515Wx515H/others_money.jpg            ; $siteResource/images/515Wx515H/others_money.jpg
+                   ; 515Wx515H             ; /515Wx515H/blockchain.jpg              ; $siteResource/images/515Wx515H/blockchain.jpg
+                   ; 515Wx515H             ; /515Wx515H/istanbul.jpg                ; $siteResource/images/515Wx515H/istanbul.jpg
+                   ; 515Wx515H             ; /515Wx515H/african_history.jpg         ; $siteResource/images/515Wx515H/african_history.jpg
+                   ; 515Wx515H             ; /515Wx515H/philosophie-du-voyage.jpg   ; $siteResource/images/515Wx515H/philosophie-du-voyage.jpg
+                   ; 515Wx515H             ; /515Wx515H/by_animals.jpg              ; $siteResource/images/515Wx515H/by_animals.jpg
+                   ; 515Wx515H             ; /515Wx515H/green.jpg                   ; $siteResource/images/515Wx515H/green.jpg
+                   ; 515Wx515H             ; /515Wx515H/global.jpg                  ; $siteResource/images/515Wx515H/global.jpg
+                   ; 515Wx515H             ; /515Wx515H/trade.jpg                   ; $siteResource/images/515Wx515H/trade.jpg
+                   ; 515Wx515H             ; /515Wx515H/physics-of-finance.jpg      ; $siteResource/images/515Wx515H/physics-of-finance.jpg
+                   ; 515Wx515H             ; /515Wx515H/money.jpg                   ; $siteResource/images/515Wx515H/money.jpg
+                   ; 515Wx515H             ; /515Wx515H/leader.jpg                  ; $siteResource/images/515Wx515H/leader.jpg
+                   ; 515Wx515H             ; /515Wx515H/president.jpg               ; $siteResource/images/515Wx515H/president.jpg
+                   ; 515Wx515H             ; /515Wx515H/africa.jpg                  ; $siteResource/images/515Wx515H/africa.jpg
+
+                   ; 300Wx300H             ; /300Wx300H/femme.jpg                   ; $siteResource/images/300Wx300H/femme.jpg
+                   ; 300Wx300H             ; /300Wx300H/etat.jpg                    ; $siteResource/images/300Wx300H/etat.jpg
+                   ; 300Wx300H             ; /300Wx300H/laicité.jpg                 ; $siteResource/images/300Wx300H/laicité.jpg
+                   ; 300Wx300H             ; /300Wx300H/voix.jpg                    ; $siteResource/images/300Wx300H/voix.jpg
+                   ; 300Wx300H             ; /300Wx300H/revolution.jpg              ; $siteResource/images/300Wx300H/revolution.jpg
+                   ; 300Wx300H             ; /300Wx300H/speech.jpg                  ; $siteResource/images/300Wx300H/speech.jpg
+                   ; 300Wx300H             ; /300Wx300H/relations.jpg               ; $siteResource/images/300Wx300H/relations.jpg
+                   ; 300Wx300H             ; /300Wx300H/euro.jpg                    ; $siteResource/images/300Wx300H/euro.jpg
+                   ; 300Wx300H             ; /300Wx300H/others_money.jpg            ; $siteResource/images/300Wx300H/others_money.jpg
+                   ; 300Wx300H             ; /300Wx300H/blockchain.jpg              ; $siteResource/images/300Wx300H/blockchain.jpg
+                   ; 300Wx300H             ; /300Wx300H/istanbul.jpg                ; $siteResource/images/300Wx300H/istanbul.jpg
+                   ; 300Wx300H             ; /300Wx300H/african_history.jpg         ; $siteResource/images/300Wx300H/african_history.jpg
+                   ; 300Wx300H             ; /300Wx300H/philosophie-du-voyage.jpg   ; $siteResource/images/300Wx300H/philosophie-du-voyage.jpg
+                   ; 300Wx300H             ; /300Wx300H/by_animals.jpg              ; $siteResource/images/300Wx300H/by_animals.jpg
+                   ; 300Wx300H             ; /300Wx300H/green.jpg                   ; $siteResource/images/300Wx300H/green.jpg
+                   ; 300Wx300H             ; /300Wx300H/global.jpg                  ; $siteResource/images/300Wx300H/global.jpg
+                   ; 300Wx300H             ; /300Wx300H/trade.jpg                   ; $siteResource/images/300Wx300H/trade.jpg
+                   ; 300Wx300H             ; /300Wx300H/physics-of-finance.jpg      ; $siteResource/images/300Wx300H/physics-of-finance.jpg
+                   ; 300Wx300H             ; /300Wx300H/money.jpg                   ; $siteResource/images/300Wx300H/money.jpg
+                   ; 300Wx300H             ; /300Wx300H/leader.jpg                  ; $siteResource/images/300Wx300H/leader.jpg
+                   ; 300Wx300H             ; /300Wx300H/president.jpg               ; $siteResource/images/300Wx300H/president.jpg
+                   ; 300Wx300H             ; /300Wx300H/africa.jpg                  ; $siteResource/images/300Wx300H/africa.jpg
+
+                   ; 96Wx96H               ; /96Wx96H/femme.jpg                     ; $siteResource/images/96Wx96H/femme.jpg
+                   ; 96Wx96H               ; /96Wx96H/etat.jpg                      ; $siteResource/images/96Wx96H/etat.jpg
+                   ; 96Wx96H               ; /96Wx96H/laicité.jpg                   ; $siteResource/images/96Wx96H/laicité.jpg
+                   ; 96Wx96H               ; /96Wx96H/voix.jpg                      ; $siteResource/images/96Wx96H/voix.jpg
+                   ; 96Wx96H               ; /96Wx96H/revolution.jpg                ; $siteResource/images/96Wx96H/revolution.jpg
+                   ; 96Wx96H               ; /96Wx96H/speech.jpg                    ; $siteResource/images/96Wx96H/speech.jpg
+                   ; 96Wx96H               ; /96Wx96H/relations.jpg                 ; $siteResource/images/96Wx96H/relations.jpg
+                   ; 96Wx96H               ; /96Wx96H/euro.jpg                      ; $siteResource/images/96Wx96H/euro.jpg
+                   ; 96Wx96H               ; /96Wx96H/others_money.jpg              ; $siteResource/images/96Wx96H/others_money.jpg
+                   ; 96Wx96H               ; /96Wx96H/blockchain.jpg                ; $siteResource/images/96Wx96H/blockchain.jpg
+                   ; 96Wx96H               ; /96Wx96H/istanbul.jpg                  ; $siteResource/images/96Wx96H/istanbul.jpg
+                   ; 96Wx96H               ; /96Wx96H/african_history.jpg           ; $siteResource/images/96Wx96H/african_history.jpg
+                   ; 96Wx96H               ; /96Wx96H/philosophie-du-voyage.jpg     ; $siteResource/images/96Wx96H/philosophie-du-voyage.jpg
+                   ; 96Wx96H               ; /96Wx96H/by_animals.jpg                ; $siteResource/images/96Wx96H/by_animals.jpg
+                   ; 96Wx96H               ; /96Wx96H/green.jpg                     ; $siteResource/images/96Wx96H/green.jpg
+                   ; 96Wx96H               ; /96Wx96H/global.jpg                    ; $siteResource/images/96Wx96H/global.jpg
+                   ; 96Wx96H               ; /96Wx96H/trade.jpg                     ; $siteResource/images/96Wx96H/trade.jpg
+                   ; 96Wx96H               ; /96Wx96H/physics-of-finance.jpg        ; $siteResource/images/96Wx96H/physics-of-finance.jpg
+                   ; 96Wx96H               ; /96Wx96H/money.jpg                     ; $siteResource/images/96Wx96H/money.jpg
+                   ; 96Wx96H               ; /96Wx96H/leader.jpg                    ; $siteResource/images/96Wx96H/leader.jpg
+                   ; 96Wx96H               ; /96Wx96H/president.jpg                 ; $siteResource/images/96Wx96H/president.jpg
+                   ; 96Wx96H               ; /96Wx96H/africa.jpg                    ; $siteResource/images/96Wx96H/africa.jpg
+
+                   ; 65Wx65H               ; /65Wx65H/femme.jpg                     ; $siteResource/images/65Wx65H/femme.jpg
+                   ; 65Wx65H               ; /65Wx65H/etat.jpg                      ; $siteResource/images/65Wx65H/etat.jpg
+                   ; 65Wx65H               ; /65Wx65H/laicité.jpg                   ; $siteResource/images/65Wx65H/laicité.jpg
+                   ; 65Wx65H               ; /65Wx65H/voix.jpg                      ; $siteResource/images/65Wx65H/voix.jpg
+                   ; 65Wx65H               ; /65Wx65H/revolution.jpg                ; $siteResource/images/65Wx65H/revolution.jpg
+                   ; 65Wx65H               ; /65Wx65H/speech.jpg                    ; $siteResource/images/65Wx65H/speech.jpg
+                   ; 65Wx65H               ; /65Wx65H/relations.jpg                 ; $siteResource/images/65Wx65H/relations.jpg
+                   ; 65Wx65H               ; /65Wx65H/euro.jpg                      ; $siteResource/images/65Wx65H/euro.jpg
+                   ; 65Wx65H               ; /65Wx65H/others_money.jpg              ; $siteResource/images/65Wx65H/others_money.jpg
+                   ; 65Wx65H               ; /65Wx65H/blockchain.jpg                ; $siteResource/images/65Wx65H/blockchain.jpg
+                   ; 65Wx65H               ; /65Wx65H/istanbul.jpg                  ; $siteResource/images/65Wx65H/istanbul.jpg
+                   ; 65Wx65H               ; /65Wx65H/african_history.jpg           ; $siteResource/images/65Wx65H/african_history.jpg
+                   ; 65Wx65H               ; /65Wx65H/philosophie-du-voyage.jpg     ; $siteResource/images/65Wx65H/philosophie-du-voyage.jpg
+                   ; 65Wx65H               ; /65Wx65H/by_animals.jpg                ; $siteResource/images/65Wx65H/by_animals.jpg
+                   ; 65Wx65H               ; /65Wx65H/green.jpg                     ; $siteResource/images/65Wx65H/green.jpg
+                   ; 65Wx65H               ; /65Wx65H/global.jpg                    ; $siteResource/images/65Wx65H/global.jpg
+                   ; 65Wx65H               ; /65Wx65H/trade.jpg                     ; $siteResource/images/65Wx65H/trade.jpg
+                   ; 65Wx65H               ; /65Wx65H/physics-of-finance.jpg        ; $siteResource/images/65Wx65H/physics-of-finance.jpg
+                   ; 65Wx65H               ; /65Wx65H/money.jpg                     ; $siteResource/images/65Wx65H/money.jpg
+                   ; 65Wx65H               ; /65Wx65H/leader.jpg                    ; $siteResource/images/65Wx65H/leader.jpg
+                   ; 65Wx65H               ; /65Wx65H/president.jpg                 ; $siteResource/images/65Wx65H/president.jpg
+                   ; 65Wx65H               ; /65Wx65H/africa.jpg                    ; $siteResource/images/65Wx65H/africa.jpg
+
+                   ; 30Wx30H               ; /30Wx30H/femme.jpg                     ; $siteResource/images/30Wx30H/femme.jpg
+                   ; 30Wx30H               ; /30Wx30H/etat.jpg                      ; $siteResource/images/30Wx30H/etat.jpg
+                   ; 30Wx30H               ; /30Wx30H/laicité.jpg                   ; $siteResource/images/30Wx30H/laicité.jpg
+                   ; 30Wx30H               ; /30Wx30H/voix.jpg                      ; $siteResource/images/30Wx30H/voix.jpg
+                   ; 30Wx30H               ; /30Wx30H/revolution.jpg                ; $siteResource/images/30Wx30H/revolution.jpg
+                   ; 30Wx30H               ; /30Wx30H/speech.jpg                    ; $siteResource/images/30Wx30H/speech.jpg
+                   ; 30Wx30H               ; /30Wx30H/relations.jpg                 ; $siteResource/images/30Wx30H/relations.jpg
+                   ; 30Wx30H               ; /30Wx30H/euro.jpg                      ; $siteResource/images/30Wx30H/euro.jpg
+                   ; 30Wx30H               ; /30Wx30H/others_money.jpg              ; $siteResource/images/30Wx30H/others_money.jpg
+                   ; 30Wx30H               ; /30Wx30H/blockchain.jpg                ; $siteResource/images/30Wx30H/blockchain.jpg
+                   ; 30Wx30H               ; /30Wx30H/istanbul.jpg                  ; $siteResource/images/30Wx30H/istanbul.jpg
+                   ; 30Wx30H               ; /30Wx30H/african_history.jpg           ; $siteResource/images/30Wx30H/african_history.jpg
+                   ; 30Wx30H               ; /30Wx30H/philosophie-du-voyage.jpg     ; $siteResource/images/30Wx30H/philosophie-du-voyage.jpg
+                   ; 30Wx30H               ; /30Wx30H/by_animals.jpg                ; $siteResource/images/30Wx30H/by_animals.jpg
+                   ; 30Wx30H               ; /30Wx30H/green.jpg                     ; $siteResource/images/30Wx30H/green.jpg
+                   ; 30Wx30H               ; /30Wx30H/global.jpg                    ; $siteResource/images/30Wx30H/global.jpg
+                   ; 30Wx30H               ; /30Wx30H/trade.jpg                     ; $siteResource/images/30Wx30H/trade.jpg
+                   ; 30Wx30H               ; /30Wx30H/physics-of-finance.jpg        ; $siteResource/images/30Wx30H/physics-of-finance.jpg
+                   ; 30Wx30H               ; /30Wx30H/money.jpg                     ; $siteResource/images/30Wx30H/money.jpg
+                   ; 30Wx30H               ; /30Wx30H/leader.jpg                    ; $siteResource/images/30Wx30H/leader.jpg
+                   ; 30Wx30H               ; /30Wx30H/president.jpg                 ; $siteResource/images/30Wx30H/president.jpg
+                   ; 30Wx30H               ; /30Wx30H/africa.jpg                    ; $siteResource/images/30Wx30H/africa.jpg
+
+INSERT_UPDATE MediaContainer; qualifier[unique = true]; $medias; $catalogVersion
+                            ; 21539747-222            ; /1200Wx1200H/femme.jpg,/515Wx515H/femme.jpg,/300Wx300H/femme.jpg,/96Wx96H/femme.jpg,/65Wx65H/femme.jpg,/30Wx30H/femme.jpg
+                            ; 4317125-333             ; /1200Wx1200H/etat.jpg,/515Wx515H/etat.jpg,/300Wx300H/etat.jpg,/96Wx96H/etat.jpg,/65Wx65H/etat.jpg,/30Wx30H/etat.jpg
+                            ; 5182251-444             ; /1200Wx1200H/laicité.jpg,/515Wx515H/laicité.jpg,/300Wx300H/laicité.jpg,/96Wx96H/laicité.jpg,/65Wx65H/laicité.jpg,/30Wx30H/laicité.jpg
+                            ; 499631-555              ; /1200Wx1200H/voix.jpg,/515Wx515H/voix.jpg,/300Wx300H/voix.jpg,/96Wx96H/voix.jpg,/65Wx65H/voix.jpg,/30Wx30H/voix.jpg
+                            ; 20169740-666            ; /1200Wx1200H/revolution.jpg,/515Wx515H/revolution.jpg,/300Wx300H/revolution.jpg,/96Wx96H/revolution.jpg,/65Wx65H/revolution.jpg,/30Wx30H/revolution.jpg
+                            ; 18313720-777            ; /1200Wx1200H/speech.jpg,/515Wx515H/speech.jpg,/300Wx300H/speech.jpg,/96Wx96H/speech.jpg,/65Wx65H/speech.jpg,/30Wx30H/speech.jpg
+                            ; 1410271-888             ; /1200Wx1200H/relations.jpg,/515Wx515H/relations.jpg,/300Wx300H/relations.jpg,/96Wx96H/relations.jpg,/65Wx65H/relations.jpg,/30Wx30H/relations.jpg
+                            ; 20178031-999            ; /1200Wx1200H/euro.jpg,/515Wx515H/euro.jpg,/300Wx300H/euro.jpg,/96Wx96H/euro.jpg,/65Wx65H/euro.jpg,/30Wx30H/euro.jpg
+                            ; 17328877-111            ; /1200Wx1200H/others_money.jpg,/515Wx515H/others_money.jpg,/300Wx300H/others_money.jpg,/96Wx96H/others_money.jpg,/65Wx65H/others_money.jpg,/30Wx30H/others_money.jpg
+                            ; 18273289-333            ; /1200Wx1200H/blockchain.jpg,/515Wx515H/blockchain.jpg,/300Wx300H/blockchain.jpg,/96Wx96H/blockchain.jpg,/65Wx65H/blockchain.jpg,/30Wx30H/blockchain.jpg
+                            ; 19205052-888            ; /1200Wx1200H/istanbul.jpg,/515Wx515H/istanbul.jpg,/300Wx300H/istanbul.jpg,/96Wx96H/istanbul.jpg,/65Wx65H/istanbul.jpg,/30Wx30H/istanbul.jpg
+                            ; 3810111-898             ; /1200Wx1200H/african_history.jpg,/515Wx515H/african_history.jpg,/300Wx300H/african_history.jpg,/96Wx96H/african_history.jpg,/65Wx65H/african_history.jpg,/30Wx30H/african_history.jpg
+                            ; 67788997-222            ; /1200Wx1200H/philosophie-du-voyage.jpg,/515Wx515H/philosophie-du-voyage.jpg,/300Wx300H/philosophie-du-voyage.jpg,/96Wx96H/philosophie-du-voyage.jpg,/65Wx65H/philosophie-du-voyage.jpg,/30Wx30H/philosophie-du-voyage.jpg
+                            ; 4439115-333             ; /1200Wx1200H/by_animals.jpg,/515Wx515H/by_animals.jpg,/300Wx300H/by_animals.jpg,/96Wx96H/by_animals.jpg,/65Wx65H/by_animals.jpg,/30Wx30H/by_animals.jpg
+                            ; 4511775-444             ; /1200Wx1200H/green.jpg,/515Wx515H/green.jpg,/300Wx300H/green.jpg,/96Wx96H/green.jpg,/65Wx65H/green.jpg,/30Wx30H/green.jpg
+                            ; 23220146-555            ; /1200Wx1200H/global.jpg,/515Wx515H/global.jpg,/300Wx300H/global.jpg,/96Wx96H/global.jpg,/65Wx65H/global.jpg,/30Wx30H/global.jpg
+                            ; 17351134-666            ; /1200Wx1200H/trade.jpg,/515Wx515H/trade.jpg,/300Wx300H/trade.jpg,/96Wx96H/trade.jpg,/65Wx65H/trade.jpg,/30Wx30H/trade.jpg
+                            ; 16010744-777            ; /1200Wx1200H/physics-of-finance.jpg,/515Wx515H/physics-of-finance.jpg,/300Wx300H/physics-of-finance.jpg,/96Wx96H/physics-of-finance.jpg,/65Wx65H/physics-of-finance.jpg,/30Wx30H/physics-of-finance.jpg
+                            ; 16109583-888            ; /1200Wx1200H/money.jpg,/515Wx515H/money.jpg,/300Wx300H/money.jpg,/96Wx96H/money.jpg,/65Wx65H/money.jpg,/30Wx30H/money.jpg
+                            ; 16034897-999            ; /1200Wx1200H/leader.jpg,/515Wx515H/leader.jpg,/300Wx300H/leader.jpg,/96Wx96H/leader.jpg,/65Wx65H/leader.jpg,/30Wx30H/leader.jpg
+                            ; 20782585-111            ; /1200Wx1200H/president.jpg,/515Wx515H/president.jpg,/300Wx300H/president.jpg,/96Wx96H/president.jpg,/65Wx65H/president.jpg,/30Wx30H/president.jpg
+                            ; 3024486-333             ; /1200Wx1200H/africa.jpg,/515Wx515H/africa.jpg,/300Wx300H/africa.jpg,/96Wx96H/africa.jpg,/65Wx65H/africa.jpg,/30Wx30H/africa.jpg
+
+
+INSERT_UPDATE Product; code[unique = true]; $picture                             ; $thumbnail                         ; $detail                                ; $others                                                                                                    ; $normal                              ; $thumbnails                        ; $galleryImages; $catalogVersion
+                     ; 21539747           ; /300Wx300H/femme.jpg                 ; /96Wx96H/femme.jpg                 ; /1200Wx1200H/femme.jpg                 ; /515Wx515H/femme.jpg,/65Wx65H/femme.jpg,/30Wx30H/femme.jpg                                                 ; /300Wx300H/femme.jpg                 ; /96Wx96H/femme.jpg                 ; 21539747-222
+                     ; 4317125            ; /300Wx300H/etat.jpg                  ; /96Wx96H/etat.jpg                  ; /1200Wx1200H/etat.jpg                  ; /515Wx515H/etat.jpg,/65Wx65H/etat.jpg,/30Wx30H/etat.jpg                                                    ; /300Wx300H/etat.jpg                  ; /96Wx96H/etat.jpg                  ; 4317125-333
+                     ; 5182251            ; /300Wx300H/laicité.jpg               ; /96Wx96H/laicité.jpg               ; /1200Wx1200H/laicité.jpg               ; /515Wx515H/laicité.jpg,/65Wx65H/laicité.jpg,/30Wx30H/laicité.jpg                                           ; /300Wx300H/laicité.jpg               ; /96Wx96H/laicité.jpg               ; 5182251-444
+                     ; 499631             ; /300Wx300H/voix.jpg                  ; /96Wx96H/voix.jpg                  ; /1200Wx1200H/voix.jpg                  ; /515Wx515H/voix.jpg,/65Wx65H/voix.jpg,/30Wx30H/voix.jpg                                                    ; /300Wx300H/voix.jpg                  ; /96Wx96H/voix.jpg                  ; 499631-555
+                     ; 20169740           ; /300Wx300H/revolution.jpg            ; /96Wx96H/revolution.jpg            ; /1200Wx1200H/revolution.jpg            ; /515Wx515H/revolution.jpg,/65Wx65H/revolution.jpg,/30Wx30H/revolution.jpg                                  ; /300Wx300H/revolution.jpg            ; /96Wx96H/revolution.jpg            ; 20169740-666
+                     ; 18313720           ; /300Wx300H/speech.jpg                ; /96Wx96H/speech.jpg                ; /1200Wx1200H/speech.jpg                ; /515Wx515H/speech.jpg,/65Wx65H/speech.jpg,/30Wx30H/speech.jpg                                              ; /300Wx300H/speech.jpg                ; /96Wx96H/speech.jpg                ; 18313720-777
+                     ; 1410271            ; /300Wx300H/relations.jpg             ; /96Wx96H/relations.jpg             ; /1200Wx1200H/relations.jpg             ; /515Wx515H/relations.jpg,/65Wx65H/relations.jpg,/30Wx30H/relations.jpg                                     ; /300Wx300H/relations.jpg             ; /96Wx96H/relations.jpg             ; 1410271-888
+                     ; 20178031           ; /300Wx300H/euro.jpg                  ; /96Wx96H/euro.jpg                  ; /1200Wx1200H/euro.jpg                  ; /515Wx515H/euro.jpg,/65Wx65H/euro.jpg,/30Wx30H/euro.jpg                                                    ; /300Wx300H/euro.jpg                  ; /96Wx96H/euro.jpg                  ; 20178031-999
+                     ; 17328877           ; /300Wx300H/others_money.jpg          ; /96Wx96H/others_money.jpg          ; /1200Wx1200H/others_money.jpg          ; /515Wx515H/others_money.jpg,/65Wx65H/others_money.jpg,/30Wx30H/others_money.jpg                            ; /300Wx300H/others_money.jpg          ; /96Wx96H/others_money.jpg          ; 17328877-111
+                     ; 18273289           ; /300Wx300H/blockchain.jpg            ; /96Wx96H/blockchain.jpg            ; /1200Wx1200H/blockchain.jpg            ; /515Wx515H/blockchain.jpg,/65Wx65H/blockchain.jpg,/30Wx30H/blockchain.jpg                                  ; /300Wx300H/blockchain.jpg            ; /96Wx96H/blockchain.jpg            ; 18273289-333
+                     ; 19205052           ; /300Wx300H/istanbul.jpg              ; /96Wx96H/istanbul.jpg              ; /1200Wx1200H/istanbul.jpg              ; /515Wx515H/istanbul.jpg,/65Wx65H/istanbul.jpg,/30Wx30H/istanbul.jpg                                        ; /300Wx300H/istanbul.jpg              ; /96Wx96H/istanbul.jpg              ; 19205052-888
+                     ; 3810111            ; /300Wx300H/african_history.jpg       ; /96Wx96H/african_history.jpg       ; /1200Wx1200H/african_history.jpg       ; /515Wx515H/african_history.jpg,/65Wx65H/african_history.jpg,/30Wx30H/african_history.jpg                   ; /300Wx300H/african_history.jpg       ; /96Wx96H/african_history.jpg       ; 3810111-898
+                     ; 67788997           ; /300Wx300H/philosophie-du-voyage.jpg ; /96Wx96H/philosophie-du-voyage.jpg ; /1200Wx1200H/philosophie-du-voyage.jpg ; /515Wx515H/philosophie-du-voyage.jpg,/65Wx65H/philosophie-du-voyage.jpg,/30Wx30H/philosophie-du-voyage.jpg ; /300Wx300H/philosophie-du-voyage.jpg ; /96Wx96H/philosophie-du-voyage.jpg ; 67788997-222
+                     ; 4439115            ; /300Wx300H/by_animals.jpg            ; /96Wx96H/by_animals.jpg            ; /1200Wx1200H/by_animals.jpg            ; /515Wx515H/by_animals.jpg,/65Wx65H/by_animals.jpg,/30Wx30H/by_animals.jpg                                  ; /300Wx300H/by_animals.jpg            ; /96Wx96H/by_animals.jpg            ; 4439115-333
+                     ; 4511775            ; /300Wx300H/green.jpg                 ; /96Wx96H/green.jpg                 ; /1200Wx1200H/green.jpg                 ; /515Wx515H/green.jpg,/65Wx65H/green.jpg,/30Wx30H/green.jpg                                                 ; /300Wx300H/green.jpg                 ; /96Wx96H/green.jpg                 ; 4511775-444
+                     ; 23220146           ; /300Wx300H/global.jpg                ; /96Wx96H/global.jpg                ; /1200Wx1200H/global.jpg                ; /515Wx515H/global.jpg,/65Wx65H/global.jpg,/30Wx30H/global.jpg                                              ; /300Wx300H/global.jpg                ; /96Wx96H/global.jpg                ; 23220146-555
+                     ; 17351134           ; /300Wx300H/trade.jpg                 ; /96Wx96H/trade.jpg                 ; /1200Wx1200H/trade.jpg                 ; /515Wx515H/trade.jpg,/65Wx65H/trade.jpg,/30Wx30H/trade.jpg                                                 ; /300Wx300H/trade.jpg                 ; /96Wx96H/trade.jpg                 ; 17351134-666
+                     ; 16010744           ; /300Wx300H/physics-of-finance.jpg    ; /96Wx96H/physics-of-finance.jpg    ; /1200Wx1200H/physics-of-finance.jpg    ; /515Wx515H/physics-of-finance.jpg,/65Wx65H/physics-of-finance.jpg,/30Wx30H/physics-of-finance.jpg          ; /300Wx300H/physics-of-finance.jpg    ; /96Wx96H/physics-of-finance.jpg    ; 16010744-777
+                     ; 16109583           ; /300Wx300H/money.jpg                 ; /96Wx96H/money.jpg                 ; /1200Wx1200H/money.jpg                 ; /515Wx515H/money.jpg,/65Wx65H/money.jpg,/30Wx30H/money.jpg                                                 ; /300Wx300H/money.jpg                 ; /96Wx96H/money.jpg                 ; 16109583-888
+                     ; 16034897           ; /300Wx300H/leader.jpg                ; /96Wx96H/leader.jpg                ; /1200Wx1200H/leader.jpg                ; /515Wx515H/leader.jpg,/65Wx65H/leader.jpg,/30Wx30H/leader.jpg                                              ; /300Wx300H/leader.jpg                ; /96Wx96H/leader.jpg                ; 16034897-999
+                     ; 20782585           ; /300Wx300H/president.jpg             ; /96Wx96H/president.jpg             ; /1200Wx1200H/president.jpg             ; /515Wx515H/president.jpg,/65Wx65H/president.jpg,/30Wx30H/president.jpg                                     ; /300Wx300H/president.jpg             ; /96Wx96H/president.jpg             ; 20782585-111
+                     ; 3024486            ; /300Wx300H/africa.jpg                ; /96Wx96H/africa.jpg                ; /1200Wx1200H/africa.jpg                ; /515Wx515H/africa.jpg,/65Wx65H/africa.jpg,/30Wx30H/africa.jpg                                              ; /300Wx300H/africa.jpg                ; /96Wx96H/africa.jpg                ; 3024486-333
+
+
+
+
+
+
+
+
+
+
+
+
+

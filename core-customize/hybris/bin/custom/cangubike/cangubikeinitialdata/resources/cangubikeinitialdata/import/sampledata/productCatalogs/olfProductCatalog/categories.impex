@@ -1,0 +1,80 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+# ImpEx for Importing Categories into Cangubike Store
+
+# Macros / Replacement Parameter definitions
+$productCatalog=olfProductCatalog
+$productCatalogName=OLF Product Catalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+$supercategories=source(code, $catalogVersion)[unique=true]
+$categories=target(code, $catalogVersion)[unique=true]
+
+$lang=en
+
+# Insert Categories
+INSERT_UPDATE Category;code[unique=true];allowedPrincipals(uid)[default='customergroup'];$catalogVersion
+
+#######################
+;root;
+;architecture;
+;art;
+;design;
+;photography;
+;audio_books;
+;children;
+;fiction;
+;non_fiction;
+;economy;
+;finance;
+;management;
+;marketing;
+;transport;
+;history_and_politics;
+;history;
+;politics;
+;society;
+;music;
+;film;
+;literature;
+;crime;
+;science_ficion;
+;romance;
+;humanities;
+;philosophy;
+;psychology;
+;sociology;
+
+
+# Insert Category Structure
+INSERT_UPDATE CategoryCategoryRelation;$categories;$supercategories
+#########################################################################
+;art;root;
+;architecture;art
+;design;art
+;photography;art
+;audio_books;root;
+;children;audio_books;
+;fiction;audio_books;
+;non_fiction;audio_books;
+;economy;root;
+;finance;economy;
+;management;economy;
+;marketing;economy;
+;transport;economy;
+;history_and_politics;root;
+;history;history_and_politics;
+;politics;history_and_politics;
+;society;history_and_politics;
+;music;art;
+;film;art;
+;literature;root;
+;crime;literature;
+;science_ficion;literature;
+;romance;literature;
+;humanities;root;
+;philosophy;humanities;
+;psychology;humanities;
+;sociology;humanities;
+
+
