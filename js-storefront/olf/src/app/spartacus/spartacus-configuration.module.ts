@@ -11,6 +11,7 @@ import {
   layoutConfig,
   mediaConfig
 } from "@spartacus/storefront";
+import { environment } from 'src/environments/environment.prod';
 
 @NgModule({
   declarations: [],
@@ -19,7 +20,7 @@ import {
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
     backend: {
       occ: {
-        baseUrl: 'https://localhost:9002',
+        baseUrl: environment.occBaseUrl
       }
     },
   }), provideConfig(<SiteContextConfig>{
