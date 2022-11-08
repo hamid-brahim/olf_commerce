@@ -1,0 +1,17 @@
+{
+  "quickOrderTable": {
+    "product": "Produit",
+    "id": "ID",
+    "price": "Prix",
+    "quantity": "Qté",
+    "itemPrice": "Prix par Item",
+    "qty": "Qty",
+    "actions": "Actions",
+    "inStock": "En Stock",
+    "lowStock": "Stock faible",
+    "outOfStock": "Hors Stock",
+    "listCleared": "La liste de commande rapide a été éfacée",
+    "addedtoCart": "La liste de commande rapide a été ajoutée au panier",
+    "caption": "Contenu de la commande rapide."
+  }
+}
