@@ -1,0 +1,31 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+# Import the Solr configuration for the Cangubike store
+#
+# Localization en
+#
+$lang=fr
+
+$indexedType=cangubikeProductType
+
+UPDATE SolrIndexedProperty;solrIndexedType(identifier)[unique=true,default=$indexedType];name[unique=true];displayName[lang=$lang]
+ ;;allPromotions;Promotion;
+ ;;brand;Marque;
+ ;;category;Categorie;
+ ;;code;Code;
+ ;;description;Description;
+ ;;manufacturerName;Fabricant;
+ ;;name;Nom;
+ ;;price;Prix;
+ ;;summary;Apperçu;
+
+
+# Define the available sorts
+UPDATE SolrSort;indexedType(identifier)[unique=true,default=$indexedType];code[unique=true];name[lang=$lang]
+ ;;name-asc;Nom (ascendant);
+ ;;name-desc;Nom (descendant);
+ ;;price-asc;Prix (plus-bas);
+ ;;price-desc;Prix (plus-haut);
+ ;;relevance;Pértinece;
+ ;;topRated;Mieux Noté;

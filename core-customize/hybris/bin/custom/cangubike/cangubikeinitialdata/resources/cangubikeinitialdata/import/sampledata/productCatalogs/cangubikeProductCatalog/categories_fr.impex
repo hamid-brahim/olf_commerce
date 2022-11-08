@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+# ImpEx for Importing Categories into Cangubike Store
+
+
+# Macros / Replacement Parameter definitions
+$productCatalog = cangubikeProductCatalog
+$productCatalogName = Cangubike Product Catalog
+$catalogVersion = catalogversion(catalog(id[default=$productCatalog]), version[default='Staged'])[unique=true, default=$productCatalog:Staged]
+
+$lang = fr
+
+
+UPDATE Category; code[unique = true]; $catalogVersion; name[lang = $lang]
+               ; root_category      ;                ; Catégorie Root
+#Level 1
+               ; road_bike          ;                ; Vélos routier
+               ; gravel_bike        ;                ; Vélos de gravier
+               ; mountain_bike      ;                ; Vélos de montagne
+               ; e_bike             ;                ; Vélos éléctrique
+               ; equipment          ;                ; Equipments
+#level 2
+               ; race_bike          ;                ; Vélos de course
+               ; aero_bike          ;                ; Vélos Aero
+               ; endurance_bike     ;                ; Vélos d'endurance
+               ; cyclo-cross           ;                ; Vélos Cyclo Cross
+               ; gravel_racing      ;                ; Vélos de course gravier
+               ; cross_country      ;                ; Vélos Cross-country
+               ; down_hill          ;                ; Vélos Downhill
+               ; e_road             ;                ; Vélos routier éléctrique
+               ; e_gravel           ;                ; Vélos de gravier éléctrique
+               ; e_racing           ;                ; Vélos de course éléctrique
+               ; e_city             ;                ; Vélos urbain éléctrique
+               ; clothing           ;                ; Vêtements
+               ; accessories        ;                ; Accessoires
+#Level 3
+               ; men_clothing       ;                ; Vêtements pour femmes
+               ; women_clothing     ;                ; Vêtements pour hommes

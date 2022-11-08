@@ -14,13 +14,14 @@ UPDATE Language;isocode[unique=true];name[lang=$lang]
 ;en;English;
 ;ja;Japanese;
 ;zh;Chinese;
-
+;fr;French;
 
 # Currencies
 UPDATE Currency;isocode[unique=true];name[lang=$lang]
 ;CAD;Canadian Dollar;
 ;EUR;Euro;
 ;USD;USD;
+;CHF;Suisse Franc;
 
 
 # Titles

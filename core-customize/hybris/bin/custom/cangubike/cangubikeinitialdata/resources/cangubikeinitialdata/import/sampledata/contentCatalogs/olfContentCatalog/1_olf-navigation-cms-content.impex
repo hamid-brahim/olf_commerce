@@ -1,0 +1,94 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+$contentCatalog=olfContentCatalog
+$contentCatalogName=Olf Content Catalog
+$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
+$productCatalog=olfProductCatalog
+$productCatalogName=Olf Product Catalog
+$productCV=catalogVersion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+$picture=media(code, $contentCV);
+$image=image(code, $contentCV);
+$media=media(code, $contentCV);
+$page=page(uid, $contentCV);
+$contentPage=contentPage(uid, $contentCV);
+$product=product(code, $productCV)
+$category=category(code, $productCV)
+$siteResource=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/contentCatalogs/$contentCatalog
+$productResource=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/productCatalogs/$productCatalog
+$jarResourceCms=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/cockpits/cmscockpit
+$addonExtensionName=b2bacceleratoraddon
+$medias=medias(code, $contentCV);
+$mediaContainer=media(qualifier, $contentCV);
+$siteUid=olf
+$jarResourceCmsImages=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/cockpits/cmscockpit
+
+
+#---- level 4. children of Category Nav ----##
+INSERT_UPDATE CMSNavigationNode;uid[unique=true];$contentCV[unique=true];name;parent(uid, $contentCV);links(&linkRef);&nodeRef
+;ArtCategoryNavNode;;Art Category;CangubikeCategoryNavNode;;ArtCategoryNavNode
+;EconomyCategoryNavNode;;Economy Category;CangubikeCategoryNavNode;;EconomyCategoryNavNode
+;HistoryCategoryNavNode;;History Category;CangubikeCategoryNavNode;;HistoryCategoryNavNode
+#;FictionCategoryNavNode;;Fiction Category;CangubikeCategoryNavNode;;FictionCategoryNavNode
+;LiteratureCategoryNavNode;;Literature Category;CangubikeCategoryNavNode;;LiteratureCategoryNavNode
+;HumainitiesCategoryNavNode;;Humanities Category;CangubikeCategoryNavNode;;HumainitiesCategoryNavNode
+;TechnicalCategoryNavNode;;Technical Category;CangubikeCategoryNavNode;;TechnicalCategoryNavNode
+## entries of the above navigation nodes ##
+
+INSERT_UPDATE CMSNavigationNode;uid[unique=true];$contentCV[unique=true];parent(uid, $contentCV);links(&linkRef);&nodeRef
+;ArchitectureNavNode;;ArtCategoryNavNode;;ArchitectureNavNode
+;DesignNavNode;;ArtCategoryNavNode;;DesignNavNode
+;MusicNavNode;;ArtCategoryNavNode;;MusicNavNode
+;FilmNavNode;;ArtCategoryNavNode;;FilmNavNode
+;FinanceNavNode;;EconomyCategoryNavNode;;FinanceNavNode
+;ManagementNavNode;;EconomyCategoryNavNode;;ManagementNavNode
+;MarketingNavNode;;EconomyCategoryNavNode;;MarketingNavNode
+;HistoryNavNode;;HistoryCategoryNavNode;;HistoryNavNode
+;PoliticsNavNode;;HistoryCategoryNavNode;;PoliticsNavNode
+;SocietyNavNode;;HistoryCategoryNavNode;;SocietyNavNode
+;CrimeNavnode;;LiteratureCategoryNavNode;;CrimeNavnode
+;ScienceNaNode;;LiteratureCategoryNavNode;;ScienceNaNode
+;RomanceNavNode;;LiteratureCategoryNavNode;;RomanceNavNode
+;PhiloNavNode;;HumainitiesCategoryNavNode;;PhiloNavNode
+;PsychoNavNode;;HumainitiesCategoryNavNode;;PsychoNavNode
+;SocioNavNode;;HumainitiesCategoryNavNode;;SocioNavNode
+#;PhysicsNavNode;;TechnicalCategoryNavNode;;PhysicsNavNode
+## links of the above navigation nodes ##
+
+INSERT_UPDATE CMSNavigationEntry;uid[unique=true];$contentCV[unique=true];name;navigationNode(&nodeRef);item(CMSLinkComponent.uid,CMSLinkComponent.$contentCV);
+;ArchitectureNavNodeEntry;;Architecture Navigation Node Entry;ArchitectureNavNode;ArchitectureCategoryLink;
+;DesignNavNodeEntry;;Design Navigation Node Entry;DesignNavNode;DesignCategoryLink;
+;MusicNavNodeEntry;;Music Navigation Node Entry;MusicNavNode;MusicCategoryLink;
+;FilmNavNodeEntry;;Film Navigation Node Entry;FilmNavNode;FilmCategoryLink;
+;FinanceNavNodeEntry;;Finance Navigation Node Entry;FinanceNavNode;FinanceCategoryLink;
+;ManagementNavNodeEntry;;Management Navigation Node Entry;ManagementNavNode;ManagementCategoryLink;
+;MarketingNavNodeEntry;;Marketing Navigation Node Entry;MarketingNavNode;MarketingCategoryLink;
+;HistoryNavNodeEntry;;History Navigation Node Entry;HistoryNavNode;HistoryCategoryLink;
+;PoliticsNavNodeEntry;;Politics Navigation Node Entry;PoliticsNavNode;PoliticsCategoryLink;
+;SocietyNavNodeEntry;;society Navigation Node Entry;SocietyNavNode;SocietyCategoryLink;
+;CrimeNavnodeEntry;;Crime Navigation Node Entry;CrimeNavnode;CrimeCategoryLink;
+;ScienceNaNodeEntry;;Science fiction Navigation Node Entry;ScienceNaNode;ScienceCategoryLink;
+;RomanceNavNodeEntry;;Romance Node Navigation Entry;RomanceNavNode;RomanceCategoryLink;
+;PhiloNavNodeEntry;;Philosophy Node Navigation Entry;PhiloNavNode;PhiloCategoryLink;
+;PsychoNavNodeEntry;;Psychology Node Navigation Entry;PsychoNavNode;PsychoCategoryLink;
+;SocioNavNodeEntry;;Sociology Node Navigation Entry;SocioNavNode;SocioCategoryLink;
+#;PhysicsNavNodeEntry;;Physics Node Navigation Entry;PhysicsNavNode;PhysicsCategoryLink;
+## links of the above navigation nodes ##
+INSERT_UPDATE CMSLinkComponent;$contentCV[unique=true];uid[unique=true];name;category(code, $productCV);&linkRef;&componentRef;target(code)[default='sameWindow']
+;;ArchitectureCategoryLink;Architecture Category Link;architecture;ArchitectureCategoryLink;ArchitectureCategoryLink
+;;DesignCategoryLink;Design Category Link;design;DesignCategoryLink;DesignCategoryLink
+;;MusicCategoryLink;Music Category Link;music;MusicCategoryLink;MusicCategoryLink
+;;FilmCategoryLink;Film Category Link;film;FilmCategoryLink;FilmCategoryLink
+;;FinanceCategoryLink;Finance Category Link;finance;FinanceCategoryLink;FinanceCategoryLink
+;;ManagementCategoryLink;Management Category Link;management;ManagementCategoryLink;ManagementCategoryLink
+;;MarketingCategoryLink;Marketing Category Link;marketing;MarketingCategoryLink;MarketingCategoryLink
+;;HistoryCategoryLink;History Category Link;history;HistoryCategoryLink;HistoryCategoryLink
+;;PoliticsCategoryLink;Politics Category Link;politics;PoliticsCategoryLink;PoliticsCategoryLink
+;;SocietyCategoryLink;Society Category Link;society;SocietyCategoryLink;SocietyCategoryLink
+;;CrimeCategoryLink;Crime Category Link;crime;CrimeCategoryLink;CrimeCategoryLink
+;;ScienceCategoryLink;Science Category Link;fiction;ScienceCategoryLink;ScienceCategoryLink
+;;RomanceCategoryLink;Romance Category Link;romance;RomanceCategoryLink;RomanceCategoryLink
+;;PhiloCategoryLink;Philosophy Category Link;philosophy;PhiloCategoryLink;PhiloCategoryLink
+;;PsychoCategoryLink;Psychology Category Link;psychology;PsychoCategoryLink;PsychoCategoryLink
+;;SocioCategoryLink;Society Category Link;sociology;SocioCategoryLink;SocioCategoryLink
+#;;PhysicsCategoryLink;Physics Category Link;physics;PhysicsCategoryLink;PhysicsCategoryLink

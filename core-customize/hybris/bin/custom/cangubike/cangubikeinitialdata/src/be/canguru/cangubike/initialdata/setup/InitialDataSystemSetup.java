@@ -30,6 +30,7 @@ public class InitialDataSystemSetup extends AbstractSystemSetup
 {private static final Logger LOG = Logger.getLogger(InitialDataSystemSetup.class);
 
 	private static final String CANGUBIKE= "cangubike";
+	private static final String OLF = "olf";
 	private static final String IMPORT_CORE_DATA = "importCoreData";
 	private static final String IMPORT_SAMPLE_DATA = "importSampleData";
 	private static final String ACTIVATE_SOLR_CRON_JOBS = "activateSolrCronJobs";
@@ -108,6 +109,13 @@ public class InitialDataSystemSetup extends AbstractSystemSetup
 		cangubikeImportData.setContentCatalogNames(List.of(CANGUBIKE));
 		cangubikeImportData.setStoreNames(List.of(CANGUBIKE));
 		importData.add(cangubikeImportData);
+		
+		final ImportData olfImportData = new ImportData();
+		olfImportData.setProductCatalogName(OLF);
+		olfImportData.setContentCatalogNames(List.of(OLF));
+		olfImportData.setStoreNames(List.of(OLF));
+
+		importData.add(olfImportData);
 
 		getCoreDataImportService().execute(this, context, importData);
 		getEventService().publishEvent(new CoreDataImportedEvent(context, importData));

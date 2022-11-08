@@ -1,0 +1,15 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+# 
+# Import the Cangubike BaseStore
+#
+# Localization en
+#
+
+$lang=fr
+
+$storeUid=olf
+
+UPDATE BaseStore;uid[unique=true];name[lang=$lang]
+;$storeUid;"OLF Store";

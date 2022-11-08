@@ -12,6 +12,7 @@ $jpCurrency=JPY
 $usCurrency=USD
 $europeCurrency=EUR
 
+
 # Delivery Zones
 INSERT_UPDATE Zone                  ; code[unique=true]               ; countries(isocode)
                                     ; uk                              ; GB,GG,IM,JE

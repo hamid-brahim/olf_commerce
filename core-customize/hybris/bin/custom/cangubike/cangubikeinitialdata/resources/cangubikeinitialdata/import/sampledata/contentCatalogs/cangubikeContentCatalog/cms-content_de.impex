@@ -28,8 +28,6 @@ UPDATE CMSLinkComponent;$contentCV[unique=true];uid[unique=true];linkName[lang=$
 ;;DocumentationLink;"Dokumentation"
 ;;FAQLink;"FAQ"
 ;;FacebookLink;"Facebook"
-;;FootwearMensCategoryLink;"Herren"
-;;FootwearWomensCategoryLink;"Damen"
 ;;HomepageNavLink;"Startseite"
 ;;ImportSavedCartLink;"Gespeicherten Warenkorb importieren"
 ;;LinkedInLink;"Linked In"
@@ -40,27 +38,28 @@ UPDATE CMSLinkComponent;$contentCV[unique=true];uid[unique=true];linkName[lang=$
 ;;PaymentDetailsLink;"Zahlungsdetails"
 ;;PersonalDetailsLink;"Persönliche Details"
 ;;QuickOrderLink;"Schnellbestellung"
-;;SafetyCategoryLink;"Sicherheit"
 ;;SavedCartsLink;"Gespeicherte Warenkörbe"
 ;;TwitterLink;"Twitter"
 ;;UpdateEmailLink;"E-Mail"
 ;;UpdatePasswordLink;"Kennwort"
 ;;VisitSAPLink;"Visit SAP"
-
+;;RaceBikeCategoryLink;"Race"
+;;AeroBikeCategoryLink;"Aero"
+;;EnduranceCategoryLink;"Endurance"
+;;GravelAllRaodCategoryLink;"All Road"
+;;GravelRaceCategoryLink;"Gravel Racing"
+;;CrossCountryCategoryLink;"Cross-Country"
+;;DownHillCategoryLink;"Downhill"
+;;WomenClothingCategoryLink;"Women's"
+;;MenClothingCategoryLink;"Men's"
+;;AccessoriesCategoryLink;"accessories"
+;;EGravelCategoryLink;"E-Gravel"
+;;ERoadCategoryLink;"E-Road"
+;;ERacingCategoryLink;"E-Race"
+;;ECityCategoryLink;"E-City"
 # CMS Link Components
 UPDATE CMSLinkComponent;$contentCV[unique=true];uid[unique=true];linkName[lang=de]
- ;;AngleGrindersCategoryLink;"Winkelschleifer"
- ;;HandSawsCategoryLink;"Handsägen"
- ;;HandToolsCategoryLink;"Handwerkzeuge"
- ;;JigsawsCategoryLink;"Stichsägen"
- ;;MeasuringLayoutToolsCategoryLink;"Mess- und Planwerkzeuge"
- ;;NutDriversCategoryLink;"Steckschlüssel"
- ;;PowerDrillsCategoryLink;"Bohrmaschinen"
- ;;PunchesCategoryLink;"Stanzwerkzeuge"
- ;;RotaryHammersCategoryLink;"Bohrhämmer"
- ;;SandersCategoryLink;"Schleifmaschinen"
- ;;ScrewdriversCategoryLink;"Schraubendreher"
- ;;StrippingToolsCategoryLink;"Abisolierwerkzeuge"
+
 
 # Lightbox Banner for Mini Cart (banner is not localizable so we must create a separate banner per language)
 INSERT_UPDATE Media;$contentCV[unique=true];code[unique=true];@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator];mime[default='image/jpeg'];&imageRef;folder(qualifier)[default='images'];altText
@@ -111,18 +110,30 @@ UPDATE CMSNavigationNode;$contentCV[unique=true];uid[unique=true];title[lang=$la
 ;;SAPCommerceNavNode;"SAP Commerce Cloud"
 ;;SAPCustomerExperienceNavNode;"SAP Customer Experience"
 ;;SiteRootNode;"SiteRoot"
+;;RaceBikeNavNode;"Race Bike"
+;;AeroBikeNavNode;"Aero Bike"
+;;EnduranceBikeNavnode;"Endurance Bike"
+;;GravelAllRoadNavNode;"All Road"
+;;GravelRaceNavNode;"Gravel Race"
+;;CrossCountryNavNode;"Cross-Country"
+;;DownHillNavNode;"Downhill"
+;;EGravelNavNode;"E-Gravel"
+;;ERoadNavNode;"E-Road"
+;;ERacingNavNode;"E-Race"
+;;ECityNavNode;"E-City"
+;;ClothingNavNode;"Clothing"
+;;AccessoriesNavNode;"Accessories"
+;;WomenClothingNavNode;"Women's"
+;;MenClothingNavNode;"Men's"
+;;BikeAccessoriesNavNode;"Accessories"
 
-# CMS Navigation Nodes
-UPDATE CMSNavigationNode;$contentCV[unique=true];uid[unique=true];title[lang=de]
- ;;AngleGrindersNavNode;"Winkelschleifer"
- ;;FootwearLinksNavNode;"Schuhe"
- ;;HandToolsLinksNavNode;"Handwerkzeuge"
- ;;HandToolsNavNode;"Handwerkzeuge"
- ;;MeasuringLayoutToolsNavNode;"Mess- und Planwerkzeuge"
- ;;PowerDrillsNavNode;"Bohrmaschinen"
- ;;SafetyNavNode;"Sicherheit"
- ;;SandersNavNode;"Schleifmaschinen"
- ;;ScrewdriversNavNode;"Schraubendreher"
+
+
+
+
+
+
+
 
 # Cangubike FAQ Page
 

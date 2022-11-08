@@ -1,0 +1,51 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+$contentCatalog=olfContentCatalog
+$contentCatalogName=Olf Content Catalog
+$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
+$productCatalog=olfProductCatalog
+$productCatalogName=Olf Product Catalog
+$productCV=catalogVersion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+$picture=media(code, $contentCV);
+$image=image(code, $contentCV);
+$media=media(code, $contentCV);
+$page=page(uid, $contentCV);
+$contentPage=contentPage(uid, $contentCV);
+$product=product(code, $productCV)
+$category=category(code, $productCV)
+$siteResource=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/contentCatalogs/$contentCatalog
+$productResource=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/productCatalogs/$productCatalog
+$jarResourceCms=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/cockpits/cmscockpit
+$addonExtensionName=b2bacceleratoraddon
+$medias=medias(code, $contentCV);
+$mediaContainer=media(qualifier, $contentCV);
+$siteUid=olf
+$jarResourceCmsImages=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/cockpits/cmscockpit
+
+##---- level 4. children of FooterNavNode ----##
+INSERT_UPDATE CMSNavigationNode;uid[unique=true];$contentCV[unique=true];name;parent(uid, $contentCV);links(&linkRef);&nodeRef
+;OLFComanyNavNode;;OLF Company;FooterNavNode;;OLFComanyNavNode
+;OLFContactNavNode;;OLF Contact;FooterNavNode;;OLFContactNavNode
+;OLFJobsNavNode;;OLF Jobs;FooterNavNode;;OLFJobsNavNode
+;OLFHelpNavNode;;OLF Help;FooterNavNode;;OLFHelpNavNode
+;OLFPrivacyNavNode;;OLF Privacy;FooterNavNode;;OLFPrivacyNavNode
+;OLFPolicyNavNode;;OLFPolicy;FooterNavNode;;OLFPolicyNavNode
+
+## entries of the above navigation nodes ##
+INSERT_UPDATE CMSNavigationEntry;uid[unique=true];$contentCV[unique=true];name;navigationNode(&nodeRef);item(CMSLinkComponent.uid,CMSLinkComponent.$contentCV);
+;OLFCompanyNavNodeEntry;;OLF Company Navigation Node Entry;OLFComanyNavNode;OLFCompanyLink;
+;OLFContactNavNodeEntry;;OLF Contact Navigation Node Entry;OLFContactNavNode;OLFContactLink;
+;OLFJobsNavNodeEntry;;OLF Jobs Navigation Node Entry;OLFJobsNavNode;OLFJobsLink;
+;OLFHelpNavNodeEntry;;OLF Help Navigation Node Entry;OLFHelpNavNode;OLFHelpLink;
+;OLFPrivacyNavNodeEntry;;OLF Privacy Navigation Node Entry;OLFPrivacyNavNode;OLFPrivacyLink;
+;OLFPolicyNavNodeEntry;;OLF Policy Navigation Node Entry;OLFPolicyNavNode;OLFPolicyLink;
+## links of the above navigation nodes ##
+INSERT_UPDATE CMSLinkComponent;$contentCV[unique=true];uid[unique=true];name;url;linkName[lang=en];linkName[lang=fr];&linkRef;&componentRef;target(code)[default='sameWindow']
+;;OLFCompanyLink;OLF Company Link;"https://www.olf.ch/Entreprise.aspx";COMPANY;ENTREPRISE;OLFCompanyLink;OLFCompanyLink;newWindow
+;;OLFContactLink;OLF Contact Link;"https://www.olf.ch/Content.aspx?catId=59&subCat=61";HOW TO FIND US/CONTACT US;INFOS PRATIQUE;OLFCOntactLink;OLFContactLink;newWindow
+;;OLFJobsLink;OLF Jobs Link;"https://www.olf.ch/jobs.aspx";JOBS;EMPLOIS;OLFJobsLink;OLFJobsLink;newWindow
+;;OLFHelpLink;OLF Help Link;"https://www.olf.ch/Content.aspx?catId=76";HELP;AIDE;OLFHelpLink;OLFHelpLink;newWindow
+;;OLFPrivacyLink;OLF Privacy Link;"https://www.olf.ch/Content.aspx?catId=75";PRIVACY;PROTECTION DES DONNEES;OLFPrivacyLink;OLFPrivacyLink;newWindow
+;;OLFPolicyLink;OLF Policy Link;"https://www.olf.ch/Content.aspx?catId=74";COMPANY POLICY;CONDITIONS GENERALES;OLFPolicyLink;OLFPolicyLink;newWindow
+

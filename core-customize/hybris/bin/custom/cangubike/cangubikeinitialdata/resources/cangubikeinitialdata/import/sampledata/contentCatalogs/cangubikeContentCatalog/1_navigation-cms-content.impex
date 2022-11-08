@@ -1,0 +1,128 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+$contentCatalog = cangubikeContentCatalog
+$contentCatalogName = Cangubike Content Catalog
+$contentCV = catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]), CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
+$productCatalog = cangubikeProductCatalog
+$productCatalogName = Cangubike Product Catalog
+$productCV = catalogVersion(catalog(id[default=$productCatalog]), version[default='Staged'])[unique=true, default=$productCatalog:Staged]
+$picture = media(code, $contentCV);
+$image = image(code, $contentCV);
+$media = media(code, $contentCV);
+$page = page(uid, $contentCV);
+$contentPage = contentPage(uid, $contentCV);
+$product = product(code, $productCV)
+$category = category(code, $productCV)
+$siteResource = jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/contentCatalogs/$contentCatalog
+$productResource = jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/productCatalogs/$productCatalog
+$jarResourceCms = jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/cockpits/cmscockpit
+$addonExtensionName = b2bacceleratoraddon
+$medias = medias(code, $contentCV);
+$mediaContainer = media(qualifier, $contentCV);
+$siteUid = cangubike
+$jarResourceCmsImages = jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/cockpits/cmscockpit
+$lang = en
+
+
+
+INSERT_UPDATE CMSNavigationNode; uid[unique = true]  ; $contentCV[unique = true]; name                    ; parent(uid, $contentCV)  ; links(&linkRef); &nodeRef
+                               ; RoadBikeNavNode     ;                          ; Road bikes Category     ; CangubikeCategoryNavNode ;                ; RoadBikeNavNode
+                               ; GravelBikeNavNode   ;                          ; Gravel bikes Category   ; CangubikeCategoryNavNode ;                ; GravelBikeNavNode
+                               ; MountainBikeNavNode ;                          ; Mountain bikes Category ; CangubikeCategoryNavNode ;                ; MountainBikeNavNode
+                               ; EBikeNavNode        ;                          ; Electric bikes Category ; CangubikeCategoryNavNode ;                ; EBikeNavNode
+                               ; EquipmentNavNode    ;                          ; Equipment Category      ; CangubikeCategoryNavNode ;                ; EquipmentNavNode
+
+
+INSERT_UPDATE CMSNavigationNode; uid[unique = true]   ; $contentCV[unique = true]; name                                ; ; parent(uid, $contentCV); links(&linkRef); &nodeRef
+                               ; RaceBikeNavNode      ;                          ; Road Racing Bike Navigation Node    ; ; RoadBikeNavNode        ;                ; RaceBikeNavNode
+                               ; AeroBikeNavNode      ;                          ; Road Aero Bike Navigation Node      ; ; RoadBikeNavNode        ;                ; AeroBikeNavNode
+                               ; EnduranceBikeNavnode ;                          ; Road Endurance Bike Navigation Node ; ; RoadBikeNavNode        ;                ; EnduranceBikeNavNode
+
+#----- Childeren of Category RoadBikeNavNode
+INSERT_UPDATE CMSNavigationEntry; uid[unique = true]        ; $contentCV[unique = true]; name                                       ; navigationNode(&nodeRef); item(CMSLinkComponent.uid, CMSLinkComponent.$contentCV);
+                                ; RaceBikeNavNodeEntry      ;                          ; Road race bikes Navigation Node Entry      ; RaceBikeNavNode         ; RaceBikeCategoryLink                                   ;
+                                ; AeroBikeNavNodeEntry      ;                          ; Road aero bikes Navigation Node Entry      ; AeroBikeNavNode         ; AeroBikeCategoryLink                                   ;
+                                ; EnduranceBikeNavNodeEntry ;                          ; Road endurance bikes Navigation Node Entry ; EnduranceBikeNavNode    ; EnduranceCategoryLink                                  ;
+
+INSERT_UPDATE CMSLinkComponent; $contentCV[unique = true]; uid[unique = true]    ; name                          ; category(code, $productCV); &linkRef              ; &componentRef; target(code)[default = 'sameWindow']
+                              ;                          ; RaceBikeCategoryLink  ; Race Bikes Category Link      ; race_bike                 ; RaceBikeCategoryLink  ; RaceBikeCategoryLink
+                              ;                          ; AeroBikeCategoryLink  ; Aero Bikes Category Link      ; aero_bike                 ; AeroBikeCategoryLink  ; AeroBikeCategoryLink
+                              ;                          ; EnduranceCategoryLink ; Endurance Bikes Category Link ; endurance_bike            ; EnduranceCategoryLink ; EnduranceBikeCategoryLink
+
+INSERT_UPDATE CMSNavigationNode; uid[unique = true]   ; $contentCV[unique = true]; name                              ; ; parent(uid, $contentCV); links(&linkRef); &nodeRef
+                               ; GravelAllRoadNavNode ;                          ; Gravell All Roads Navigation Node ; ; GravelBikeNavNode      ;                ; GravelAllRoadNavNode
+                               ; GravelRaceNavNode    ;                          ; Gravel Racing Navigation Node     ; ; GravelBikeNavNode      ;                ; GravelRaceNavNode
+#----- Childeren of category GravelBikeNavNode
+INSERT_UPDATE CMSNavigationEntry; uid[unique = true]        ; $contentCV[unique = true]; name                                         ; navigationNode(&nodeRef); item(CMSLinkComponent.uid, CMSLinkComponent.$contentCV);
+                                ; GravelAllRoadNavNodeEntry ;                          ; Gravel All Roads Bikes Navigation Node Entry ; GravelAllRoadNavNode    ; GravelAllRaodCategoryLink                              ;
+                                ; GravelRaceNavNodeEntry    ;                          ; Gravel Racing Bikes Navigation Node Entry    ; GravelRaceNavNode       ; GravelRaceCategoryLink                                 ;
+
+#----- Links of GravelBikeNavNode Children categories
+INSERT_UPDATE CMSLinkComponent; $contentCV[unique = true]; uid[unique = true]        ; name                          ; category(code, $productCV); &linkRef                  ; &componentRef             ; target(code)[default = 'sameWindow']
+                              ;                          ; GravelAllRaodCategoryLink ; Gravel all road Category link ; cyclo-cross                  ; GravelAllRaodCategoryLink ; GravelAllRaodCategoryLink ;
+                              ;                          ; GravelRaceCategoryLink    ; Gravel Race Category link   ; gravel_race             ; GravelRaceCategoryLink    ; GravelRaceCategoryLink    ;
+
+#----- Mountain BIKES
+
+INSERT_UPDATE CMSNavigationNode; uid[unique = true]  ; $contentCV[unique = true]; name                          ; ; parent(uid, $contentCV); links(&linkRef); &nodeRef
+                               ; CrossCountryNavNode ;                          ; Cross-country Navigation Node ; ; MountainBikeNavNode    ;                ; CrossCountryNavNode
+                               ; DownHillNavNode     ;                          ; Downhill Navigation Node      ; ; MountainBikeNavNode    ;                ; DownHillNavNode
+
+
+INSERT_UPDATE CMSNavigationEntry; uid[unique = true]       ; $contentCV[unique = true]; name                                      ; navigationNode(&nodeRef); item(CMSLinkComponent.uid, CMSLinkComponent.$contentCV);
+                                ; CrossCountryNavNodeEntry ;                          ; Cross-Country Bikes Navigation Node Entry ; CrossCountryNavNode     ; CrossCountryCategoryLink                               ;
+                                ; DownHillNavNodeEntry     ;                          ; Downhill Bikes Navigation Node Entry      ; DownHillNavNode         ; DownHillCategoryLink                                   ;
+
+#----- Links of GravelBikeNavNode Children categories
+INSERT_UPDATE CMSLinkComponent; $contentCV[unique = true]; uid[unique = true]       ; name                   ; category(code, $productCV); &linkRef                 ; &componentRef            ; target(code)[default = 'sameWindow']
+                              ;                          ; CrossCountryCategoryLink ; Cross Category link    ; cross_country             ; CrossCountryCategoryLink ; CrossCountryCategoryLink ;
+                              ;                          ; DownHillCategoryLink     ; Downhill Category link ; down_hill                 ; DownHillCategoryLink     ; DownHillCategoryLink     ;
+
+
+INSERT_UPDATE CMSNavigationNode; uid[unique = true]; $contentCV[unique = true]; name                               ; ; parent(uid, $contentCV); links(&linkRef); &nodeRef
+                               ; EGravelNavNode    ;                          ; Electric Gravel Navigation Node    ; ; EBikeNavNode           ;                ; EGravelNavNode
+                               ; ERoadNavNode      ;                          ; Electric Road Navigation Node      ; ; EBikeNavNode           ;                ; ERoadNavNode
+                               ; ERacingNavNode    ;                          ; Electric Racing Navigation Node    ; ; EBikeNavNode           ;                ; ERacingNavNode
+                               ; ECityNavNode      ;                          ; Electric City Bike Navigation Node ; ; EBikeNavNode           ;                ; ECityNavNode
+#----- Childeren of category EBikeNavNode ---
+INSERT_UPDATE CMSNavigationEntry; uid[unique = true]  ; $contentCV[unique = true]; name                                        ; navigationNode(&nodeRef); item(CMSLinkComponent.uid, CMSLinkComponent.$contentCV);
+                                ; EGravelNavNodeEntry ;                          ; Electric Gravel Bikes Navigation Node Entry ; EGravelNavNode          ; EGravelCategoryLink                                    ;
+                                ; ERoadNavNodeEntry   ;                          ; Electric Road Bikes Navigation Node Entry   ; ERoadNavNode            ; ERoadCategoryLink                                      ;
+                                ; ERacingNavNodeEntry ;                          ; Electric Racing Bikes Navigation Node Entry ; ERacingNavNode          ; ERacingCategoryLink                                    ;
+                                ; ECityNavNodeEntry   ;                          ; Electric City Bikes Navigation Node Entry   ; ECityNavNode            ; ECityCategoryLink                                      ;
+
+#----- Links of EBikeNavNode childeren categories
+INSERT_UPDATE CMSLinkComponent; $contentCV[unique = true]; uid[unique = true]  ; name                          ; category(code, $productCV); &linkRef            ; &componentRef       ; target(code)[default = 'sameWindow']
+                              ;                          ; EGravelCategoryLink ; Electric Gravel Category Link ; e_gravel                  ; EGravelCategoryLink ; EGravelCategoryLink ;
+                              ;                          ; ERoadCategoryLink   ; Electric Road  Category Link  ; e_road                    ; ERoadCategoryLink   ; ERoadCategoryLink   ;
+                              ;                          ; ERacingCategoryLink ; Electric Race Category Link ; e_race                  ; ERacingCategoryLink ; ERacingCategoryLink
+                              ;                          ; ECityCategoryLink   ; Electric City Category Link   ; e_city                    ; ECityCategoryLink   ; ECityCategoryLink
+
+
+INSERT_UPDATE CMSNavigationNode; uid[unique = true] ; $contentCV[unique = true]; name                          ; ; parent(uid, $contentCV); links(&linkRef); &nodeRef
+                               ; ClothingNavNode    ;                          ; Clothing Navigation Node      ; ; EquipmentNavNode       ;                ; ClothingNavNode
+                               ; AccessoriesNavNode ;                          ; Accessories Navigation Node s ; ; EquipmentNavNode       ;                ; AccessoriesNavNode
+
+INSERT_UPDATE CMSNavigationNode; uid[unique = true]   ; $contentCV[unique = true]; name                           ; ; parent(uid, $contentCV); links(&linkRef); &nodeRef
+                               ; WomenClothingNavNode ;                          ; Women Clothing Navigation Node ; ; ClothingNavNode        ;                ; WomenClothingNavNode
+                               ; MenClothingNavNode   ;                          ; Men Clothing Navigation Node   ; ; ClothingNavNode        ;                ; MenClothingNavNode
+
+INSERT_UPDATE CMSNavigationEntry; uid[unique = true]        ; $contentCV[unique = true]; name                                   ; navigationNode(&nodeRef); item(CMSLinkComponent.uid, CMSLinkComponent.$contentCV);
+                                ; WomenClothingNavNodeEntry ;                          ; Women's Clothing Navigation Node Entry ; WomenClothingNavNode    ; WomenClothingCategoryLink
+                                ; MenClothingNavNodeEntry   ;                          ; Men's Clothing Navigation Node Entry   ; MenClothingNavNode      ; MenClothingCategoryLink
+
+#----- Links of EquipmentNavNode childeren categories
+INSERT_UPDATE CMSLinkComponent; $contentCV[unique = true]; uid[unique = true]        ; name                         ; category(code, $productCV); &linkRef                  ; &componentRef; target(code)[default = 'sameWindow']
+                              ;                          ; WomenClothingCategoryLink ; Women Clothing Category Link ; women_clothing            ; WomenClothingCategoryLink ; WomenClothingCategoryLink
+                              ;                          ; MenClothingCategoryLink   ; Men Clothing Category Link   ; men_clothing              ; MenClothingCategoryLink   ; MenClothingCategoryLink
+INSERT_UPDATE CMSNavigationNode; uid[unique = true]     ; $contentCV[unique = true]; name                        ; ; parent(uid, $contentCV); links(&linkRef); &nodeRef
+                               ; BikeAccessoriesNavNode ;                          ; Accessories Navigation Node ; ; AccessoriesNavNode     ;                ; BikeAccessoriesNavNode
+#----- Childeren of EquipmentNavNode ----
+INSERT_UPDATE CMSNavigationEntry; uid[unique = true]      ; $contentCV[unique = true]; name                              ; navigationNode(&nodeRef); item(CMSLinkComponent.uid, CMSLinkComponent.$contentCV);
+                                ; AccessoriesNavNodeEntry ;                          ; Accessories Navigation Node Entry ; BikeAccessoriesNavNode  ; AccessoriesCategoryLink                                ;
+
+#----- Links of EquipmentNavNode childeren categories
+INSERT_UPDATE CMSLinkComponent; $contentCV[unique = true]; uid[unique = true]      ; name                      ; category(code, $productCV); &linkRef                ; &componentRef; target(code)[default = 'sameWindow']
+                              ;                          ; AccessoriesCategoryLink ; Accessories Category Link ; accessories               ; AccessoriesCategoryLink ; AccessoriesCategoryLink
+

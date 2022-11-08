@@ -1,0 +1,21 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+#UTF-8: √Ø¬ø¬Ω√Ø¬ø¬Ω√Ø¬ø¬Ω
+# Localization en
+
+# Macros / Replacement Parameter definitions
+$productCatalog=cangubikeProductCatalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+
+# Language
+$lang=fr
+
+UPDATE Product;code[unique=true];name[lang=$lang];description[lang=$lang];summary[lang=$lang];$catalogVersion
+;CONF_ROADCANGUBIKE;Configurable Road Bike;Configurable Road Cangubike;Road Cangubike;
+;CONF_MOUNTAINCANGUBIKE;Configurable Mountain Bike;Configurable Mountain Cangubike;Mountain Cangubike;
+;CONF_GRAVELCANGUBIKE;Configurable Gravel Bike;Configurable Gravel Cangubike;Gravel Bike;
+;CONF_CYCLOCROSSCANGUBIKE;Configurable Cyclocross Bike;Configurable Cyclocross Cangubike;Cyclocross Cangubike;
+;WatterBotlle;Watter Bottle;Iso Water Bottle;;
+;BicyclePump;Bicycle Pump;Manual Bycicle Pump;;
+;BicycleHelmet;Bicycle Helmet;Helmet for head protection;;

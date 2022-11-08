@@ -1,0 +1,56 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+# ImpEx for Importing Category Classifications into Cangubike Store (English)
+
+# Macros / Replacement Parameter definitions
+$productCatalog=cangubikeProductCatalog
+$productCatalogName=Cangubike Product Catalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+$classCatalogVersion=catalogversion(catalog(id[default='CangubikeClassification']),version[default='1.0'])[unique=true,default='CangubikeClassification:1.0']
+$classSystemVersion=systemVersion(catalog(id[default='CangubikeClassification']),version[default='1.0'])[unique=true]
+$class=classificationClass(ClassificationClass.code,$classCatalogVersion)[unique=true]
+
+$lang=fr
+
+# Insert Classifications
+UPDATE ClassificationClass; $classCatalogVersion; code[unique = true]; name[lang = $lang]
+;                     ; CONF_CANGUBIKE     ; CONF_CANGUBIKE
+
+
+# Insert Classification Attributes
+UPDATE ClassificationAttribute; $classSystemVersion; code[unique = true]; name[lang = $lang]
+;                    ; ORANGE             ; Orange
+;                    ; PURPLE             ; Mauve
+;                    ; ALU50              ; Cadre en Alum avec fourche en carbone 50 com
+;                    ; ALU52              ; Cadre en Alum avec fourche en carbone  52 com
+;                    ; ALU54              ; Cadre en Alum avec fourche en carbone  54 com
+;                    ; ALU56              ; Cadre en Alum avec fourche en carbone  56 com
+;                    ; ALU58              ; Cadre en Alum avec fourche en carbone  58 com
+;                    ; ALU60              ; Cadre en Alum avec fourche en carbone  60 com
+;                    ; CARBON50           ; Cadre en Carbone 50 cm
+;                    ; CARBON52           ; Cadre en Carbone 52 cm
+;                    ; CARBON54           ; Cadre en Carbone 54 cm
+;                    ; CARBON56           ; Cadre en Carbone 56 cm
+;                    ; CARBON58           ; Cadre en Carbone 58 cm
+;                    ; CARBON60           ; Cadre en Carbone 60 cm
+;                    ; AERO50             ; Cadre Aero carbone 50 cm
+;                    ; AERO52             ; Cadre Aero carbone 52 cm
+;                    ; AERO54             ; Cadre Aero carbone 54 cm
+;                    ; AERO56             ; Cadre Aero carbone 56 cm
+;                    ; AERO58             ; Cadre Aero carbone 58 cm
+;                    ; AERO60             ; Cadre Aero carbone 60 cm
+;                    ; PRO-AERO-HANDLEBAR ; Guidon Pro Aero
+;                    ; RITCHEY-HANDLEBAR  ; Guidon Ritchey en carbone
+;                    ; FABRIC-SADDLE      ; Fabric Line-S Elite Flat
+;                    ; BROOKS-SADDLE      ; Brooks Cambium C15 road
+;                    ; GROUP1             ; Shimano 105 R7000:11-speed
+;                    ; GROUP2             ; Shimano Ultegra Di2:12-speed
+;                    ; GROUP3             ; SRAM Apex:10-speed
+;                    ; GROUP4             ; SRAM Rival:11-speed
+;                    ; GROUP5             ; Campagnolo Centaur:11-speed
+;                    ; GROUP6             ; Campagnolo Chorus:12-speed
+;                    ; ALU-WHEELS26       ; Roues en Alu 26 inch
+;                    ; ALU-WHEELS28       ; Roues en Alu 28 inch
+;                    ; CARBON-WHEELS26    ; Roues en Carbone 26 inch
+;                    ; CARBON-WHEELS28    ; Roues en Carbone 28 inch

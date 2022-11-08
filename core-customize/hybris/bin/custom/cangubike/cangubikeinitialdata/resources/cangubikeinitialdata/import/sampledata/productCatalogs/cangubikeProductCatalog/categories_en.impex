@@ -5,31 +5,35 @@
 
 
 # Macros / Replacement Parameter definitions
-$productCatalog=cangubikeProductCatalog
-$productCatalogName=Cangubike Product Catalog
-$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
+$productCatalog = cangubikeProductCatalog
+$productCatalogName = Cangubike Product Catalog
+$catalogVersion = catalogversion(catalog(id[default=$productCatalog]), version[default='Staged'])[unique=true, default=$productCatalog:Staged]
 
-$lang=en
+$lang = en
 
-UPDATE Category;code[unique=true];$catalogVersion;name[lang=$lang];description[lang=$lang]
- ;1;;Open Catalogue;;
- ;106;;Components;;
- ;1354;;Hand Saws;;
- ;1355;;Tools;;
- ;1356;;Hammers;;
- ;1358;;Measuring & Layout Tools;;
- ;1359;;Tongs;;
- ;1360;;Power Drills;;
- ;1386;;Tag Guns;labeling gun;
- ;1505;;Cable Crimpers/Cutters/Strippers;;
- ;1593;;Screwdrivers;;
- ;1595;;Angle Grinders;;
- ;1596;;Sanders;;
- ;1597;;Punches Or Nail Sets;;
- ;1598;;Stripping Tools;;
- ;1631;;Circular Saws;;
- ;1641;;Nut Drivers;;
- ;1710;;Jigsaws;;
- ;1711;;Rotary Hammers;;
- ;1731;;Universal Cutters;;
- ;830;;Cables For Computers And Peripherals;;
+
+UPDATE Category; code[unique = true]; $catalogVersion; name[lang = $lang]; description[lang = $lang]
+               ; root_category      ;                ; Root Category;
+#Level 1
+               ; road_bike          ;                ; Road Bikes;
+               ; gravel_bike        ;                ; Gravel Bikes;
+               ; mountain_bike      ;                ; Mountain Bikes;
+               ; e_bike             ;                ; Electric Bikes;
+               ; equipment          ;                ; Equipment;
+#level 2
+               ; race_bike          ;                ; Race Bikes;
+               ; aero_bike          ;                ; Aero Bikes;
+               ; endurance_bike     ;                ; Endurance Bikes;
+               ; cyclo-cross        ;                ; Cyclo Cross Bikes;
+               ; gravel_racing      ;                ; Gravel Race Bikes;
+               ; cross_country      ;                ; Cross Country Bikes;
+               ; down_hill          ;                ; Down Hill Bikes;
+               ; e_road             ;                ; E-Road Bikes;
+               ; e_gravel           ;                ; E-Gravel Bikes;
+               ; e_racing           ;                ; E-Race Bikes;
+               ; e_city             ;                ; E-City Bikes;
+               ; clothing           ;                ; Clothing;
+               ; accessories        ;                ; Accessories;
+#Level 3
+               ; men_clothing       ;                ; Men's Clothing
+               ; women_clothing     ;                ; Women's Clothing

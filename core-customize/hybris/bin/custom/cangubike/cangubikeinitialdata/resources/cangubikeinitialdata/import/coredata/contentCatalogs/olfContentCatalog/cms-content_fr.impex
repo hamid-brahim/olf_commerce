@@ -1,0 +1,70 @@
+# -----------------------------------------------------------------------
+# Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+# -----------------------------------------------------------------------
+#
+# Import CMS content for the Cangubike site
+#
+
+$contentCatalog=olfContentCatalog
+$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
+
+# Language
+$lang=fr
+
+
+# Content Pages
+
+UPDATE ContentPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
+;;account;"Mon Compte"
+;;add-edit-address;"Modifier l'adresse"
+;;address-book;"Carnet d'adresses"
+;;cartPage;"Votre panier"
+;;checkout-login;"Procéder au Checkout"
+;;faq;"Questions fréquentes"
+;;homepage;"Page d'Acceuil"
+;;importCSVSavedCartPage;"Importer panier sauvegardé"
+;;login;"S'identifier"
+;;multiStepCheckoutSummaryPage;"Checkout"
+;;my-quotes;"Cotations"
+;;my-replenishment-cancel-confirmation;"Annulation de commande de réapprovisionnement confirmation"
+;;my-replenishment-details;"Détails de commande de réapprovisionnement"
+;;my-replenishment-orders;"Commandes de réapprovisionnement"
+;;notFound;"Non trouvé"
+;;order;"Détails de la commande"
+;;order-approval-dashboard;"Tableau de bord d'approbation des commandes"
+;;order-approval-details;"Les détails des approbations des commandes"
+;;orderConfirmationPage;"Confirmation de commande"
+;;orderExpired;"Date d'éxpiration de commande"
+;;orders;"Commandes"
+;;payment-details;"Détails du paiement"
+;;profile;"Profile"
+;;quickOrderPage;"Commande Rapide"
+;;quote-detail;"Détails ma cotation"
+;;quoteEditPage;"Modifier la cotation"
+;;replenishmentConfirmationPage;"réapprovisionnement confirmation"
+;;saved-carts;"Panier Sauvegardés"
+;;savedCartDetailsPage;"Détails de panier sauvegardé"
+;;search;"Résultats de la recherche"
+;;searchAdvancedEmpty;"Formulaires de commande"
+;;searchEmpty;"Pas de résultats"
+;;searchGrid;"La grille des résultats de recherche"
+;;storefinderPage;"StoreFinder"
+;;termsAndConditions;"Conditions générales"
+;;update-email;"Mettre à jour l'E-mail adresse"
+;;update-profile;"Mettre à jour le profile"
+;;updatePassword;"Mettre à jour le mot de passe"
+
+
+# Category Pages
+
+UPDATE CategoryPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
+;;category;"Catégorie par défault"
+;;productGrid;"Grille de produits"
+;;productList;"Liste de produits"
+
+
+# Product Pages
+
+UPDATE ProductPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
+;;productDetails;"Détails du produit"
+

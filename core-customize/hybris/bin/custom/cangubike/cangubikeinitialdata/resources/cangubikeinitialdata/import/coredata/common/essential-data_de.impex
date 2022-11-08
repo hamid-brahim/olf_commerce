@@ -14,6 +14,7 @@ UPDATE Language;isocode[unique=true];name[lang=$lang]
 ;en;Englisch;
 ;ja;Japanisch;
 ;zh;Chinesisch;
+;fr;French;
 
 
 # Currencies
@@ -21,6 +22,7 @@ UPDATE Currency;isocode[unique=true];name[lang=$lang]
 ;CAD;Canadian Dollar;
 ;EUR;Euro;
 ;USD;US Dollar;
+;CHF;Suisse Franc;
 
 
 # Titles

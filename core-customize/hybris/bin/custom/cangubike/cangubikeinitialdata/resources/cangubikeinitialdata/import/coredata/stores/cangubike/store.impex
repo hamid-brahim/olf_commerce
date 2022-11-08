@@ -7,11 +7,11 @@
 
 $productCatalog=cangubikeProductCatalog
 $classificationCatalog=CangubikeClassification
-$currencies=USD
+$currencies=EUR
 $net=true
 $storeUid=cangubike
-$defaultCurrency=USD
-$languages=ja,en,de,zh
+$defaultCurrency=EUR
+$languages=en,de,fr
 $defaultLanguage=en
 $unitedKingdom=GB,GG,IM,JE
 $europeNotUK=AD,AL,AT,BA,BE,BG,BY,CH,CY,CZ,DE,DK,EE,ES,FI,FO,FR,GI,GL,GR,HR,HU,IE,IS,IT,LI,LT,LU,LV,MC,MD,ME,MK,MT,NL,NO,PL,PT,RO,RS,RU,SE,SI,SK,SM,TR,UA,VA

@@ -8,7 +8,7 @@
 $productCatalog=cangubikeProductCatalog
 $classificationCatalog=CangubikeClassification
 $catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog:Staged]
-$languages=ja,en,de,zh
+$languages=en,de,fr
 
 # Product catalog
 INSERT_UPDATE Catalog;id[unique=true]

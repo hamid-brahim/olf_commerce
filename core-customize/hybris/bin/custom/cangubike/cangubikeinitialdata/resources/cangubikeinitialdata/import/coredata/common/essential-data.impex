@@ -23,6 +23,7 @@ INSERT_UPDATE Language;isocode[unique=true];fallbackLanguages(isocode);active[de
 ;de;en;;
 ;ja;en;;
 ;zh;en;;
+;fr;en;;
 
 
 # Currencies
@@ -30,11 +31,12 @@ INSERT_UPDATE Currency;isocode[unique=true];conversion;digits;symbol
 ;EUR;1;2;€
 ;USD;1,4;2;$
 ;CAD;1,4;2;C$
-
+;CHF;1,1;2;₣
 # Vendor
 INSERT_UPDATE Vendor;code[unique=true];name
 ;default;Default Vendor
 ;cangubike;Cangubike
+;olf;Olf
 
 INSERT Warehouse;code[unique=true];name;vendor(code)[default=default, forceWrite=true];default[default=true, forceWrite=true]
 "#% beforeEach:
@@ -54,12 +56,9 @@ if (warehouse != null)
 {
     line.clear();
 }"
-;default;Default Warehouse;
-;pw_warehouse_s;;cangubike
-;pw_warehouse_e;;Cangubike
-;pw_warehouse_w;;cangubike
-;pw_warehouse_n;;cangubike
-
+;cangubike_mechelen;;cangubike
+;cangubike_kontich;;cangubike
+;cangubike_wavre;;cangubike
 # Disable preview for email pages
 UPDATE CMSPageType;code[unique=true];previewDisabled
 ;EmailPage;true
