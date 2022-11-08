@@ -27,8 +27,8 @@ import { environment } from 'src/environments/environment.prod';
     context: {
       urlParameters: ['baseSite', 'language', 'currency'],
       baseSite: ['olf'],
-      language: ['en', 'fr'],
-      currency: ['USD', 'EUR'],
+      language: ['fr', 'en'],
+      currency: ['EUR', 'CHF'],
     },
   }), provideConfig(<I18nConfig>{
     i18n: {
