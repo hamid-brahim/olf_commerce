@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------
 ##******************************This file is generated - please do not edit it. It will be regenerated after every build.********************************#
 
-$contentCatalog=cangubike-spaContentCatalog
+$contentCatalog=olfContentCatalog
 $contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
 $picture=media(code, $contentCV);
 $siteResource=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/contentCatalogs/$contentCatalog

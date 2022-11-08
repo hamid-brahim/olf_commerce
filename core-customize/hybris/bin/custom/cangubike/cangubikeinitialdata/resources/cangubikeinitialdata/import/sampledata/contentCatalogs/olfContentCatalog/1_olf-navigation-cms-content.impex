@@ -26,13 +26,13 @@ $jarResourceCmsImages=jar:be.canguru.cangubike.initialdata.constants.CangubikeIn
 
 #---- level 4. children of Category Nav ----##
 INSERT_UPDATE CMSNavigationNode;uid[unique=true];$contentCV[unique=true];name;parent(uid, $contentCV);links(&linkRef);&nodeRef
-;ArtCategoryNavNode;;Art Category;CangubikeCategoryNavNode;;ArtCategoryNavNode
-;EconomyCategoryNavNode;;Economy Category;CangubikeCategoryNavNode;;EconomyCategoryNavNode
-;HistoryCategoryNavNode;;History Category;CangubikeCategoryNavNode;;HistoryCategoryNavNode
-#;FictionCategoryNavNode;;Fiction Category;CangubikeCategoryNavNode;;FictionCategoryNavNode
-;LiteratureCategoryNavNode;;Literature Category;CangubikeCategoryNavNode;;LiteratureCategoryNavNode
-;HumainitiesCategoryNavNode;;Humanities Category;CangubikeCategoryNavNode;;HumainitiesCategoryNavNode
-;TechnicalCategoryNavNode;;Technical Category;CangubikeCategoryNavNode;;TechnicalCategoryNavNode
+;ArtCategoryNavNode;;Art Category;OlfCategoryNavNode;;ArtCategoryNavNode
+;EconomyCategoryNavNode;;Economy Category;OlfCategoryNavNode;;EconomyCategoryNavNode
+;HistoryCategoryNavNode;;History Category;OlfCategoryNavNode;;HistoryCategoryNavNode
+#;FictionCategoryNavNode;;Fiction Category;OlfCategoryNavNode;;FictionCategoryNavNode
+;LiteratureCategoryNavNode;;Literature Category;OlfCategoryNavNode;;LiteratureCategoryNavNode
+;HumainitiesCategoryNavNode;;Humanities Category;OlfCategoryNavNode;;HumainitiesCategoryNavNode
+;TechnicalCategoryNavNode;;Technical Category;OlfCategoryNavNode;;TechnicalCategoryNavNode
 ## entries of the above navigation nodes ##
 
 INSERT_UPDATE CMSNavigationNode;uid[unique=true];$contentCV[unique=true];parent(uid, $contentCV);links(&linkRef);&nodeRef
