@@ -1,0 +1,42 @@
+$productCatalog=olfProductCatalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default='$productCatalog:Staged']
+$prices=Europe1prices[translator=de.hybris.platform.europe1.jalo.impex.Europe1PricesTranslator]
+$taxGroup=Europe1PriceFactory_PTG(code)[default=us-sales-tax-full]
+
+# Set product approval status to Approved only for those products that have prices.
+$approved=approvalstatus(code)[default='approved']
+
+UPDATE Product;code[unique=true];$prices;$approved;$catalogVersion;$taxGroup
+;21539747;1 pieces = 45 EUR
+;4317125;1 pieces = 15 EUR
+;5182251;1 pieces = 20 EUR
+;499631;1 pieces = 70 EUR
+;20169740;1 pieces = 55 EUR
+;18313720;1 pieces = 32 EUR
+;1410271;1 pieces = 89 EUR
+;20178031;1 pieces = 65 EUR
+;17328877;1 pieces = 32 EUR
+;18273289;1 pieces = 10 EUR
+;19205052;1 pieces = 25 EUR
+;3810111;1 pieces = 57 EUR
+;20782585;1 pieces = 34 EUR
+;67788997;1 pieces = 98 EUR
+;16034897;1 pieces = 58 EUR
+;23220146;1 pieces = 36 EUR
+;4511775;1 pieces = 45 EUR
+;16109583;1 pieces = 65 EUR
+;16010744;1 pieces = 32 EUR
+;17351134;1 pieces = 15 EUR
+;3024486;1 pieces = 250 EUR
+;4439115;1 pieces = 150 EUR
+;1471156265;1 pieces = 86 EUR
+;23992884;1 pieces = 15 EUR
+;15362021;1 pieces = 10 EUR
+;12719419;1 pieces = 32 EUR
+;15392566;1 pieces = 54 EUR
+;2908301;1 pieces = 34 EUR
+;6052855;1 pieces = 89 EUR
+;4063405;1 pieces = 44 EUR
+;12689189;1 pieces = 33 EUR
+;6428027;1 pieces = 10 EUR
+;6206690;1 pieces = 100 EUR
