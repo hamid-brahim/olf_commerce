@@ -1,0 +1,10 @@
+{
+  "orgUnitChildren": {
+    "title": "Unités enfant",
+    "subtitle": "Unité: {{item.name}}",
+    "info": {
+      "disabledCreate": "Une unité enfant ne peut pas être créée pour l'unité désactivée"
+    },
+    "hint": "Les unités représentent des départements, des magasins, des régions ou tout autre groupement logique qui vous paraît logique. Les utilisateurs héritent des unités enfants, ce qui signifie que les acheteurs ont accès aux centres de coûts et aux adresses de livraison des unités enfants lorsqu'ils passent à la caisse."
+  }
+}

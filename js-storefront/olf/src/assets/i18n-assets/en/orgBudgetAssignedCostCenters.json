@@ -1,0 +1,6 @@
+{
+  "orgBudgetAssignedCostCenters": {
+    "title": "Cost centers",
+    "subtitle": "Budget: {{ item.name }}"
+  }
+}

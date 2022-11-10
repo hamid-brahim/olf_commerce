@@ -19,12 +19,7 @@ import { UserProfileRootModule, USER_PROFILE_FEATURE } from "@spartacus/user/pro
       },
     }
   }),
-  provideConfig(<I18nConfig>{
-    i18n: {
-      resources: userAccountTranslations,
-      chunks: userAccountTranslationChunksConfig,
-    },
-  }),
+
   provideConfig(<CmsConfig>{
     featureModules: {
       [USER_PROFILE_FEATURE]: {
@@ -33,12 +28,7 @@ import { UserProfileRootModule, USER_PROFILE_FEATURE } from "@spartacus/user/pro
       },
     }
   }),
-  provideConfig(<I18nConfig>{
-    i18n: {
-      resources: userProfileTranslations,
-      chunks: userProfileTranslationChunksConfig,
-    },
-  })
+
   ]
 })
 export class UserFeatureModule { }

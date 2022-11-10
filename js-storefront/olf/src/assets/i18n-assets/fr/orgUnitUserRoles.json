@@ -1,0 +1,9 @@
+{
+  "orgUnitUserRoles": {
+    "title": "Les rôles",
+    "subtitle": "Utilisateur: {{item.name}}",
+    "messages": {
+      "rolesUpdated": "Les rôles sont mis à jour pour {{item.name}} avec succès."
+    }
+  }
+}

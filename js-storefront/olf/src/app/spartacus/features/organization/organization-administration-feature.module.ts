@@ -16,12 +16,12 @@ import { AdministrationRootModule, ORGANIZATION_ADMINISTRATION_FEATURE } from "@
       },
     }
   }),
-  provideConfig(<I18nConfig>{
-    i18n: {
-      resources: organizationTranslations,
-      chunks: organizationTranslationChunksConfig,
-    },
-  })
+  // provideConfig(<I18nConfig>{
+  //   i18n: {
+  //     resources: organizationTranslations,
+  //     chunks: organizationTranslationChunksConfig,
+  //   },
+  // })
   ]
 })
 export class OrganizationAdministrationFeatureModule { }

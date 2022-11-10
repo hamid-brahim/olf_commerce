@@ -1,0 +1,57 @@
+{
+  "orgPurchaseLimit": {
+    "header": "Toutes les limites d'achats ({{count}})",
+    "name": "Nom",
+    "code": "Code",
+    "active": "Statut",
+    "limit": "Limite",
+    "orderApprovalPermissionType": "Type",
+    "threshold": "Seuil",
+    "periodRange": "Période",
+    "currency": "Devise",
+    "orgUnit": "Unité parent",
+    "unit": "Unité parent",
+    "actions": "",
+    "hint": "Les limites d'achat permettent de contrôler les dépenses en définissant le montant que les acheteurs peuvent dépenser par commande ou par semaine, mois, trimestre ou année. Les limites d'achat sont attribuées aux utilisateurs ou aux groupes d'utilisateurs. Les limites d'achat sont également attribuées aux approbateurs, définissant le montant qu'ils sont autorisés à approuver. Les groupes d'utilisateurs permettent d'attribuer des limites d'achat à plusieurs utilisateurs à la fois.",
+    "details": {
+      "title": "Détails de la limite d'achat",
+      "subtitle": "Limite d'achat': {{ item.code }}"
+    },
+    "edit": {
+      "title": "Modifier la limite d'achat",
+      "subtitle": "Limites d'achat : {{ item.code }}"
+    },
+    "create": {
+      "title": "Créer une limite d'achat",
+      "subtitle": ""
+    },
+    "sortBy": "Trié par",
+    "sort": {
+      "byName": "Nom",
+      "byUnitName": "Unité"
+    },
+    "messages": {
+      "deactivateTitle": "Désactiver cette limite d'achat ?",
+      "deactivate": "Les limites d'achat désactivées ne peuvent plus être attribuées à un utilisateur ou à un groupe d'utilisateurs. Les affectations actuelles n'auront aucun effet.",
+      "confirmEnabled": "Limite d'achat'{{ item.code }} activée  avec succès",
+      "confirmDisabled": "Limite d'achat {{ item.code }} désactivée avec succès",
+      "update": "Limite d'achat {{ item.code }} mise à jour avec succès",
+      "create": "Limit d'achat  {{ item.code }} créée avec succès"
+    },
+    "info": {
+      "disabledEdit": "Activez la limite d'achat pour permettre la modification",
+      "disabledEnable": "L'unité doit être activée avant que cette limite d'achat puisse être activée."
+    },
+    "per": {
+      "DAY": "par jour",
+      "WEEK": "par semaine",
+      "MONTH": "par mois",
+      "QUARTER": "par trimestre",
+      "YEAR": "par ans"
+    },
+    "breadcrumbs": {
+      "list": "Toutes les limites d'achat'",
+      "details": "{{code}}"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "orgUnit": {
+    "header": "Toutes les unités ({{count}})",
+    "unit": "Unité",
+    "name": "Nom",
+    "uid": "ID",
+    "approvalProcess": "Le processus d'approbation",
+    "parentUnit": "Unité Parent",
+    "active": "Statut",
+    "hint": "Les unités représentent des départements, des magasins, des régions, ou tout autre groupement logique qui vous paraît logique. Les centres de coûts et les adresses de livraison dont dispose un acheteur au moment du paiement dépendent de son unité. Les utilisateurs ont accès à toutes les unités enfant de leur unité principale.",
+    "details": {
+      "title": "Détails de l'unité",
+      "subtitle": "Unité: {{ item.name }}",
+      "hint": "Les unités représentent des départements, des magasins, des régions, ou tout autre groupement logique qui vous paraît logique. La désactivation d'une unité désactive tous les enfants de l'unité, y compris les unités enfants, les utilisateurs, les approbateurs et les centres de coûts. Les unités désactivées ne peuvent pas être modifiées."
+    },
+    "edit": {
+      "title": "Modifier l'unité",
+      "subtitle": "Unité: {{ item.name }}"
+    },
+    "create": {
+      "title": "Créer unité",
+      "subtitle": ""
+    },
+    "messages": {
+      "deactivateTitle": "Désactiver l'unité?",
+      "deactivate": "La désactivation d'une unité a des effets très étendus sur votre organisation commerciale. Toutes les unités filles de l'unité, les utilisateurs, les budgets et les centres de coûts seront également désactivé.",
+      "confirmEnabled": "Unité {{item.name}} activée avec succès",
+      "confirmDisabled": "Unité {{item.name}} désactivée avec succès",
+      "update": "Unité {{ item.name }} mise à jour avec succès",
+      "create": "Unité {{ item.name }} créée avec succès               "
+    },
+    "info": {
+      "disabledEdit": "<Activez l'unité pour permettre l'édition>.",
+      "disabledEnable": "Le parent doit être activé avant que cette unité puisse être activée.",
+      "disabledDisable": "L'unité de base ne peut pas être désactivée."
+    },
+    "links": {
+      "units": "Unités enfant",
+      "users": "Utilisateurs",
+      "approvers": "Approbateurs",
+      "shippingAddresses": "Adresses de livraison",
+      "costCenters": "Centres de coûts"
+    },
+    "tree": {
+      "expandAll": "Montrer tout",
+      "collapseAll": "Réduire tout"
+    },
+    "children": {
+      "create": {
+        "title": "Créer une unité enfant",
+        "subtitle": ""
+      },
+      "messages": {
+        "create": "Unité {{ item.name }} créée avec succès"
+      }
+    },
+    "costCenters": {
+      "create": {
+        "title": "Créer un centre de coûts",
+        "subtitle": ""
+      }
+    },
+    "form": {
+      "parentOrgUnit": "Unité d'affaires mère",
+      "create": "Créer une unité",
+      "parentOrgUnitNotes": "Cette unité est l'unité de premier niveau de votre organisation. Elle ne peut pas être affectée à une autre unité."
+    },
+    "users": {
+      "header": "Utilisateurs dans {{code}}",
+      "changeUserRoles": "Modifier les rôles d'utilisateur",
+      "newUser": "Nouvel utilisateur"
+    },
+    "assignRoles": {
+      "header": "Gérer les rôles dans {{code}}",
+      "instructions": {
+        "check": "Pour attribuer un rôle à un utilisateur, cochez la case du rôle.",
+        "uncheck": "Pour supprimer un rôle, décochez la case de ce rôle.",
+        "changes": "Les modifications sont enregistrées automatiquement."
+      }
+    },
+    "approvers": {
+      "header": "Approbateurs dans {{code}}",
+      "assign": "Gérer les Approbateurs",
+      "new": "Nouvel approbateur"
+    },
+    "assignApprovers": {
+      "header": "Gérer les approbateur dans {{code}}",
+      "instructions": {
+        "check": "Pour affecter un approbateur à cette unité, cochez la case de l'utilisateur..",
+        "uncheck": "Pour supprimer un approbateur, décochez la case de l'utilisateur.",
+        "changes": "Les modifications sont enregistrées automatiquement."
+      },
+      "hint": "Les utilisateurs affichés sous la liste des approbateurs se voient attribuer des privilèges d'approbation pour les acheteurs de cette unité et des unités enfants. Notez qu'un utilisateur qui a le rôle d'approbateur est distinct d'un approbateur qui apparaît sous la liste des approbateurs. Si un approbateur n'existe pas pour une unité, ou si les approbateurs ne disposent pas de privilèges d'achat suffisants, un approbateur situé plus haut dans la hiérarchie de l'unité est recherché, jusqu'à ce qu'une administration soit choisie."
+    },
+    "breadcrumbs": {
+      "list": "Toutes les unités",
+      "details": "{{name}}",
+      "children": "Unités enfant",
+      "users": "Utilisateurs",
+      "approvers": "Approbateurs",
+      "addresses": "Adresses de livraison",
+      "addressDetails": "{{formattedAddress}}",
+      "costCenters": "Centres de coûts"
+    }
+  }
+}

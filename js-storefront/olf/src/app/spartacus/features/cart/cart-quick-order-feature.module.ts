@@ -16,12 +16,7 @@ import { CmsConfig, I18nConfig, provideConfig } from "@spartacus/core";
       },
     }
   }),
-  provideConfig(<I18nConfig>{
-    i18n: {
-      resources: quickOrderTranslations,
-      chunks: quickOrderTranslationChunksConfig,
-    },
-  })
+
   ]
 })
 export class CartQuickOrderFeatureModule { }

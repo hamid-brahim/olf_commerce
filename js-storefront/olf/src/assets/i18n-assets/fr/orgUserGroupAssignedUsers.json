@@ -1,0 +1,8 @@
+{
+  "orgUserGroupAssignedUsers":{
+    "title":"Utilisateurs assignés",
+    "subtitle":"Groupe d'utilisateurs :{{ item.name }}",
+    "assigned":"Utilisateur {{item.name}} assigné avec succès",
+    "unassigned":"Utilisateur {{item.name}} retiré avec succès"
+  }
+}

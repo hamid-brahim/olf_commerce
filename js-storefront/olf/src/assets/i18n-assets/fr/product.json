@@ -1,7 +1,7 @@
 {
   "productDetails": {
     "id": "ID",
-    "quantity": "Qty",
+    "quantity": "Qté,
     "productDetails": "Détails du produit",
     "specification": "Specs",
     "reviews": "Avis",
@@ -19,7 +19,7 @@
     "appliedFilter": "Filtres Appliqués:",
     "showLess": "Afficher moins...",
     "showMore": "Afficher plus...",
-    "sortBy": "Tri par",
+    "sortBy": "Trier par",
     "backToTopBtn": "REVENIR EN HAUT",
     "showMoreBtn": "AFFICHER PLUS",
     "productSearchPagination": "Pagination de recherche de produit"
@@ -32,7 +32,7 @@
     "appliedFilter": "Filtres Appliqués:",
     "showLess": "Voir moins...",
     "showMore": "Voir plus...",
-    "sortBy": "Tri par"
+    "sortBy": "Trier par"
   },
   "productSummary": {
     "id": "ID",
@@ -60,7 +60,7 @@
     "addToCart": "Dans le panier",
     "viewCart": "Afficher le panier",
     "proceedToCheckout": "Finaliser la commande",
-    "quantity": "Qty",
+    "quantity": "Qté",
     "outOfStock": "Hors stock",
     "inStock": "En stock",
     "selectStyleAndSize": "Sélectionnez le style la taille pour vérifier le stock",
@@ -69,7 +69,7 @@
   },
   "TabPanelContainer": {
     "tabs": {
-      "ProductDetailsTabComponent": "Details du produit",
+      "ProductDetailsTabComponent": "Détails du produit",
       "ProductSpecsTabComponent": "Specs",
       "ProductReviewsTabComponent": "Avis",
       "deliveryTab": "Livraison"

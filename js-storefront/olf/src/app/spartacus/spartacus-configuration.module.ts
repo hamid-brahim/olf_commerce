@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { translationChunksConfig } from "@spartacus/assets";
-import { CartNotEmptyGuard, ReviewSubmitComponent, ShippingAddressComponent } from '@spartacus/checkout/components';
-import { CheckoutConfig, CheckoutStepType } from '@spartacus/checkout/root';
-import { AuthGuard, FeaturesConfig, I18nConfig, OccConfig, provideConfig, SiteContextConfig } from "@spartacus/core";
+import { FeaturesConfig, I18nConfig, OccConfig, provideConfig, SiteContextConfig } from "@spartacus/core";
 import { defaultB2bCheckoutConfig, defaultB2bOccConfig } from '@spartacus/setup';
 import {
   defaultCmsContentProviders,
@@ -11,7 +9,7 @@ import {
   layoutConfig,
   mediaConfig
 } from "@spartacus/storefront";
-import { environment } from 'src/environments/environment';
+import { environment } from 'src/environments/environment.prod';
 
 @NgModule({
   declarations: [],
@@ -42,34 +40,6 @@ import { environment } from 'src/environments/environment';
     features: {
       level: '4.3'
     }
-  }),
-  provideConfig(<CheckoutConfig>{
-    checkout :{
-    steps:[
-      {
-        id: 'shippingAddress',
-        name: 'checkoutProgress.shippingAddress',
-        routeName:'checkoutShippingAddress',
-        type: [CheckoutStepType.SHIPPING_ADDRESS],
-      },
-      {
-        id: 'reviewOrder',
-        name: 'checkoutProgress.reviewOrder',
-        routeName: 'checkoutReviewOrder',
-        type: [CheckoutStepType.REVIEW_ORDER],
-
-      },
-    ],
-  },
-  cmsComponents: {
-    ShippingAddress: {
-      component: ShippingAddressComponent,
-      guards: [AuthGuard, CartNotEmptyGuard]
-    },
-    ReviewOrder: {
-      component: ReviewSubmitComponent,
-    },
-  },
   }),
     provideConfig({
       icon: {

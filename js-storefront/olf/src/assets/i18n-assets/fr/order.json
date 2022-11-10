@@ -16,7 +16,7 @@
     "methodOfPayment": "Méthode de Paiement",
     "payByAccount": "Payer par Compte",
     "paidByCreditCard": "(payé par carde de crédit)",
-    "status": "Status",
+    "status": "Statut",
     "active": "Actif",
     "shippedOn": "Expédié le",
     "shippingMethod": "Mode de livraison",
@@ -107,9 +107,9 @@
     "orderId": "Commande #",
     "emptyPurchaseOrderId": "Aucun",
     "date": "Date",
-    "status": "Status",
+    "status": "Statut",
     "total": "Total",
-    "noOrders": "WNous n'avons pas d'enregistrement de commande pour ce compte.",
+    "noOrders": "Nous n'avons pas d'enregistrement de commande pour ce compte.",
     "noReplenishmentOrders":
     "Nous n'avons pas d'enregistrement de commande de réapprovisionnement pour ce compte.",
     "startShopping": "Commencer les achats",
@@ -128,7 +128,7 @@
   },
   "AccountOrderHistoryTabContainer": {
     "tabs": {
-      "AccountOrderHistoryComponent": "Toutes les commandes ({{param}})",
+      "AccountOrderHistoryComponent": "Mes commandes ({{param}})",
       "OrderReturnRequestListComponent": "RETOURS ({{param}})"
     },
     "tabPanelContainerRegion": "Groupe des achats précédents"
@@ -137,7 +137,7 @@
     "returnRequestId": "Retour #",
     "orderId": "Commande #",
     "date": "Date de création",
-    "status": "Status",
+    "status": "Statut",
     "sortBy": "Trié par",
     "sortReturns": "Trier retours",
     "statusDisplay_APPROVAL_PENDING": "Approbation en cours",
@@ -158,7 +158,7 @@
   "returnRequest": {
     "returnRequestId": "Demande de retour #",
     "orderCode": "Pour Commande #",
-    "status": "Status de retour",
+    "status": "Statut de retour",
     "cancel": "Annuler la demande de retour",
     "item": "Description",
     "itemPrice": "Prix élément",
@@ -168,7 +168,7 @@
     "subtotal": "Subtotal",
     "deliveryCode": "Frais de livraison",
     "estimatedRefund": "Estimation du remboursement",
-    "note": "TLes totaux sont estimés et peuvent ne pas inclure les taxes applicables ou d'autres frais.",
+    "note": "Les totaux sont estimés et peuvent ne pas inclure les taxes applicables ou d'autres frais.",
     "cancelSuccess": "Votre demande de retour ({{rma}}) a été annulée",
     "caption": "Contenu de la commande."
   }

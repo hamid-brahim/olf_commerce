@@ -16,12 +16,12 @@ import { StoreFinderRootModule, STORE_FINDER_FEATURE } from "@spartacus/storefin
       },
     }
   }),
-  provideConfig(<I18nConfig>{
-    i18n: {
-      resources: storeFinderTranslations,
-      chunks: storeFinderTranslationChunksConfig,
-    },
-  })
+  // provideConfig(<I18nConfig>{
+  //   i18n: {
+  //     resources: storeFinderTranslations,
+  //     chunks: storeFinderTranslationChunksConfig,
+  //   },
+  // })
   ]
 })
 export class StoreFinderFeatureModule { }

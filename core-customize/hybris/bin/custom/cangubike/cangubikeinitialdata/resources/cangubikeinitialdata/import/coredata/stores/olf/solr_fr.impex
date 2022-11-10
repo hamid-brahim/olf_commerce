@@ -7,10 +7,10 @@
 #
 $lang=fr
 
-$indexedType=cangubikeProductType
+$indexedType=olfProductType
 
 UPDATE SolrIndexedProperty;solrIndexedType(identifier)[unique=true,default=$indexedType];name[unique=true];displayName[lang=$lang]
- ;;allPromotions;Promotion;
+ ;;allPromotions;Promotions;
  ;;brand;Marque;
  ;;category;Categorie;
  ;;code;Code;
@@ -24,8 +24,8 @@ UPDATE SolrIndexedProperty;solrIndexedType(identifier)[unique=true,default=$inde
 # Define the available sorts
 UPDATE SolrSort;indexedType(identifier)[unique=true,default=$indexedType];code[unique=true];name[lang=$lang]
  ;;name-asc;Nom (croissant);
- ;;name-desc;Name (décroissant);
- ;;price-asc;Price (prix plus-bas);
- ;;price-desc;Price (prix plus-haut);
+ ;;name-desc;Nom (décroissant);
+ ;;price-asc;Prix (prix plus-bas);
+ ;;price-desc;Prix (prix plus-haut);
  ;;relevance;Pertinence;
  ;;topRated;Mieux Noté;

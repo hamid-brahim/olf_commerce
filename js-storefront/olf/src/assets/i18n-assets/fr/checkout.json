@@ -7,7 +7,7 @@
     "label": "Progressiveness de la commande",
     "deliveryAddress": "Adresse de Livraison",
     "deliveryMode": "Mode de Livraison",
-    "paymentDetails": "Details de Paiement",
+    "paymentDetails": "Détails de Paiement",
     "reviewOrder": "Vérifier la Commande",
     "methodOfPayment": "Moyen de Paiement",
     "shippingAddress": "Adresse de Livraison"
@@ -54,7 +54,7 @@
 
   },
   "checkoutOrderConfirmation": {
-    "confirmationOfOrder": "Confirmation of Order:",
+    "confirmationOfOrder": "Confirmation de commande:",
     "thankYou": "Merci pour votre commande!",
     "invoiceHasBeenSentByEmail":
     "La facture a été envoyée par email.",

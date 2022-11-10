@@ -1,0 +1,9 @@
+{
+  "orgUnitAssignedApprovers": {
+    "title": "Assigned approvers",
+    "subtitle": "Unit: {{item.name}}",
+    "assigned": "User {{item.name}} assigned successfully",
+    "unassigned": "User {{item.name}} unassigned successfully",
+    "hint": "Users displayed under the Approvers list are assigned approval privileges for the buyers of this unit and of child units. Note that a user who has the approver role is separate from an approver who appears under the Approvers list. If an approver doesn't exist for a unit, or if approvers do not have sufficient approval purchase privileges, an approver higher up the unit hierarchy is found, until an administration is chosen."
+  }
+}
