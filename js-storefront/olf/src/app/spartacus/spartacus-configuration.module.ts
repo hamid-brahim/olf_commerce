@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
-import { translationChunksConfig } from "@spartacus/assets";
+import { translationChunksConfig, translations } from "@spartacus/assets";
 import { FeaturesConfig, I18nConfig, OccConfig, provideConfig, SiteContextConfig } from "@spartacus/core";
 import { defaultB2bCheckoutConfig, defaultB2bOccConfig } from '@spartacus/setup';
+import { environment } from 'src/environments/environment.prod';
 import {
   defaultCmsContentProviders,
   IconConfig,
@@ -9,7 +10,7 @@ import {
   layoutConfig,
   mediaConfig
 } from "@spartacus/storefront";
-import { environment } from 'src/environments/environment.prod';
+
 
 @NgModule({
   declarations: [],
@@ -41,26 +42,26 @@ import { environment } from 'src/environments/environment.prod';
       level: '4.3'
     }
   }),
-    provideConfig({
-      icon: {
-        symbols: {
-          CART: 'cart',
-          HOME: 'home',
-          MENU: 'menu',
-          USER: 'account'
-        },
-        resources: [
-          {
-            type: IconResourceType.SVG,
-            url: './assets/icons-sheet.svg',
-            types: ['CART', 'HOME', 'MENU', 'USER'],
-          },
-          {
-            type: IconResourceType.LINK,
-            url: 'https://use.fontawesome.com/releases/v5.8.1/css/all.css',
-          },
-        ],
+  provideConfig({
+    icon: {
+      symbols: {
+        CART: 'cart',
+        HOME: 'home',
+        MENU: 'menu',
+        USER: 'account'
       },
+      resources: [
+        {
+          type: IconResourceType.SVG,
+          url: './assets/icons-sheet.svg',
+          types: ['CART', 'HOME', 'MENU', 'USER'],
+        },
+        {
+          type: IconResourceType.LINK,
+          url: 'https://use.fontawesome.com/releases/v5.8.1/css/all.css',
+        },
+      ],
+    },
 
     } as IconConfig),
 

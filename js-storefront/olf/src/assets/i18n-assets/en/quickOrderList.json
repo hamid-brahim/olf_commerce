@@ -14,6 +14,25 @@
       "nonPurchasableError": "Product {{ name }} cannot be purchased",
       "outOfStockErrorFound": "{{count}} out of stock product was not added.",
       "outOfStockErrorFound_other": "{{count}} out of stock products were not added."
-    }
+    },
+    "warnings": {
+      "productWasReduced":
+      "Quantity for {{ name }} (#{{code}}) was reduced to {{ quantityAdded}}.",
+      "reviewWarnings": "Please review these warnings.",
+      "reduceWarningFound": "{{count}} product quantity was reduced.",
+      "reduceWarningFound_other": "{{count}} products quantity were reduced."
+    },
+    "successes": {
+      "productAddedToCart": "{{ name }} (#{{code}}) was added to cart.",
+      "addedToCartFound": "{{ count }} product was added to cart.",
+      "addedToCartFound_other": "{{ count }} products were added to cart."
+    },
+    "informations": {
+      "addProductBeforeAddingToCart":
+      "Add products to the list before adding to the cart."
+    },
+    "undo": "UNDO",
+    "revokeUndo": "Revoked product {{name}} deletion.",
+    "productWasDeleted": "Product {{ name }} moved to trash."
   }
 }

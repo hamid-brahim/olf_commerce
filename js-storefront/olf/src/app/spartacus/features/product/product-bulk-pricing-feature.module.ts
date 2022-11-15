@@ -16,12 +16,12 @@ import { BulkPricingRootModule, PRODUCT_BULK_PRICING_FEATURE } from "@spartacus/
       },
     }
   }),
-  provideConfig(<I18nConfig>{
-    i18n: {
-      resources: bulkPricingTranslations,
-      chunks: bulkPricingTranslationChunksConfig,
-    },
-  })
+  // provideConfig(<I18nConfig>{
+  //   i18n: {
+  //     resources: bulkPricingTranslations,
+  //     chunks: bulkPricingTranslationChunksConfig,
+  //   },
+  // })
   ]
 })
 export class ProductBulkPricingFeatureModule { }

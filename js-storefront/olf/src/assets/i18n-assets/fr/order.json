@@ -79,7 +79,7 @@
       "returnAction": "Demande de retour",
       "cancelAction": "Annuler les éléments",
       "item": "Element",
-      "itemPrice": "Prix élément",
+      "itemPrice": "Prix unitaire",
       "quantity": "Quantité max",
       "returnQty": "Quantité à retourner",
       "cancelQty": "Quantité à annuler",

@@ -16,12 +16,12 @@ import { ProductImageZoomRootModule, PRODUCT_IMAGE_ZOOM_FEATURE } from "@spartac
       },
     }
   }),
-  provideConfig(<I18nConfig>{
-    i18n: {
-      resources: productImageZoomTranslations,
-      chunks: productImageZoomTranslationChunksConfig,
-    },
-  })
+  // provideConfig(<I18nConfig>{
+  //   i18n: {
+  //     resources: productImageZoomTranslations,
+  //     chunks: productImageZoomTranslationChunksConfig,
+  //   },
+  // })
   ]
 })
 export class ProductImageZoomFeatureModule { }

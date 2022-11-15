@@ -13,7 +13,7 @@
 <div class="container">
   <div class="row justify-content-between align-items-center">
     <cx-generic-link class="d-none d-lg-block" [url]="'/'"
-      ><img src="assets/olf.png"
+    ><img src="assets/olf.png"
     /></cx-generic-link>
     <cx-page-slot
       class="d-none d-lg-block"
@@ -22,14 +22,11 @@
     <cx-searchbox class="d-none d-lg-block"></cx-searchbox>
     <div class="header-icons d-none d-lg-flex">
       <cx-generic-link [url]="{ cxRoute: 'login' } | cxUrl"
-        ><cx-icon [cxIcon]="'USER'"></cx-icon
       >
+        <cx-icon [cxIcon]="'USER'"></cx-icon
+        >
       </cx-generic-link>
       <cx-page-slot class="header-links" position="HeaderLinks"></cx-page-slot>
-<!--      <cx-generic-link [url]="{ cxRoute: 'wishlist' } | cxUrl"-->
-<!--        ><cx-icon [cxIcon]="'WISHLIST'"></cx-icon-->
-<!--      >-->
-<!--      </cx-generic-link>-->
       <cx-mini-cart></cx-mini-cart>
     </div>
   </div>

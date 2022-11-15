@@ -1,14 +1,14 @@
 {
   "productDetails": {
     "id": "ID",
-    "quantity": "Qté,
+    "quantity": "Qté",
     "productDetails": "Détails du produit",
     "specification": "Specs",
     "reviews": "Avis",
     "shipping": "Livraison",
     "share": "Partager",
     "showReviews": "Afficher les Avis",
-    "noReviews": "Pas encore d'avis",
+    "noReviews": "Aucun Avis",
     "productPrice": "Prix du Produit"
   },
   "productList": {

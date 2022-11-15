@@ -16,12 +16,12 @@ import { ProductVariantsRootModule, PRODUCT_VARIANTS_FEATURE } from "@spartacus/
       },
     }
   }),
-  provideConfig(<I18nConfig>{
-    i18n: {
-      resources: productVariantsTranslations,
-      chunks: productVariantsTranslationChunksConfig,
-    },
-  })
+  // provideConfig(<I18nConfig>{
+  //   i18n: {
+  //     resources: productVariantsTranslations,
+  //     chunks: productVariantsTranslationChunksConfig,
+  //   },
+  // })
   ]
 })
 export class ProductVariantsFeatureModule { }
