@@ -153,7 +153,7 @@
     <extension name='cangubikefacades'/>
     <extension name='cangubikefulfilmentprocess'/>
     <extension name='cangubikeinitialdata'/>
-   <!-- <extension name='cangubikestorefront'/> -->
+   <extension name='cangubikestorefront'/> 
 	
 <!--	<extension name='ycommercewebservices' />-->
   </extensions>
