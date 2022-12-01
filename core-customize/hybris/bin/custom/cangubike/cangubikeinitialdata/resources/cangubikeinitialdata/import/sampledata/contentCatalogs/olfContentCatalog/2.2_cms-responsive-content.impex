@@ -7,7 +7,7 @@
 # -----------------------------------------------------------------------
 #
 $contentCatalog=olfContentCatalog
-$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Online])[default=$contentCatalog:Online]
+$contentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$contentCatalog]),CatalogVersion.version[default=Staged])[default=$contentCatalog:Staged]
 #$siteResource=jar:de.hybris.platform.spartacussampledata.constants.SpartacussampledataConstants&/spartacussampledata/import/contentCatalogs/cangubikeContentCatalog
 $siteResource=jar:be.canguru.cangubike.initialdata.constants.CangubikeInitialDataConstants&/cangubikeinitialdata/import/sampledata/contentCatalogs/$contentCatalog
 UPDATE GenericItem[processor=de.hybris.platform.commerceservices.impex.impl.ConfigPropertyImportProcessor];pk[unique=true]
@@ -239,7 +239,7 @@ INSERT_UPDATE CMSNavigationEntry;uid[unique=true];$contentCV[unique=true];name;n
 
 # Set the order or the items in the My Account Menu
 UPDATE CMSNavigationNode;uid[unique=true];$contentCV[unique=true];children(uid,$contentCV)
-;MyAccountNavNode;;PersonalDetailsNavNode,UpdateEmailNavNode,PaymentDetailsNavNode,UpdatePasswordNavNode,OrderHistoryNavNode,AddressBookNavNode,MyQuotesNavNode,ApprovalDashboardNavNode,MyReplenishmentOrdersNavNode,SignOutNavNode
+;MyAccountNavNode;;PersonalDetailsNavNode,UpdateEmailNavNode,PaymentDetailsNavNode,UpdatePasswordNavNode,OrderHistoryNavNode,AddressBookNavNode,ApprovalDashboardNavNode,MyReplenishmentOrdersNavNode,SignOutNavNode
 
 
 ###### Make Product grid, Search grid page default ########
@@ -763,11 +763,11 @@ INSERT_UPDATE CMSNavigationEntry;uid[unique=true];$contentCV[unique=true];name;n
 
 # Sort the order
 UPDATE CMSNavigationNode;uid[unique=true];$contentCV[unique=true];children(uid,$contentCV)
-;MyAccountNavNode;;PersonalDetailsNavNode,UpdateEmailNavNode,PaymentDetailsNavNode,UpdatePasswordNavNode,OrderHistoryNavNode,SavedCartsNavNode,AddressBookNavNode,MyReplenishmentOrdersNavNode,WishListNavNode,ApprovalDashboardNavNode,MyCompanyNavNode,SignOutNavNode
+;MyAccountNavNode;;PersonalDetailsNavNode,UpdateEmailNavNode,PaymentDetailsNavNode,UpdatePasswordNavNode,OrderHistoryNavNode,SavedCartsNavNode,AddressBookNavNode,MyReplenishmentOrdersNavNode,ApprovalDashboardNavNode,MyCompanyNavNode,SignOutNavNode
 
 # Set the order or the items in the My Account Menu
 UPDATE CMSNavigationNode;uid[unique=true];$contentCV[unique=true];children(uid,$contentCV)
-;MyAccountNavNode;;PersonalDetailsNavNode,UpdateEmailNavNode,PaymentDetailsNavNode,UpdatePasswordNavNode,OrderHistoryNavNode,AddressBookNavNode,MyQuotesNavNode,ApprovalDashboardNavNode,MyReplenishmentOrdersNavNode,SignOutNavNode
+;MyAccountNavNode;;PersonalDetailsNavNode,UpdateEmailNavNode,PaymentDetailsNavNode,UpdatePasswordNavNode,OrderHistoryNavNode,AddressBookNavNode,ApprovalDashboardNavNode,MyReplenishmentOrdersNavNode,SignOutNavNode
 # Add restriction
 INSERT_UPDATE CMSUserGroupRestriction;$contentCV[unique=true];uid[unique=true];name;userGroups(uid);includeSubgroups;components(&linkRef)
 ;;MyAccountLinkAdminGroupRestriction;My Account Link Admin Group Restriction;b2badmingroup;true;MyCompanyLink

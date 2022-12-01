@@ -53,7 +53,7 @@ ruleset.xml
 *.log
 .pmd
 *build.number
-
+starthybris.sh
 base.properties
 #  Addon specific copy folders
 **/_ui/addons

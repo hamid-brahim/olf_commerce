@@ -1,7 +1,7 @@
 {
 
   "checkout": {
-    "backToCart": "Retour au Panier"
+    "backToCart": "Retour au panier"
   },
   "checkoutProgress": {
     "label": "Progressiveness de la commande",

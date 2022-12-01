@@ -4,7 +4,10 @@ import { RouterModule } from "@angular/router";
 import { I18nModule } from '@spartacus/core';
 import { GlobalMessageComponentModule, OutletModule, OutletRefModule, PageLayoutModule, PageSlotModule, SkipLinkModule,  KeyboardFocusModule, } from "@spartacus/storefront";
 import { OlfHeaderModule } from './olf-header/olf-header.module';
+import {OlfLoginModule} from "./olf-login/olf-login/olf-login.module";
 import { OlfComponent } from './olf.component';
+
+
 
 
 
@@ -20,7 +23,8 @@ import { OlfComponent } from './olf.component';
     PageLayoutModule,
     SkipLinkModule,
     PageSlotModule,
-    OlfHeaderModule
+    OlfHeaderModule,
+    OlfLoginModule
   ],
   declarations: [
     OlfComponent

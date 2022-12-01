@@ -9,6 +9,8 @@ import { AppRoutingModule } from "@spartacus/storefront";
 import { AppComponent } from './app.component';
 import { SpartacusModule } from './spartacus/spartacus.module';
 import {OlfModule} from "./spartacus/olf/olf.module";
+import {OlfLoginModule} from "./spartacus/olf/olf-login/olf-login/olf-login.module";
+import {LoginFormComponentService} from "@spartacus/user/account/components";
 
 @NgModule({
   declarations: [
@@ -30,7 +32,7 @@ import {OlfModule} from "./spartacus/olf/olf.module";
     }),
     BrowserTransferStateModule
   ],
-  providers: [],
+  providers: [LoginFormComponentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

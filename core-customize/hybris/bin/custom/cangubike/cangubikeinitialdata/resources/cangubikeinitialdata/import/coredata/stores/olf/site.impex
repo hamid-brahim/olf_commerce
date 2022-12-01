@@ -7,7 +7,7 @@
 # -----------------------------------------------------------------------
 #
 $spaSiteUid=olf
-$spaContentCatalog=cangubike-spaContentCatalog
+$spaContentCatalog=olfContentCatalog
 $spaContentCV=catalogVersion(CatalogVersion.catalog(Catalog.id[default=$spaContentCatalog]),CatalogVersion.version[default=Staged])[default=$spaContentCatalog:Staged]
 
 $productCatalog=olfProductCatalog

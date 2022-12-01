@@ -1,0 +1,55 @@
+<cx-spinner class="overlay" *ngIf="isUpdating$ | async"></cx-spinner>
+
+<form (ngSubmit)="onSubmit()" [formGroup]="form" class="login-customer-form">
+  <label>
+    <span class="label-content">{{
+      'loginForm.emailAddress.label' | cxTranslate
+      }}</span>
+    <input
+      required="true"
+      type="email"
+      class="form-control"
+      formControlName="userId"
+      placeholder="{{ 'loginForm.emailAddress.placeholder' | cxTranslate }}"
+    />
+    <cx-form-errors [control]="$any(form.get('userId'))"></cx-form-errors>
+  </label>
+
+  <label>
+    <span class="label-content">{{
+      'loginForm.password.label' | cxTranslate
+      }}</span>
+    <input
+      required="true"
+      type="password"
+      class="form-control"
+      placeholder="{{ 'loginForm.password.placeholder' | cxTranslate }}"
+      formControlName="password"
+      [attr.aria-label]="'loginForm.password.placeholder' | cxTranslate"
+      cxPasswordVisibilitySwitch
+    />
+    <cx-form-errors [control]="$any(form.get('password'))"></cx-form-errors>
+  </label>
+
+  <a [routerLink]="{ cxRoute: 'forgotPassword' } | cxUrl" class="btn-link">
+    {{ 'loginForm.forgotPassword' | cxTranslate }}
+  </a>
+
+  <button
+    type="submit"
+    class="btn btn-block btn-primary"
+    [disabled]="form.disabled"
+  >
+    {{ 'loginForm.signIn' | cxTranslate }}
+  </button>
+
+  <div class="register-section">
+    <span class="register-lable">
+      {{ 'loginForm.dontHaveAccount' | cxTranslate }}
+    </span>
+    <a [routerLink]="{ cxRoute: 'register' } | cxUrl" class="btn btn-link">
+      {{ 'loginForm.register' | cxTranslate }}
+    </a>
+  </div>
+</form>
+

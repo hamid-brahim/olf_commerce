@@ -12,8 +12,13 @@ $superCategories=superCategories(code, $catalogVersion)
 # Language
 $lang=en
 
-INSERT_UPDATE Category;$catalogVersion;code[unique=true];name[lang=$lang];description[lang=$lang]
-;;Larousse;Larousse
-;;Guillimard;Guillimard
-;;Seuil;Seuil
-;;Atlas;Atlas
+INSERT_UPDATE Category;$catalogVersion;code[unique=true];name[lang=$lang];description[lang=$lang];$superCategories
+;;brands;Publishers;Publishers;
+;;larousse;Larousse;Larousse;brands
+;;gallimard;Gallimard;brands
+;;seuil;Seuil;Seuil;brands
+;;atlas;Atlas;Atlas;brands
+;;editis;Editis;Editis;brands
+;;bayard;Group Bayard;Group Bayard;brands
+;;arche;L'Arche;L'Arche;brands
+;;harmattan;L'Harmattan;L'Harmattan;brands

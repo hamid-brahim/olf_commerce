@@ -221,7 +221,7 @@
   },
   "AccountOrderHistoryTabContainer": {
     "tabs": {
-      "AccountOrderHistoryComponent": "TOUTES LES COMMANDES ({{param}})",
+      "AccountOrderHistoryComponent": "LES COMMANDES ({{param}})",
       "OrderReturnRequestListComponent": "RETOURS ({{param}})"
     }
   },

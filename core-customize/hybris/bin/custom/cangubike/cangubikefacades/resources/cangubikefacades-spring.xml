@@ -12,33 +12,6 @@
 		
 	<context:annotation-config/>
 
-	<bean id="cangubikeCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
-		<property name="categorySource" ref="cangubikeCategorySource"/>
-	</bean>
-	<bean id="cangubikeBrandCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
-		<property name="categorySource" ref="cangubikeBrandCategorySource"/>
-	</bean>
-	<bean id="cangubikeVariantCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
-		<property name="categorySource" ref="cangubikeVariantCategorySource"/>
-	</bean>
-
-	<bean id="cangubikeCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
-		<property name="categorySource" ref="cangubikeCategorySource"/>
-	</bean>
-
-	<bean id="cangubikeBrandCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
-		<property name="categorySource" ref="cangubikeBrandCategorySource"/>
-	</bean>
-
-	<bean id="cangubikeCategorySource" parent="defaultCategorySource">
-		<property name="rootCategory" value="1"/> <!-- '1' is the root icecat category -->
-	</bean>
-	<bean id="cangubikeVariantCategorySource" parent="variantCategorySource"/>
-
-	<bean id="cangubikeBrandCategorySource" parent="defaultCategorySource">
-		<property name="rootCategory" value="brands"/> <!-- 'brands' is the root of the brands hierarchy -->
-	</bean>
-
 
 	<alias alias="simpleSuggestionFacade" name="defaultSimpleSuggestionFacade"/>
 	<bean id="defaultSimpleSuggestionFacade" class="be.canguru.cangubike.facades.suggestion.impl.DefaultSimpleSuggestionFacade" >

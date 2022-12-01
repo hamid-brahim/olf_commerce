@@ -43,7 +43,7 @@
 
 
 	<bean id="electronicsCategorySource" parent="abstractCategorySource">
-		<property name="rootCategory" value="1"/>
+		<property name="rootCategory" value="root"/>
 		<!-- '1' is the root icecat category -->
 	</bean>
 	<bean id="electronicsBrandCategorySource" parent="abstractCategorySource">
@@ -186,6 +186,35 @@
 		<property name="i18nService" ref="i18nService"/>
 		<property name="commonI18NService" ref="commonI18NService"/>
 	</bean>
+
+
+	<bean id="cangubikeCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
+		<property name="categorySource" ref="cangubikeCategorySource"/>
+	</bean>
+	<bean id="cangubikeBrandCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
+		<property name="categorySource" ref="cangubikeBrandCategorySource"/>
+	</bean>
+	<bean id="cangubikeVariantCategoryCodeValueProvider" parent="abstractCategoryCodeValueProvider">
+		<property name="categorySource" ref="cangubikeVariantCategorySource"/>
+	</bean>
+
+	<bean id="cangubikeCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
+		<property name="categorySource" ref="cangubikeCategorySource"/>
+	</bean>
+
+	<bean id="cangubikeBrandCategoryNameValueProvider" parent="abstractCategoryNameValueProvider">
+		<property name="categorySource" ref="cangubikeBrandCategorySource"/>
+	</bean>
+
+	<bean id="cangubikeCategorySource" parent="defaultCategorySource">
+		<property name="rootCategory" value="root"/> <!-- '1' is the root icecat category -->
+	</bean>
+	<bean id="cangubikeVariantCategorySource" parent="variantCategorySource"/>
+
+	<bean id="cangubikeBrandCategorySource" parent="defaultCategorySource">
+		<property name="rootCategory" value="brands"/> <!-- 'brands' is the root of the brands hierarchy -->
+	</bean>
+
 
 	<!--
 		Event listeners are singletons, therefore the dependency for a bean in tenant-scope

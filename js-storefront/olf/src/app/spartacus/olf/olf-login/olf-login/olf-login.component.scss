@@ -1,0 +1,23 @@
+.login-customer-form {
+  margin: 0 auto;
+  max-width: 500px;
+
+
+  .btn {
+    flex: 0 0 calc(100% - 10px);
+  }
+  .register-section {
+    border-top: 2px solid var(--ssf-light-primary);
+    color: rgb(var(--ssf-dark-primary-base));
+    margin: 30px 0px 0px;
+    padding: 40px 0px 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .btn-link {
+    color: var(--ssf-red-olf);
+    display: block;
+  }
+}
+
+

@@ -1,13 +1,13 @@
 {
   "loginForm": {
     "forgotPassword": "Mot de passe oublié?",
-    "signIn": "S'identifier",
+    "signIn": "Se connecter",
     "register": "S'enregistrer",
     "dontHaveAccount": "Nous n'avez pas de compte?",
     "guestCheckout": "Guest Checkout",
     "emailAddress": {
-      "label": "Adresse E-mail",
-      "placeholder": "Enterez l'email"
+      "label": "Email",
+      "placeholder": "Saisissez votre email"
     },
     "password": {
       "label": "Mot de passe",
