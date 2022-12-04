@@ -112,45 +112,7 @@
             "value": "true"
         }
     ],
-    "storefrontAddons": [
-        {
-            "addons": [
-                "assistedservicestorefront",
-                "assistedserviceyprofileaddon",
-                "b2bacceleratoraddon",
-                "commerceorgaddon",
-                "ysapproductconfigaddon",
-                "timedaccesspromotionenginesamplesaddon",
-                "timedaccesspromotionengineaddon",
-                "textfieldconfiguratortemplateaddon",
-                "smarteditaddon",
-                "selectivecartsplitlistaddon",
-                "profiletagaddon",
-                "personalizationyprofilesampledataaddon",
-                "personalizationsampledataaddon",
-                "personalizationaddon",
-                "pcmbackofficesamplesaddon",
-                "orderselfserviceaddon",
-                "ordermanagementaddon",
-                "merchandisingstorefrontsampledataaddon",
-                "merchandisingaddon",
-                "eventtrackingwsaddon",
-                "customerticketingaddon",
-                "customercouponsamplesaddon",
-                "customercouponaddon",
-                "consignmenttrackingaddon",
-                "configurablebundleaddon",
-                "assistedservicepromotionaddon",
-                "adaptivesearchsamplesaddon"
-            ],
-            "storefronts": [
-                "cangubikestorefront"
-            ],
-            "templates": [
-                "cangubikestorefront"
-            ]
-        }
-    ],
+
     "aspects": [
         {
             "name": "backoffice",
