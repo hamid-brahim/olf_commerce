@@ -146,6 +146,10 @@
     <extension name='permissionswebservices' />
     <extension name='webservicescommons' />
     <extension name='ywebservices' />
+    <extension name='xyformsbackoffice' />
+    <extension name='xyformsfacades' />
+    <extension name='xyformsservices' />
+    <extension name='xyformsweb'/>
     
 	<extension name='spartacussampledata'/>
     <extension name='cangubikecore'/>
@@ -153,7 +157,7 @@
     <extension name='cangubikefacades'/>
     <extension name='cangubikefulfilmentprocess'/>
     <extension name='cangubikeinitialdata'/>
-    <extension name='cangubikestorefront'/>
+   <!-- <extension name='cangubikestorefront'/> -->
 	
 <!--	<extension name='ycommercewebservices' />-->
   </extensions>
