@@ -151,13 +151,13 @@
     <extension name='xyformsservices' />
     <extension name='xyformsweb'/>
     
-	<extension name='spartacussampledata'/>
+	  <extension name='spartacussampledata'/>
     <extension name='cangubikecore'/>
     <extension name='cangubikebackoffice'/>
     <extension name='cangubikefacades'/>
     <extension name='cangubikefulfilmentprocess'/>
     <extension name='cangubikeinitialdata'/>
-   <!-- <extension name='cangubikestorefront'/> -->
+    <extension name='cangubikestorefront'/>
 	
 <!--	<extension name='ycommercewebservices' />-->
   </extensions>
