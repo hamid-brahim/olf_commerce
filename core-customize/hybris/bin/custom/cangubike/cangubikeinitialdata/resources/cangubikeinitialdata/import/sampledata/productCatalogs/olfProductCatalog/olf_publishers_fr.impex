@@ -13,6 +13,7 @@ $superCategories=superCategories(code, $catalogVersion)
 $lang=fr
 
 UPDATE Category;$catalogVersion;code[unique=true];name[lang=$lang];description[lang=$lang]
+;;brands;Editeurs;Editeurs;
 ;;larousse;Larousse;Larousse
 ;;gallimard;Gallimard;Gallimard
 ;;seuil;Seuil;Seuil
