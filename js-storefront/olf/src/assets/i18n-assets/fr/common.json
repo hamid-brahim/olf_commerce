@@ -24,7 +24,7 @@
   },
   "pageMetaResolver": {
     "category": {
-      "title": "{{count}} Résultat de {{query}}",
+      "title": "{{count}} Résultat pour {{query}}",
       "title_plural": "{{count}} Résultats de {{query}}"
     },
     "checkout": {

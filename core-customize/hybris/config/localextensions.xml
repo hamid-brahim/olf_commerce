@@ -287,7 +287,19 @@
     <extension name='xyformsservices' />
     <extension name='xyformsstorefrontcommons' />
     <extension name='xyformsweb' />
+	<!--  SAP S4 Integration  -->
+	<extension name='sapmodel'/>
+    <extension name='sapmodelbackoffice'/>
+    <extension name='sapmodelfacades'/>
+    <extension name='saps4ombackoffice' />
+    <extension name='saps4omfacades'/>
+    <extension name='saps4omocc'/>
+    <extension name='saps4omservices'/>
+	
+	<!-- Spartacus SAMPLE DATA extension -->
     <extension name='spartacussampledata'/>
+	
+	<!-- Cangubike Custom Extensions -->
     <extension name='cangubikecore'/>
     <extension name='cangubikebackoffice'/>
     <extension name='cangubikefacades'/>
