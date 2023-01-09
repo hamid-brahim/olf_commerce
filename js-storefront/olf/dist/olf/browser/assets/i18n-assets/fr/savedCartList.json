@@ -1,0 +1,16 @@
+{
+  "savedCartList": {
+    "savedCarts": "Paniers sauvegardés ({{count}})",
+    "cartName": "Nom",
+    "cartId": "Id",
+    "dateSaved": "Date de sauvegarde",
+    "cartDescription": "Description",
+    "quantity": "Qté",
+    "total": "Total",
+    "actions": "Actions",
+    "makeCartActive": "Activer le panier",
+    "notFound": "Aucun panier sauvegardé trouvé",
+    "swapCartNoActiveCart": "Panier activé avec succès par {{cartName}}.",
+    "swapCartWithActiveCart" : "Panier activé par {{cartName}} avec succès.Vous éléments précédents ont été sauvegardés dans le panier {{previousCartName}}."
+  }
+}

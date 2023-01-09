@@ -1,0 +1,8 @@
+{
+  "orgUserUserGroups": {
+    "title": "Manage user groups",
+    "subtitle": "User: {{ item.name }}",
+    "assigned": "User group {{item.name}} assigned successfully",
+    "unassigned": "User group {{item.name}} unassigned successfully"
+  }
+}

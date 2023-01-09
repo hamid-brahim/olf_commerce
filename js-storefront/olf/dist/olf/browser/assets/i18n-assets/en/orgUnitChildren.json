@@ -1,0 +1,10 @@
+{
+  "orgUnitChildren": {
+    "title": "Child units",
+    "subtitle": "Unit: {{item.name}}",
+    "info": {
+      "disabledCreate": "Child unit can not be created for disabled unit."
+    },
+    "hint": "Units represent departments, stores, regions, or any other logical grouping that makes sense to you. Users inherit child units, meaning buyers have access to cost centers and delivery addresses of child units when checking out."
+  }
+}

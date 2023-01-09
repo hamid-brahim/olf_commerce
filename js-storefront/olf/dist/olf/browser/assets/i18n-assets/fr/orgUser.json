@@ -1,0 +1,113 @@
+{
+  "orgUser": {
+    "header": "tous les utilisateur ({{count}})",
+    "disabled": "(désactivé)",
+    "uid": "Email",
+    "active": "Statut",
+    "name": "Name",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "orgUnit": "Unité",
+    "unit": "Unité",
+    "roles": "Rôles",
+    "title": "Titre",
+    "hint": "Les utilisateurs sont les acheteurs, les approbateurs, les gestionnaires et les administrateurs de votre organisation. Chaque utilisateur se voit attribuer un rôle pour effectuer ou approuver des achats. Chaque utilisateur appartient à une unité, et il a accès à toutes les unités filles de son unité principale.",
+    "unitApprover": "Approbateur de l'unité",
+    "assignApprover": "Ajouter l'utilisateur comme approbateur de l'unité",
+    "actions": "",
+    "sortBy": "Trié par",
+    "sort": {
+      "byName": "Nom",
+      "byUnit": "Unité"
+    },
+    "details": {
+      "title": "Détais de l'utilisateur",
+      "subtitle": "Utilisateur: {{ item.name }}"
+    },
+    "edit": {
+      "title": "Modifier l'utilisateur",
+      "subtitle": "Utilisateur: {{ item.name }}"
+    },
+    "create": {
+      "title": "Créer l'utilisateur",
+      "subtitle": ""
+    },
+    "links": {
+      "password": "Modifier le mot de passe",
+      "approvers": "Approbateurs",
+      "userGroup": "Groupe d'utilisateurs",
+      "permission": "Limite d'achat"
+    },
+    "messages": {
+      "deactivateTitle": "Désactiver l'utilisateur?",
+      "deactivate": "Les utilisateurs handicapés ne peuvent pas se connecter à la vitrine et passer des commandes.",
+      "confirmEnabled": "L'utilisateur {{item.firstName}} {{item.lastName}} est activé avec succès",
+      "confirmDisabled": "L'utilisateur {{item.firstName}} {{item.lastName}} est désactivé avec succès",
+      "update": "L'utilisateur {{item.firstName}} {{item.lastName}} est mis à jour avec succès",
+      "create": "L'utilisateur {{item.firstName}} {{item.lastName}} est crée avec succès",
+      "updatePassword": "Le mot de passe pour l'utilisateur {{item.firstName}} {{item.lastName}} est mis à jour avec succès"
+    },
+    "info": {
+      "disabledEdit": "Permettre à l'utilisateur d'autoriser l'édition.",
+      "disabledEnable": "L'unité doit être activée avant que cet utilisateur puisse être activé."
+    },
+    "approver": {
+      "link": "Approbateurs",
+      "header": "Approbateurs dans {{code}}",
+      "assign": "Assigner des approbateurs",
+      "assignHeader": "Assigner des approbateurs dans {{code}}",
+      "back": "Retour",
+      "new": "Nouvel approbateur",
+      "instructions": {
+        "check": "Pour affecter un approbateur à cet utilisateur, cochez la case de l'utilisateur.",
+        "uncheck": "Pour supprimer un approbateur, décochez la case de l'utilisateur.",
+        "changes": "Les changements sont sauvegardés automatiquement."
+      }
+    },
+    "userGroup": {
+      "link": "Groupe d'utilisateurs ",
+      "header": "Groupe d'utilisateurs {{code}}",
+      "assign": "Assigner le groupe d'utilisateur'",
+      "assignHeader": "Assigner le groupe d'utilisateur dans {{code}}",
+      "back": "Retour",
+      "instructions": {
+        "check": "Pour assigner un groupe d'utilisateurs à cet utilisateur, cochez la case de l'utilisateur.",
+        "uncheck": "Pour supprimer un groupe d'utilisateurs, décochez la case de l'utilisateur.",
+        "changes": "Les changements sont sauvegardés automatiquement"
+      }
+    },
+    "permission": {
+      "link": "Limites d'achat",
+      "header": "Limites d'achats dans {{code}}",
+      "assign": "Assigner limites d'achat",
+      "assignHeader": "Assigner limites d'achat dans {{code}}",
+      "back": "Retour",
+      "instructions": {
+        "check": "Pour attribuer une limite d'achat à cet utilisateur, cochez sa case..",
+        "uncheck": "Pour désaffecter une limite d'achat, décochez sa case.",
+        "changes": "Les changements sont sauvegardés automatiquement."
+      },
+      "per": {
+        "undefined": "",
+        "MONTH": "par mois",
+        "YEAR": "par ans",
+        "WEEK": "par semaine",
+        "QUARTER": "par trimestre"
+      }
+    },
+    "password": {
+      "title": "Modifier le mot de passe",
+      "subtitle": "Utilisateur: {{ item.email }}",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Ressaisir le nouveau mot de passe"
+    },
+    "breadcrumbs": {
+      "list": "Tous les utilisateurs",
+      "details": "{{name}}",
+      "userGroups": "Groupes d'utilisateurs",
+      "approvers": "Approbateurs",
+      "permissions": "Limites d'achat"
+    }
+  }
+}

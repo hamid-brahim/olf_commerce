@@ -1,0 +1,41 @@
+{
+  "register": {
+    "confirmPassword": {
+      "action": "Confirmer le mot de passe",
+      "label": "Confirmer le mot de passe",
+      "placeholder": "Confirmer le mot de passe"
+    },
+    "managementInMyAccount": "Gestion dans Mon compte.",
+    "termsAndConditions": "Conditions générales",
+    "signIn": "J'ai déjà un compte. Me connecter",
+    "register": "S'inscrire",
+    "confirmNewPassword": "Confirmer le mot de passe",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "createAccount": "Créer un compte",
+    "title": "Civilité",
+    "firstName": {
+      "label": "Prénom",
+      "placeholder": "Prénom"
+    },
+    "lastName": {
+      "label": "Nom",
+      "placeholder": "Nom"
+    },
+    "emailAddress": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "password": {
+      "label": "Mot de passe",
+      "placeholder": "Mot de passe"
+    },
+    "newPassword": "Nouveau mot de passe",
+    "emailMarketing": "Utiliser mes données personnelles pour recevoir des bulletins d'information par courrier électronique dans le cadre de campagnes de marketing. Pour modifier vos paramètres, rendez-vous sur la page Gestion du consentement dans Mon compte.",
+    "confirmThatRead": "Je confirme avoir lu et accepté les",
+    "selectTitle": "Choisissez",
+    "passwordMinRequirements": "Le mot de passe doit contenir au moins six caractères, dont une lettre majuscule, un chiffre et un symbole.",
+    "bothPasswordMustMatch": "Les deux mots de passe sont identiques",
+    "titleRequired": "Civilité est obligatoire.",
+    "postRegisterMessage": "Veuillez vous connecter avec les informations d'identification fournies."
+  }
+}
