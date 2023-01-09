@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { translationChunksConfig } from "@spartacus/assets";
 import { FeaturesConfig, I18nConfig, OccConfig, provideConfig, SiteContextConfig } from "@spartacus/core";
-import { defaultB2bCheckoutConfig, defaultB2bOccConfig } from "@spartacus/setup";
+// TODO:Spartacus - // TODO:Spartacus - Variable defaultB2bCheckoutConfig has been removed and is no longer part of the public API. Use 'defaultB2BCheckoutConfig' instead (imported from '@spartacus/checkout/b2b/root')
+import { defaultB2bOccConfig } from "@spartacus/setup";
 import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacus/storefront";
 import { environment } from 'src/environments/environment.prod';
 
@@ -32,8 +33,8 @@ import { environment } from 'src/environments/environment.prod';
     },
   }), provideConfig(<FeaturesConfig>{
     features: {
-      level: '4.3'
+      level: '5.0'
     }
-  }), provideConfig(defaultB2bOccConfig), provideConfig(defaultB2bCheckoutConfig)]
+  }), provideConfig(defaultB2bOccConfig)]
 })
 export class SpartacusConfigurationModule { }
