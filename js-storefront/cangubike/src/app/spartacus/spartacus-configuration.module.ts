@@ -4,7 +4,7 @@ import { FeaturesConfig, I18nConfig, OccConfig, provideConfig, SiteContextConfig
 // TODO:Spartacus - // TODO:Spartacus - Variable defaultB2bCheckoutConfig has been removed and is no longer part of the public API. Use 'defaultB2BCheckoutConfig' instead (imported from '@spartacus/checkout/b2b/root')
 import { defaultB2bOccConfig } from "@spartacus/setup";
 import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacus/storefront";
-import { environment } from 'src/environments/environment.prod';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [],
