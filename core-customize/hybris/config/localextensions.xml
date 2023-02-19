@@ -115,6 +115,8 @@
     <extension name='odata2services' />
     <extension name='odata2webservices' />
    <!-- <extension name='odata2webservicesfeaturetests' /> -->
+    <extension name='subscriptionfacades' />
+    <extension name='subscriptionservices' />
     <extension name='outboundservices' />
     <extension name='outboundsync' />
     <extension name='outboundsyncbackoffice' />
@@ -227,7 +229,7 @@
 	<!--  SAP S4 Integration  -->
 	  <extension name='sapmodel'/>
     <extension name='sapmodelbackoffice'/>
-     <extension name='integrationbackoffice'/>
+    <extension name='integrationbackoffice'/>
     <extension name='sapcoreconfigurationbackoffice'/>
     <extension name='sapmodelfacades'/>
     <extension name='saps4ombackoffice' />
