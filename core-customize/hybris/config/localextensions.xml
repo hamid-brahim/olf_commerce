@@ -17,6 +17,7 @@
     <extension name='yaasyprofileconnect' />
     <extension name='b2bacceleratorfacades' />
     <extension name='b2bacceleratorservices' />
+    <extension name='b2bacceleratoraddon' />
     <extension name='b2bocc' />
     <extension name='b2bwebservicescommons' />
     <extension name='savedorderforms' />
@@ -133,6 +134,7 @@
     <extension name='b2bordermanagementwebservices' />
     <extension name='ordermanagementfacades' />
     <extension name='ordermanagementwebservices' />
+    <extension name='commerceorgaddon' />
     <extension name='warehousing' />
     <extension name='warehousingbackoffice' />
     <extension name='warehousingfacades' />
@@ -197,7 +199,7 @@
     <extension name='smartedit' />
     <extension name='smartedittools' />
     <extension name='smarteditwebservices' />
-    <extension name='stocknotificationfacades' />5.1.0
+    <extension name='stocknotificationfacades' />
     <extension name='stocknotificationservices' />
     <extension name='textfieldconfiguratortemplatebackoffice' />
     <extension name='textfieldconfiguratortemplatefacades' />
@@ -246,6 +248,9 @@
     <extension name='cangubikefacades'/>
     <extension name='cangubikefulfilmentprocess'/>
     <extension name='cangubikeinitialdata'/>
+    <extension name='cangubikestorefront'/>
+
+
 
   </extensions>
 </hybrisconfig>
