@@ -1,0 +1,15 @@
+<div class="cx-summary-row cx-summary-total">
+  <div class="row">
+    <div class="col">
+      <div class="cx-summary-label">
+        {{ 'orderCost.total' | cxTranslate }}
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="cx-summary-amount">
+        {{ cart.totalPriceWithTax?.formattedValue }}
+      </div>
+    </div>
+  </div>
+</div>
+<cx-applied-coupons [vouchers]="cart.appliedVouchers" [isReadOnly]="true"></cx-applied-coupons>

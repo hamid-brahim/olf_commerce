@@ -1,0 +1,19 @@
+{
+    "reorder": {
+        "button": "commander à nouveau",
+        "dialog": {
+            "reorderProducts": "Commander à nouveau des produits",
+            "messages": {
+                "reviewConfiguration": "Une erreur s'est produite lors de la configuration de \"{{ productCode}}\".",
+                "lowStock": "La quantité pour {{ productName }} : {{ quantité }} a été réduite à {{ quantité ajoutée }}.",
+                "noStock": "{{ productName }} est actuellement en rupture de stock.",
+                "pricingError": "Problème de tarification avec \"{{ productCode }}\".",
+                "unresolvableIssues": "Problème non reconnu avec \"{{ productCode }}\".",
+                "success": "Les produits ont été ajoutés avec succès au panier"
+            },
+            "areYouSureToReplaceCart": "Le panier actuel sera remplacé par de nouveaux articles. Souhaitez-vous continuer ?",
+            "cancel": "Annuler",
+            "continue": "Continuer"
+        }
+    }
+}

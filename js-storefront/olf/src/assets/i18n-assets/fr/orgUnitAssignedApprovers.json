@@ -1,9 +1,0 @@
-{
-  "orgUnitAssignedApprovers": {
-    "title": "Approbateurs assignés",
-    "subtitle": "Unité: {{item.name}}",
-    "assigned": "Utilisateur {{item.name}} assigné avec succès",
-    "unassigned": "Utilisateur {{item.name}} retiré avec succès",
-    "hint": "Les utilisateurs affichés sous la liste des approbateurs se voient attribuer des privilèges d'approbation pour les acheteurs de cette unité et des unités enfants. Notez qu'un utilisateur qui a le rôle d'approbateur est distinct d'un approbateur qui apparaît sous la liste des approbateurs. Si un approbateur n'existe pas pour une unité, ou si les approbateurs ne disposent pas de privilèges d'achat suffisants, un approbateur situé plus haut dans la hiérarchie de l'unité est recherché, jusqu'à ce qu'une administration soit choisie."
-  }
-}

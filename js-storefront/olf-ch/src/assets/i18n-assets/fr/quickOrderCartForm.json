@@ -1,0 +1,18 @@
+{
+  "quickOrderCartForm": {
+    "entriesWereAdded": "({{ quantity }}) {{ product }} ont été ajoutés au panier",
+    "entryWasAdded": "{{ product }} a été ajouté au panier",
+    "noResults": "Nous n'avons pas pu trouver de produits",
+    "stockLevelReached": "Le niveau de stock maximum a été atteint",
+    "title": "Commande rapide",
+    "productCodePlaceholder": "Saisissez le EAN",
+    "entryProductCode": "Saisissez le numéro EAN du produit pour commande rapide",
+    "quantity": "Quantité pour commande rapide",
+    "addToCart": "Ajouter au panier",
+    "add": "Ajouter",
+    "product": "Produit",
+    "products": "Produits",
+    "productCodeLabel": "Numéro EAN",
+    "quantityLabel": "Qté"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "orgAccountSummary": {
+    "header": "Alle Kontozusammenfassungen ({{count}})",
+    "name": "Unit",
+    "details": {
+      "header": "Kontozusammenfassungsdetails",
+      "uid": "Unit ID",
+      "name": "Unit Name",
+      "address": "Address",
+      "creditRep": "Credit Rep",
+      "creditLine": "Credit Line",
+      "currentBalance": "Aktueller Saldo",
+      "openBalance": "Offener Saldo",
+      "pastDueBalance": "Überfälliger Saldo",
+      "dayRange": "{{minBoundary}}-{{maxBoundary}} Tage",
+      "dayPlus": "{{minBoundary}}+ Tage",
+      "notApplicable": "na"
+    },
+    "document": {
+      "header": "Documents",
+      "id": "Document Number",
+      "type": "Document Type",
+      "date": "Created On",
+      "dueDate": "Fällig am",
+      "originalAmount": "Ursprünglicher Betrag",
+      "openAmount": "Offener Betrag",
+      "status": "Status",
+      "attachment": "Anhang",
+      "download": "Herunterladen",
+      "attachmentDescription": "Anhang für {{type}} {{id}} herunterladen.",
+      "noneFound": "Keine Dokumente gefunden"
+    },
+    "sorts": {
+      "byCreatedAtDateAsc": "Aufsteigend erstellt",
+      "byCreatedAtDateDesc": "Erstellt beim Absteigen",
+      "byDueAtDateAsc": "Fällig beim Aufsteigen",
+      "byDueAtDateDesc": "Fällig beim Absteigen",
+      "byOriginalAmountAsc": "Ursprünglicher Betrag aufsteigend",
+      "byOriginalAmountDesc": "Ursprünglicher Betrag absteigend",
+      "byOpenAmountAsc": "Offener Betrag aufsteigend",
+      "byOpenAmountDesc": "Offener Betrag absteigend",
+      "byOrgDocumentTypeAsc": "Dokumenttyp aufsteigend",
+      "byOrgDocumentTypeDesc": "Dokumenttyp absteigend",
+      "byStatusAsc": "Status aufsteigend",
+      "byStatusDesc": "Status absteigend",
+      "byOrgDocumentIdAsc": "Dokumentnummer aufsteigend",
+      "byOrgDocumentIdDesc": "Dokumentnummer absteigend"
+    },
+    "statuses": {
+      "open": "Offen",
+      "closed": "Geschlossen",
+      "all": "Alle"
+    },
+    "filterByOptions": {
+      "orgDocumentId": "Dokumentnummer",
+      "orgDocumentIdRange": "Dokumentnummernbereich",
+      "orgDocumentType": "Dokumenttyp",
+      "createdAtDateRange": "Erstellt am Bereich",
+      "dueAtDateRange": "Fällig im Bereich",
+      "amountRange": "Ursprünglicher Betragsbereich",
+      "openAmountRange": "Offener Betragsbereich"
+    },
+    "sortBy": "Sortieren nach",
+    "sortDocuments": "Dokumente sortieren",
+    "filter": {
+      "status": "Status",
+      "filterBy": "Filtern nach",
+      "documentNumber": "Dokumentnummer",
+      "documentType": "Dokumenttyp",
+      "startRange": "Aus",
+      "endRange": "Zu",
+      "clear": "Alles löschen",
+      "search": "Suchen",
+      "errors": {
+        "toDateMustComeAfterFrom": "Wählen Sie ein Enddatum aus, das nach dem Startdatum liegt.",
+        "toAmountMustBeLargeThanFrom": " Wählen Sie einen Endbereichswert, der kleiner als der Startwert ist."
+      }
+    },
+    "hint": " Kontozusammenfassungen ermöglichen es Ihnen, allgemeine Informationen über eine Einheit zu überprüfen, einschließlich Salden und Altersübersichten von Rechnungen. Hier können Sie auch durch eine Liste von Transaktionsdokumenten für eine Einheit blättern."
+  }
+}

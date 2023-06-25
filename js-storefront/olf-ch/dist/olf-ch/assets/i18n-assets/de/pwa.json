@@ -1,0 +1,9 @@
+{
+    "pwa": {
+        "addToHomeScreenDescription": "Fügen Sie den SAP Showcase zum Startbildschirm Ihres Geräts hinzu, um einen schnelleren Besuch zu ermöglichen.",
+        "noInstallationNeeded": "Es ist keine Installation erforderlich",
+        "fastAccessToApplication": "Schneller Zugriff auf die Anwendung",
+        "addToHomeScreen": "Zum Startbildschirm hinzufügen",
+        "addedToHomeScreen": "SAP Storefront wurde zu Ihrem Startbildschirm hinzugefügt."
+    }
+}

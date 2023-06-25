@@ -1,0 +1,17 @@
+{
+  "quickOrderTable": {
+    "product": "Produkt",
+    "id": "ID",
+    "price": "Preis",
+    "quantity": "Menge",
+    "itemPrice": "Preis pro Einheit",
+    "qty": "Anzahl",
+    "actions": "Aktionen",
+    "inStock": "Auf Lager",
+    "lowStock": "Niedriger Bestand",
+    "outOfStock": "Aus dem Bestand",
+    "listCleared": "Die Schnellbestellungsliste wurde geleert",
+    "addedtoCart": "Die Liste der Schnellbestellungen wurde zum Warenkorb hinzugefügt",
+    "caption": "Schnelle Bestellung - Inhalt."
+  }
+}

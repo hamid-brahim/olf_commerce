@@ -1,0 +1,13 @@
+{
+  "quickOrderForm": {
+    "placeholder": "Geben Sie den Produktnamen/EAN Nummer ein",
+    "searchBoxLabel": "Geben Sie den Produktnamen oder die EAN NUmmer für eine Schnellbestellung ein. Sie können bis zu {{ Limit }} Produkte pro Bestellung hinzufügen.",
+    "listLimitReached": "Das Limit des Produkts wurde erreicht.",
+    "id": "ID {{ id }}",
+    "noResults": "Wir haben keine Ergebnisse gefunden",
+    "addProduct": "Produkt hinzufügen {{ Produkt }}",
+    "initialDescription": "Wenn die Ergebnisse der Autovervollständigung verfügbar sind, verwenden Sie die Pfeile nach oben und unten, um zu überfliegen, und geben Sie ein, um auszuwählen.",
+    "productsResults": "Die Produkte {{ count }} sind verfügbar.",
+    "quickOrderSearch": "Ein Produkt für eine Schnellbestellung finden"
+  }
+}

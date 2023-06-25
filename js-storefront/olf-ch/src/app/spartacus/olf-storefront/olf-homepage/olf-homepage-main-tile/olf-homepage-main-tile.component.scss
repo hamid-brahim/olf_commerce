@@ -1,0 +1,52 @@
+h1 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-left: -4px;
+}
+
+h3 {
+  color: #da3a3a;
+  font-size: 18px;
+  line-height: 21.78px;
+  font-weight: 700;
+}
+
+.summary {
+  color: #a6a5a5;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  @media (max-width: 576px) {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.row {
+  @media (max-width: 992px) {
+    justify-content: center;
+  }
+}
+
+.price {
+  color: #ef3e3c;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.05px;
+  @media (max-width: 576px) {
+    justify-content: center;
+  }
+}
+
+.content-image {
+  flex-grow: 0;
+  margin: 30px;
+}
+
+@media (max-width: 992px) {
+  .row {
+    div:last-of-type {
+      margin-bottom: 1rem;
+    }
+  }
+}

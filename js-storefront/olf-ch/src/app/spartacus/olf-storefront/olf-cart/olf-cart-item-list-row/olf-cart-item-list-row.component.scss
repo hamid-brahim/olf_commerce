@@ -1,0 +1,28 @@
+@import '@spartacus/styles/index';
+
+.cx-remove-btn {
+  @include type('7');
+  text-transform: var(--cx-button-text-transform);
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+
+  &:hover {
+    color: var(--cx-color-primary);
+    text-decoration: none;
+  }
+
+  text-align: end;
+}
+
+.form-check-input {
+  &:focus {
+    outline: none;
+  }
+}
+
+.product-label {
+  &:focus {
+    outline: none;
+  }
+}

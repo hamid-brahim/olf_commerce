@@ -12,16 +12,12 @@
             }
         },
         {
-            "name": "olf",
-            "path": "olf",
-            "ssr": {
-                "enabled": true,
-                "path": "dist/olf/server/main.js"
-            },
+            "name": "olf-ch",
+            "path": "olf-ch",
             "csr": {
-                "webroot": "dist/olf/browser/"
+                "webroot": "dist/olf-ch"
             }
         }
     ],
-    "nodeVersion": "14"
+    "nodeVersion": "16"
 }

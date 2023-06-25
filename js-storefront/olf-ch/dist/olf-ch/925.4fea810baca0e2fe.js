@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkolf_ch=self.webpackChunkolf_ch||[]).push([[925],{4925:(f,n,e)=>{e.r(n),e.d(n,{S4omModule:()=>d});var u=e(4650);let d=(()=>{class o{}return o.\u0275fac=function(c){return new(c||o)},o.\u0275mod=u.oAB({type:o}),o.\u0275inj=u.cJS({}),o})()}}]);

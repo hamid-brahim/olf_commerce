@@ -1,0 +1,1 @@
+{"version":3,"file":"olfAuthConfig.js","sourceRoot":"","sources":["../../../../../../src/app/spartacus/olf-storefront/auth/olfAuthConfig.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,aAAa,GAAe;IACvC,cAAc,EAAE;QACd,SAAS,EAAE,YAAY;QACvB,aAAa,EAAE,sCAAsC;QACrD,aAAa,EAAE,cAAc;QAC7B,cAAc,EAAE,eAAe;QAC/B,QAAQ,EAAE,kBAAkB;KAE7B;CACF,CAAA"}

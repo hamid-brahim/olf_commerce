@@ -1,0 +1,18 @@
+{
+  "loginForm": {
+    "forgotPassword": "Passwort vergessen?",
+    "signIn": "Melden Sie sich an",
+    "register": "Registrieren Sie sich",
+    "dontHaveAccount": "Sie haben noch kein Kundenkonto?",
+    "guestCheckout": "Zahlung Besucher",
+    "emailAddress": {
+      "label": "E-Mail-Adresse",
+      "placeholder": "Bitte geben Sie Ihre E-Mail-Adresse ein"
+    },
+    "password": {
+      "label": "Passwort",
+      "placeholder": "Passwort"
+    },
+    "wrongEmailFormat": "Das ausgefüllte Format der E-Mail ist ungültig."
+  }
+}

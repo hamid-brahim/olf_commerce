@@ -1,0 +1,181 @@
+@import "@spartacus/styles/index";
+
+// app-olf-product-list-item {
+.cx-product-search-list {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: var(--cx-color-light);
+  margin: 0 0 25px 0;
+  &:last-of-type {
+    border-width: 0 0 0 0;
+  }
+}
+
+.cx-product-image-container {
+  display: block;
+  text-align: center;
+  height: 100%;
+  @include media-breakpoint-down(sm) {
+    padding-top: 1.5rem;
+    h1 {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.cx-product-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.cx-product-name {
+  @include type("5");
+  text-align: start;
+  display: block;
+  margin: 0 0 3px 0;
+  color: var(--cx-color-dark);
+  text-decoration: none;
+  @include media-breakpoint-down(sm) {
+    min-height: auto !important;
+    height: 0.5rem !important;
+  }
+
+  h2 {
+    @include type("5");
+
+    @include media-breakpoint-down(sm) {
+      min-height: auto !important;
+    }
+  }
+
+  &:hover {
+    color: var(--cx-color-primary);
+  }
+}
+
+.cx-product-price {
+  @include type("3");
+  text-align: start;
+  margin: 15px 0 0 0;
+
+  &.old {
+    color: var(--cx-color-secondary);
+    text-decoration: line-through;
+  }
+
+  &.new {
+    margin-top: 0;
+    margin-inline-end: 0;
+    margin-bottom: 0;
+    margin-inline-start: 5px;
+    color: var(--cx-color-primary);
+  }
+}
+
+cx-media.is-missing {
+  min-height: 255px;
+}
+
+cx-variant-style-icons {
+  display: block;
+  margin-top: 1rem;
+}
+
+@include media-breakpoint-down(sm) {
+  .cx-product-search-list {
+    padding-bottom: 15px;
+    .row {
+      div.col:nth-child(3) {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  .cx-product-image {
+    max-height: 255px;
+  }
+
+  .cx-product-name,
+  .cx-product-rating,
+  .cx-product-price {
+    text-align: center;
+  }
+
+  .cx-product-name {
+    height: 2.5rem;
+  }
+
+  .cx-product-price {
+    margin: 1rem 0;
+  }
+
+  .cx-product-no-review {
+    text-align: center;
+  }
+}
+// }
+
+.product-summary {
+  padding-top: 10px;
+}
+
+.author {
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.title {
+  color: #f38989;
+}
+
+.description {
+  color: #999999;
+  font-weight: bold;
+}
+
+.GREEN {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #4cd06d;
+  border-radius: 50%;
+}
+
+.ORANGE {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.RED {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+td {
+  text-align: right;
+}
+
+small {
+  color: #a6a5a5;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+a:focus {
+  outline: none;
+}
+
+.subtitle {
+  font-weight: bold;
+}

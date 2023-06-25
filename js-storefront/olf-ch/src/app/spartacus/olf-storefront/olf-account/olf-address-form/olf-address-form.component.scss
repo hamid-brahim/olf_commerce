@@ -1,0 +1,14 @@
+.company-name {
+  input[type='text']::placeholder {
+    color: #6c7079;
+    opacity: 1;
+  }
+
+  input[type='text']:-ms-input-placeholder {
+    color: #6c7079;
+  }
+
+  input[type='text']::-ms-input-placeholder {
+    color: #6c7079;
+  }
+}

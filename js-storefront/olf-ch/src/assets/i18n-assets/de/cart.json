@@ -1,0 +1,66 @@
+{
+    "cartDetails": {
+        "id": "ID",
+        "proceedToCheckout": "Zur Kasse gehen",
+        "cartName": "Warenkorb #{{code}}",
+        "remark": "Anmerkung"
+    },
+    "cartItems": {
+        "id": "ID",
+        "description": "Beschreibung",
+        "item": "Objekt",
+        "itemPrice": "Preis",
+        "quantity": "Anzahl",
+        "quantityTitle": "Die Menge stellt die Gesamtzahl dieses Artikels in Ihrem Warenkorb dar.",
+        "total": "Gesamt",
+        "cartTotal": "Gesamtwert des Warenkorbs (Artikel {{count}})",
+        "cartTotal_other": "Warenkorb gesamt ({{count}} Artikel)",
+        "label": "Etikett",
+        "reference": "Produktreferenz"
+    },
+    "orderCost": {
+        "orderSummary": "Zusammenfassung der Bestellung",
+        "subtotal": "Teilsumme nach Rabatten :",
+        "shipping": "Versand :",
+        "estimatedShipping": "Geschätzter Versand :",
+        "discount": "Sie retteten :",
+        "salesTax": "Verkaufssteuer :",
+        "grossTax": "Der Gesamtbetrag der Bestellung enthält nicht die Steuer von",
+        "grossIncludeTax": "Der Gesamtbetrag der Bestellung enthält eine Steuer von",
+        "total": "Insgesamt :",
+        "toBeDetermined": "TBD"
+    },
+    "voucher": {
+        "coupon": "Haben Sie einen Gutschein?",
+        "coupon_other": "Gutscheincodes",
+        "apply": "Bewerben",
+        "placeholder": "Promo-Code",
+        "applyVoucherSuccess": "{{voucherCode}} wurde angewendet.",
+        "removeVoucherSuccess": "{{voucherCode}} wurde gelöscht.",
+        "anchorLabel": "Geben Sie Ihren Gutscheincode ein oder löschen Sie ihn",
+        "vouchersApplied": "Angewandte Coupons",
+        "availableCoupons": "Verfügbare Gutscheine",
+        "availableCouponsLabel": "Sie können diese Coupons zu dieser Bestellung hinzufügen."
+    },
+    "saveForLaterItems": {
+        "itemTotal": "Für später gespeichert (Element {{count}})",
+        "itemTotal_other": "Für später gespeichert ({{count}} items)",
+        "cartTitle": "Warenkorb",
+        "saveForLater": "Für später speichern",
+        "moveToCart": "Zum Warenkorb gehen",
+        "stock": "Bestand",
+        "forceInStock": "Auf Lager"
+    },
+    "validation": {
+        "cartEntriesChangeDuringCheckout": "Bei der Bezahlung haben wir Probleme mit Ihren Eingaben festgestellt. Bitte überprüfen Sie Ihren Warenkorb.",
+        "cartEntryRemoved": "{{Name}} wurde aus dem Warenkorb entfernt, da es nicht mehr lieferbar ist.",
+        "productOutOfStock": "{{Name}} wurde aus dem Warenkorb entfernt, weil es nicht mehr vorrätig ist.",
+        "lowStock": "Die Menge wurde aufgrund eines unzureichenden Bestands auf {{Menge}} reduziert.",
+        "reviewConfiguration": "Lösen Sie zunächst die Probleme, die mit der Konfiguration des Korbeintrags zusammenhängen.",
+        "pricingError": "Die Preisgestaltung für den Konfigurator ist derzeit nicht verfügbar. Es ist nicht möglich, zur Kasse zu gehen oder ein Angebot abzugeben. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.",
+        "unresolvableIssues": "Die Konfiguration des Produkts erfordert zusätzliche Einträge im Backend. Daher können Sie nicht fortfahren. Bitte wenden Sie sich an den Support."
+    },
+  "clearCart": {
+    "clearCart": "Übersichtlicher Warenkorb"
+  }
+}

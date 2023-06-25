@@ -1,0 +1,59 @@
+.pdm {
+  margin-left: 25px;
+}
+
+.type {
+  color: #aaa7a7;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31.47px;
+}
+
+.summary {
+  color: #a6a5a5;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.price {
+  color: #ef3e3c;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+
+.content-image {
+  margin-right: -60px;
+}
+
+img {
+  display: block;
+  max-width: 117.15px;
+  max-height: 197.47px;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .row {
+    flex-wrap: nowrap;
+    width: 98%;
+  }
+  .pdm {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .row {
+    margin: 0 auto;
+  }
+}

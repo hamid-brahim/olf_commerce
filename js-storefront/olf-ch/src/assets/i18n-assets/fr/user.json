@@ -1,0 +1,112 @@
+{
+    "userAccount": {
+        "loginForm": {
+            "forgotPassword": "Mot de passe oublié ?",
+            "signIn": "S'inscrire",
+            "register": "S'enregistrer",
+            "dontHaveAccount": "Vous n'avez pas de compte ?",
+            "guestCheckout": "Contrôle des invités",
+            "emailAddress": {
+                "label": "Adresse électronique",
+                "placeholder": "Saisir l'adresse électronique"
+            },
+            "password": {
+                "label": "Mot de passe",
+                "placeholder": "Mot de passe"
+            },
+            "wrongEmailFormat": "Il ne s'agit pas d'un format de courrier électronique valide."
+        },
+        "miniLogin": {
+            "userGreeting": "Bonjour, {{nom}}",
+            "signInRegister": "S'inscrire / S'enregistrer"
+        }
+    },
+    "userProfile": {
+        "updateEmailForm": {
+            "newEmailAddress": {
+                "label": "Nouvelle adresse électronique",
+                "placeholder": "Saisir l'adresse électronique"
+            },
+            "confirmNewEmailAddress": {
+                "label": "Confirmer la nouvelle adresse électronique",
+                "placeholder": "Saisir l'adresse électronique"
+            },
+            "enterValidEmail": "Veuillez saisir un courriel valide.",
+            "bothEmailMustMatch": "Les deux courriels doivent correspondre",
+            "password": {
+                "label": "Mot de passe",
+                "placeholder": "Saisir le mot de passe"
+            },
+            "pleaseInputPassword": "Veuillez saisir le mot de passe",
+            "emailUpdateSuccess": "Succès. Veuillez vous connecter avec {{ newUid }}"
+        },
+        "register": {
+            "confirmPassword": {
+                "action": "Confirmer le mot de passe",
+                "label": "Confirmer le mot de passe",
+                "placeholder": "Confirmer le mot de passe"
+            },
+            "managementInMyAccount": "Gestion dans Mon compte.",
+            "termsAndConditions": "Conditions générales d'utilisation",
+            "signIn": "J'ai déjà un compte. S'identifier",
+            "register": "S'enregistrer",
+            "confirmNewPassword": "Confirmer le nouveau mot de passe",
+            "resetPassword": "Réinitialiser le mot de passe",
+            "createAccount": "Créer un compte",
+            "title": "Titre",
+            "firstName": {
+                "label": "Prénom",
+                "placeholder": "Prénom"
+            },
+            "lastName": {
+                "label": "Nom de famille",
+                "placeholder": "Nom de famille"
+            },
+            "emailAddress": {
+                "label": "Adresse électronique",
+                "placeholder": "Adresse électronique"
+            },
+            "password": {
+                "label": "Mot de passe",
+                "placeholder": "Mot de passe"
+            },
+            "newPassword": "Nouveau mot de passe",
+            "emailMarketing": "Utiliser mes données personnelles pour recevoir des lettres d'information par courrier électronique dans le cadre de campagnes de marketing. Pour modifier vos paramètres, rendez-vous sur la page Gestion des consentements dans Mon compte.",
+            "confirmThatRead": "Je confirme que j'ai lu et que j'accepte la",
+            "selectTitle": "Sélectionner le titre",
+            "passwordMinRequirements": "Le mot de passe doit comporter au moins six caractères, dont une lettre majuscule, un chiffre et un symbole.",
+            "bothPasswordMustMatch": "Les deux mots de passe doivent correspondre",
+            "titleRequired": "Le titre est obligatoire.",
+            "postRegisterMessage": "Veuillez vous connecter avec les informations d'identification fournies."
+        },
+        "forgottenPassword": {
+            "resetPassword": "Réinitialiser le mot de passe",
+            "enterEmailAddressAssociatedWithYourAccount": "Saisissez l'adresse électronique associée à votre compte",
+            "emailAddress": {
+                "label": "Adresse électronique",
+                "placeholder": "Saisir l'adresse électronique"
+            },
+            "enterValidEmail": "Veuillez saisir un courriel valide.",
+            "passwordResetEmailSent": "Un courriel vous a été envoyé avec des informations sur la manière de réinitialiser votre mot de passe.",
+            "passwordResetSuccess": "Succès ! Vous pouvez maintenant vous connecter en utilisant votre nouveau mot de passe."
+        }
+    },
+    "anonymousConsents": {
+        "preferences": "Préférences en matière de consentement",
+        "dialog": {
+            "title": "Gestion des consentements",
+            "legalDescription": "Nous utilisons les cookies/le stockage du navigateur pour personnaliser le contenu et améliorer l'expérience de l'utilisateur. Nous pouvons également partager les données relatives à votre utilisation du site avec nos médias sociaux. Pour plus d'informations, veuillez consulter notre politique de confidentialité.",
+            "selectAll": "Sélectionner tout",
+            "clearAll": "Tout effacer"
+        },
+        "banner": {
+            "title": "Ce site web utilise des cookies",
+            "description": "Nous utilisons les cookies/le stockage du navigateur pour personnaliser le contenu et améliorer l'expérience de l'utilisateur.",
+            "allowAll": "Autoriser tout",
+            "viewDetails": "Voir les détails"
+        }
+    },
+  "authMessages": {
+    "signedOutSuccessfully": "Déconnexion réussie"
+  }
+}

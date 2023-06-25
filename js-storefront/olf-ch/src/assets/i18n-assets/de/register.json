@@ -1,0 +1,75 @@
+{
+    "quickOrderList": {
+        "addToCart": "In den Warenkorb",
+        "emptyList": "Liste löschen",
+        "header": "Produkte/Lagereinheiten hinzufügen",
+        "subHeader": "Sie können bis zu {{ Grenze }} gültige EAN hinzufügen.",
+        "errorProceedingToCart": "Fehler im Warenkorb.",
+        "warningProceedingToCart": "Warnung Gehen Sie zum Warenkorb.",
+        "successfullyAddedToCart": "Erfolgreich in den Warenkorb gelegt.",
+        "errors": {
+            "productIsOutOfStock": "{{name }} (#{{code}}) ist ausverkauft.",
+            "reviewErrors": "Bitte überprüfen Sie diese Fehler.",
+            "listIsFull": "Die Liste ist voll, fügen Sie diese Produkte {{ count }} dem Warenkorb hinzu, um fortzufahren.",
+            "nonPurchasableError": "Das Produkt {{ Name }} kann nicht gekauft werden",
+            "outOfStockErrorFound": "Das Produkt {{count}} ausverkauft wurde nicht hinzugefügt.",
+            "outOfStockErrorFound_other": "{Die Produkte, die nicht mehr auf Lager sind, wurden nicht hinzugefügt."
+        },
+        "warnings": {
+            "productWasReduced": "Die Menge für {{ Name }} (#{{code}}) wurde auf {{ hinzugefügte Menge}} reduziert.",
+            "reviewWarnings": "Bitte beachten Sie diese Warnhinweise.",
+            "reduceWarningFound": "Die Menge des Produkts {{count}} wurde verringert.",
+            "reduceWarningFound_other": "Die Mengen der {{count}}-Produkte wurden reduziert."
+        },
+        "successes": {
+            "productAddedToCart": "{{name }} (#{{code}}) wurde in den Warenkorb gelegt.",
+            "addedToCartFound": "Das Produkt {{ count }} wurde in den Warenkorb gelegt.",
+            "addedToCartFound_other": "{{ count }} Produkte wurden zum Warenkorb hinzugefügt."
+        },
+        "informations": {
+            "addProductBeforeAddingToCart": "Fügen Sie Produkte zur Liste hinzu, bevor Sie sie In den Warenkorb."
+        },
+        "undo": "ABBRECHEN",
+        "revokeUndo": "Löschung des widerrufenen Produkts {{Name}}.",
+        "productWasDeleted": "Das Produkt {{ Name }} wurde in den Mülleimer verschoben."
+    },
+    "register": {
+        "confirmPassword": {
+            "action": "Bestätigen Sie das Passwort",
+            "label": "Bestätigen Sie das Passwort",
+            "placeholder": "Bestätigen Sie das Passwort"
+        },
+        "managementInMyAccount": "Verwaltung in Mein Konto.",
+        "termsAndConditions": "Allgemeine Nutzungsbedingungen",
+        "signIn": "Ich habe bereits ein Konto. Anmelden",
+        "register": "Register",
+        "confirmNewPassword": "Bestätigen Sie das neue Passwort",
+        "resetPassword": "Das Passwort zurücksetzen",
+        "createAccount": "Ein Konto erstellen",
+        "title": "Titel",
+        "firstName": {
+            "label": "Vorname",
+            "placeholder": "Vorname"
+        },
+        "lastName": {
+            "label": "Nachname",
+            "placeholder": "Nachname"
+        },
+        "emailAddress": {
+            "label": "E-Mail-Adresse",
+            "placeholder": "E-Mail-Adresse"
+        },
+        "password": {
+            "label": "Passwort",
+            "placeholder": "Passwort"
+        },
+        "newPassword": "Neues Passwort",
+        "emailMarketing": "Meine persönlichen Daten verwenden, um im Rahmen von Marketingkampagnen E-Mail-Newsletter zu erhalten. Um Ihre Einstellungen zu ändern, besuchen Sie die Seite Einwilligungen verwalten in Mein Konto.",
+        "confirmThatRead": "Ich bestätige, dass ich die",
+        "selectTitle": "Titel auswählen",
+        "passwordMinRequirements": "Das Passwort muss aus mindestens sechs Zeichen bestehen, darunter ein Großbuchstabe, eine Zahl und ein Symbol.",
+        "bothPasswordMustMatch": "Die beiden Passwörter müssen übereinstimmen",
+        "titleRequired": "Der Titel ist obligatorisch.",
+        "postRegisterMessage": "Bitte melden Sie sich mit den bereitgestellten Anmeldeinformationen an."
+    }
+}

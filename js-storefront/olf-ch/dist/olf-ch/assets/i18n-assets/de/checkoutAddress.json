@@ -1,0 +1,10 @@
+{
+    "checkoutAddress": {
+        "deliveryAddress": "Delivery Address",
+        "selectYourDeliveryAddress": "Wählen Sie Ihre Lieferadresse",
+        "defaultDeliveryAddress": "Default Delivery Address",
+        "addNewAddress": "Add New Address",
+        "shipToThisAddress": "Ship to this address",
+        "deliveryAddressSelected": "Ausgewählte Lieferadresse"
+    }
+}

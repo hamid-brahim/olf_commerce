@@ -1,0 +1,75 @@
+{
+    "quickOrderList": {
+        "addToCart": "Ajouter au panier",
+        "emptyList": "Liste vide",
+        "header": "Ajouter des produits/unités de stock",
+        "subHeader": "Vous pouvez ajouter jusqu'à {{ limite }} UGS valides à la fois.",
+        "errorProceedingToCart": "Erreur dans le panier.",
+        "warningProceedingToCart": "Avertissement procéder au panier.",
+        "successfullyAddedToCart": "Ajouté avec succès au panier.",
+        "errors": {
+            "productIsOutOfStock": "{{ nom }} (#{{code}}) est en rupture de stock.",
+            "reviewErrors": "Veuillez revoir ces erreurs.",
+            "listIsFull": "La liste est pleine, ajoutez ces produits {{ count }} au panier pour continuer.",
+            "nonPurchasableError": "Le produit {{ nom }} ne peut pas être acheté",
+            "outOfStockErrorFound": "Le produit {{count}} en rupture de stock n'a pas été ajouté.",
+            "outOfStockErrorFound_other": "{Les produits en rupture de stock n'ont pas été ajoutés."
+        },
+        "warnings": {
+            "productWasReduced": "La quantité pour {{ nom }} (#{{code}}) a été réduite à {{ quantité ajoutée}}.",
+            "reviewWarnings": "Veuillez prendre connaissance de ces avertissements.",
+            "reduceWarningFound": "La quantité du produit {{count}} a été réduite.",
+            "reduceWarningFound_other": "Les quantités de produits {{count}} ont été réduites."
+        },
+        "successes": {
+            "productAddedToCart": "{{ nom }} (#{{code}}) a été ajouté au panier.",
+            "addedToCartFound": "Le produit {{ count }} a été ajouté au panier.",
+            "addedToCartFound_other": "{{ count }} produits ont été ajoutés au panier."
+        },
+        "informations": {
+            "addProductBeforeAddingToCart": "Ajouter des produits à la liste avant de les ajouter au panier."
+        },
+        "undo": "ANNULER",
+        "revokeUndo": "Suppression du produit {{nom}} révoqué.",
+        "productWasDeleted": "Le produit {{ nom }} a été déplacé vers la poubelle."
+    },
+    "register": {
+        "confirmPassword": {
+            "action": "Confirmer le mot de passe",
+            "label": "Confirmer le mot de passe",
+            "placeholder": "Confirmer le mot de passe"
+        },
+        "managementInMyAccount": "Gestion dans Mon compte.",
+        "termsAndConditions": "Conditions générales d'utilisation",
+        "signIn": "J'ai déjà un compte. S'identifier",
+        "register": "Registre",
+        "confirmNewPassword": "Confirmer le nouveau mot de passe",
+        "resetPassword": "Réinitialiser le mot de passe",
+        "createAccount": "Créer un compte",
+        "title": "Titre",
+        "firstName": {
+            "label": "Prénom",
+            "placeholder": "Prénom"
+        },
+        "lastName": {
+            "label": "Nom de famille",
+            "placeholder": "Nom de famille"
+        },
+        "emailAddress": {
+            "label": "Adresse électronique",
+            "placeholder": "Adresse électronique"
+        },
+        "password": {
+            "label": "Mot de passe",
+            "placeholder": "Mot de passe"
+        },
+        "newPassword": "Nouveau mot de passe",
+        "emailMarketing": "Utiliser mes données personnelles pour recevoir des lettres d'information par courrier électronique dans le cadre de campagnes de marketing. Pour modifier vos paramètres, rendez-vous sur la page Gestion des consentements dans Mon compte.",
+        "confirmThatRead": "Je confirme que j'ai lu et que j'accepte la",
+        "selectTitle": "Sélectionner le titre",
+        "passwordMinRequirements": "Le mot de passe doit comporter au moins six caractères, dont une lettre majuscule, un chiffre et un symbole.",
+        "bothPasswordMustMatch": "Les deux mots de passe doivent correspondre",
+        "titleRequired": "Le titre est obligatoire.",
+        "postRegisterMessage": "Veuillez vous connecter avec les informations d'identification fournies."
+    }
+}

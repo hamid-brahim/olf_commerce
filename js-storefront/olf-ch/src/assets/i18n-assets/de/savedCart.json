@@ -1,0 +1,65 @@
+{
+  "addToSavedCart": {
+    "savedCarts": "Gespeicherte Warenkörbe",
+    "saveCartForLater": "Warenkorb für später speichern"
+  },
+  "savedCartCartPage": {
+    "messages": {
+      "cartSaved": "Ihre Produkte wurden für einen späteren Zeitpunkt im Warenkorb \"{{cartName}}\" gespeichert."
+    }
+  },
+  "savedCartDetails": {
+    "cartName": "Warenkorb #{{code}}",
+    "cartDescription": "{{Beschreibung}}",
+    "cartId": "ID",
+    "dateSaved": "Datum gespeichert",
+    "items": "Artikel",
+    "quantity": "Menge",
+    "total": "Gesamt",
+    "editSavedCart": "Gespeicherten Warenkorb bearbeiten",
+    "deleteSavedCart": "Gespeicherten Warenkorb löschen",
+    "addSelectedItems": "Ausgewählte Elemente hinzufügen",
+    "emptyCartItems": "Den Korb leeren"
+  },
+  "savedCartDialog": {
+    "saveForLater": "Für später speichern",
+    "itemsSavedForLater": "Alle Artikel in Ihrem Warenkorb werden für die spätere Verwendung gespeichert.",
+    "savedCartName": "Name des gespeicherten Einkaufswagens",
+    "savedCartDescription": "Beschreibung des gespeicherten Warenkorbs",
+    "optional": "optional",
+    "charactersLeft": "verbleibende Zeichen: {{count}}",
+    "cancel": "Abbrechen",
+    "save": "Sparen",
+    "restore": "W iederherstellen",
+    "followingCartDelete": "Der nächste gespeicherte Warenkorb wird gelöscht",
+    "followingCartRestore": "Der folgende gespeicherte Warenkorb wird als aktiver Warenkorb wiederhergestellt",
+    "delete": "Löschen",
+    "deleteCartSuccess": "Warenkorb erfolgreich gelöscht",
+    "editCartSuccess": "Warenkorb erfolgreich editiert",
+    "editSavedCart": "Gespeicherten Warenkorb bearbeiten",
+    "deleteSavedCart": "Gespeicherten Warenkorb löschen",
+    "restoreSavedCart": "Gespeicherten Warenkorb wiederherstellen",
+    "name": "Name",
+    "id": "ID",
+    "description": "Beschreibung",
+    "quantity": "QUANTITÄT",
+    "total": "Gesamt",
+    "keepCopySavedCart": "Behalten Sie eine Kopie dieses Einkaufswagens in der Liste der gespeicherten Einkaufswagen.",
+    "defaultCloneCartName": "Kopie von {{Name}}",
+    "nameOfCloneCart": "Name des kopierten Einkaufswagens"
+  },
+  "savedCartList": {
+    "savedCarts": "Gespeicherte Warenkörbe ({{count}})",
+    "cartName": "Name",
+    "cartId": "Id",
+    "dateSaved": "Datum der Speicherung",
+    "cartDescription": "Beschreibung",
+    "quantity": "Anzahl",
+    "total": "Gesamt",
+    "actions": "Aktionen",
+    "makeCartActive": "Warenkorb aktivieren",
+    "notFound": "Keine gespeicherten Warenkörbe gefunden",
+    "swapCartNoActiveCart": "Der vorhandene Warenkorb wurde erfolgreich durch {{cartName}} aktiviert.",
+    "swapCartWithActiveCart": "Der bestehende Einkaufswagen wurde erfolgreich durch {{cartName}} aktiviert. Ihre bisherigen Einkäufe wurden in Warenkorb {{previousCartName}} gespeichert."
+  }
+}

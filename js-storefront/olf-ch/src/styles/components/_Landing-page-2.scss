@@ -1,0 +1,131 @@
+.Imagecategory {
+  img {
+    width: 100% !important;
+  }
+}
+
+.LandingPage2Template {
+  flex-wrap: wrap;
+  max-width: 1700px;
+  margin: 0 auto;
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+
+  cx-page-slot {
+    cx-banner {
+      cx-media {
+        img {
+          display: flex;
+          height: auto;
+        }
+      }
+    }
+
+    &.Section1 {
+      max-width: var(--cx-page-width-max);
+      margin: auto;
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: nowrap;
+      @media (max-width: 992px) {
+        flex-wrap: wrap;
+      }
+    }
+
+    &.Section2A {
+      margin-inline-start: auto;
+      margin-top: 2rem;
+      @media (max-width: 992px) {
+        margin-top: 2rem !important;
+      }
+    }
+
+    &.Section2B {
+      margin-inline-end: auto;
+      flex-direction: column;
+      margin-top: 2rem;
+
+      @media (max-width: 992px) {
+        margin: 0 auto;
+        app-olf-homepage-side-tile {
+          margin-top: 1rem;
+          padding-top: 1rem;
+          .col {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+
+    &.Section2A,
+    &.Section2B {
+      --cx-flex-basis: 50%;
+      max-width: 570px;
+      @media (max-width: 992px) {
+        max-width: 100% !important;
+      }
+    }
+
+    &.Section3 {
+      max-width: var(--cx-page-width-max);
+      margin-left: auto !important;
+      margin-right: auto !important;
+      margin-top: 2rem !important;
+      flex-wrap: nowrap;
+      @media (max-width: 576px) {
+        flex-wrap: wrap;
+      }
+    }
+
+    &.Section4 {
+      color: var(--cx-color, var(--cx-color-light));
+      flex-wrap: nowrap;
+    }
+    &.Section5 {
+      @media (max-width: 992px) {
+        margin-bottom: 3rem;
+        cx-product-carousel {
+          cx-carousel {
+            > div:first-of-type {
+              width: 80%;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+app-olf-homepage-game-tile {
+  @media (max-width: 576px) {
+    max-width: max-content !important;
+    margin: auto !important;
+    margin-top: 1rem !important;
+  }
+  @media (max-width: 992px) {
+    margin-bottom: 2rem;
+    display: flex;
+    .container {
+      max-width: 940px !important;
+      width: 95% !important;
+    }
+  }
+}
+
+app-olf-homepage-others-tile {
+  @media (max-width: 576px) {
+    width: 94%;
+    max-width: max-content !important;
+    margin: auto !important;
+    margin-top: 1rem !important;
+  }
+  @media (max-width: 992px) {
+    display: flex;
+    .container {
+      max-width: 940px !important;
+      width: 95% !important;
+    }
+  }
+}

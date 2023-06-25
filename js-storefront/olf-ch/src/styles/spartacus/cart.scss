@@ -1,0 +1,8 @@
+@import "../../styles-config";
+@import "@spartacus/cart";
+
+%CartPageTemplate {
+    .TopContent {
+        --cx-flex-basis: 100%
+    }
+}
