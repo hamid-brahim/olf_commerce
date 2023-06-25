@@ -1,0 +1,8 @@
+{
+  "orgUserGroupAssignedPermissions":{
+    "title":"Assigned purchase limits",
+    "subtitle":"Limit:{{ item.name }}",
+    "assigned":"Purchase limits {{item.code}} assigned successfully",
+    "unassigned":"Purchase limits {{item.code}} unassigned successfully"
+  }
+}

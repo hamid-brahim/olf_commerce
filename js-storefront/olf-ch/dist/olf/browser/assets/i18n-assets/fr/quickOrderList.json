@@ -1,0 +1,37 @@
+{
+  "quickOrderList": {
+    "addToCart": "Ajouter au panier",
+    "emptyList": "Liste vide",
+    "header": "Ajouter le produit/UGS",
+    "subHeader": "Vous pouvez ajouter {{ limit }} UGS valides à la fois.",
+    "errorProceedingToCart": "Error proceeding to Cart.",
+    "warningProceedingToCart": "Warning proceeding to Cart.",
+    "successfullyAddedToCart": "Ajouté au panier avec succès.",
+    "errors": {
+      "productIsOutOfStock": "{{ name }} (#{{code}}) est hors stock.",
+      "reviewErrors": "Veuillez revoir ces erreurs.",
+      "listIsFull": "La liste est complète, ajoutez ces {{ count }} produits au panier pour continuer.",
+      "nonPurchasableError": "Le produit {{ name }} ne peut pas être acheté",
+      "outOfStockErrorFound": "{{count}} produit en rupture de stock n'a pas été ajouté.",
+      "outOfStockErrorFound_other": "{{count}} produits en rupture de stock n'ont pas été ajoutés."
+    },
+    "warnings": {
+      "productWasReduced": "Quantité pour {{ name }} (#{{code}}) a été réduite à {{ quantityAdded}}.",
+      "reviewWarnings": "Veuillez revoir ces avertissements.",
+      "reduceWarningFound": "{{count}} quantité de produits a été réduite.",
+      "reduceWarningFound_other": "{{count}} quantités de produits ont été réduites."
+    },
+    "successes": {
+      "productAddedToCart": "{{ name }} (#{{code}}) a été ajouté au panier.",
+      "addedToCartFound": "{{ count }} produit a été ajouté au panier.",
+      "addedToCartFound_other": "{{ count }} produits ont été ajoutés au panier."
+    },
+    "informations": {
+      "addProductBeforeAddingToCart": "Mettez les produits dans la lites avant de les ajouter au panier."
+    },
+    "undo": "UNDO",
+    "revokeUndo": "Suppression du produit {{name}} est retirée.",
+    "productWasDeleted": "Le produit {{ name }} déplacé dans la corbeille."
+  }
+}
+

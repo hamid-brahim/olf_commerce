@@ -1,0 +1,13 @@
+{
+  "quickOrderForm": {
+    "placeholder": "Entrez un nom de produit/EAN",
+    "searchBoxLabel": "Entrez le nom du produit ou le numéro EAN pour une commande rapide. Vous pouvez ajouter {{ limit }} produits par commande.",
+    "listLimitReached": "La limite de produit a été atteinte.",
+    "id": "ID {{ id }}",
+    "noResults": "Nous n'avons pas trouvé de résultats",
+    "addProduct": "Ajouter le produit {{ product }}",
+    "initialDescription": "Lorsque les résultats de la saisie semi-automatique sont disponibles, utilisez les flèches vers le haut et vers le bas pour les vérifier et la touche Entrée pour les sélectionner.",
+    "productsResults": "{{ count }} produits sont disponibles.",
+    "quickOrderSearch": "Trouver le produit pour la commande rapide"
+  }
+}

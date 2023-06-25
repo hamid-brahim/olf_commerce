@@ -1,8 +1,0 @@
-{
-  "orgUserGroupPermissions":{
-    "title":"Gérer les limites d'achat",
-    "subtitle":"Limite:{{ item.name }}",
-    "assigned":"Limites d'achat {{item.code}} assigné avec succès",
-    "unassigned":"Limites d'achat {{item.code}} retiré avec succès"
-  }
-}

@@ -1,0 +1,27 @@
+<div class="filled-cart">
+  <ng-container *ngIf="(isStable$ | async); else loading">
+    <div class="top-section">
+      <h3 class="header-label">
+        {{ 'filled.total' | cxTranslate: {count: quantity$ | async} }}
+      </h3>
+      <app-olf-cart-item-list
+        (closeSideBar)="dismissCartModal()"
+        [products]="products">
+      </app-olf-cart-item-list>
+    </div>
+    <div class="bottom-section">
+      <app-olf-order-summary></app-olf-order-summary>
+      <button
+      (click)="goToCheckout()"
+      class="btn btn-primary btn-block action-button"
+      >
+      Go to checkout
+    </button>
+    </div>
+  </ng-container>
+  <ng-template #loading>
+    <div class="cx-spinner">
+      <cx-spinner></cx-spinner>
+    </div>
+  </ng-template>
+</div>

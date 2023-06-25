@@ -1,7 +1,0 @@
-{
-  "savedCartCartPage": {
-    "messages": {
-      "cartSaved": "Les articles de votre panier ont été enregistrés avec succès dans le panier \"{{cartName}}\" "
-    }
-  }
-}

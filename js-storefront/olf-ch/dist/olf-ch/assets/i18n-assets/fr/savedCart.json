@@ -1,0 +1,65 @@
+{
+  "addToSavedCart": {
+    "savedCarts": "Paniers sauvegardés",
+    "saveCartForLater": "Sauvegarder pour plus tard"
+  },
+  "savedCartList": {
+    "savedCarts": "Paniers sauvegardés ({{count}})",
+    "cartName": "Nom",
+    "cartId": "Id",
+    "dateSaved": "Date de sauvegarde",
+    "cartDescription": "Description",
+    "quantity": "Qté",
+    "total": "Total",
+    "actions": "Actions",
+    "makeCartActive": "Activer le panier",
+    "notFound": "Aucun panier sauvegardé trouvé",
+    "swapCartNoActiveCart": "Panier activé avec succès par {{cartName}}.",
+    "swapCartWithActiveCart" : "Panier activé par {{cartName}} avec succès.Vous éléments précédents ont été sauvegardés dans le panier {{previousCartName}}."
+  },
+  "savedCartDialog": {
+    "saveForLater": "Sauvegarder pour plus tard",
+    "itemsSavedForLater": "Tous les articles de votre panier seront sauvegardés pour une utilisation ultérieure.",
+    "savedCartName": "Nom du panier sauvegardé",
+    "savedCartDescription": "Description du panier sauvegardé",
+    "optional": "facultatif",
+    "charactersLeft": "caractères restants : {{count}}",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "restore": "Restaurer",
+    "followingCartDelete": "Le panier sauvegardé suivant sera supprimé",
+    "followingCartRestore": "Le panier sauvegardé suivant sera restauré comme panier actif",
+    "delete": "Supprimer",
+    "deleteCartSuccess": "Panier supprimé avec succès",
+    "editCartSuccess": "Panier édité avec succès",
+    "editSavedCart": "Modifier le panier sauvegardé",
+    "deleteSavedCart": "Supprimer le panier sauvegardé",
+    "restoreSavedCart": "Restaurer le panier sauvegardé",
+    "name": "Nom",
+    "id": "ID",
+    "description": "Description",
+    "quantity": "QTÉ",
+    "total": "Total",
+    "keepCopySavedCart": "Conserver une copie de ce panier dans la liste des paniers sauvegardés.",
+    "defaultCloneCartName": "Copie de {{ name }}",
+    "nameOfCloneCart": "Nom du panier copié"
+  },
+  "savedCartCartPage": {
+    "messages": {
+      "cartSaved": "Les articles de votre panier ont été enregistrés avec succès dans le panier {{cartName}} "
+    }
+  },
+  "savedCartDetails": {
+    "cartName": "Panier #{{code}}",
+    "cartDescription": "Description",
+    "cartId": "ID",
+    "dateSaved": "Date de sauvegarde",
+    "items": "Articles",
+    "quantity": "Quantité",
+    "total": "Total",
+    "editSavedCart": "Modifier le panier sauvegardé",
+    "deleteSavedCart": "Supprimer le panier sauvegardé",
+    "addSelectedItems": "Ajouter les éléments sélectionnés",
+    "emptyCartItems": "Vider le panier"
+  }
+}

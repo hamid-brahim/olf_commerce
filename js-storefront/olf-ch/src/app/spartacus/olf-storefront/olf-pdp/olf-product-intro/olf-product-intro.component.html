@@ -1,0 +1,69 @@
+<div class="container">
+  <h3>{{'olf.productDetails' | cxTranslate }}</h3>
+  <div class="some-padding-top row">
+    <div class="col">
+      <table style="width:100%">
+        <tr *ngIf="currentProduct?.EAN">
+          <th>{{'olf.EAN' | cxTranslate}}:</th>
+          <td>{{currentProduct?.EAN}}</td>
+        </tr>
+        <tr *ngIf="getCommonClassificationFeature('publisher')">
+          <th>{{'olf.publisher' | cxTranslate}}:</th>
+          <td>{{getCommonClassificationFeature('publisher')}}</td>
+        </tr>
+        <tr *ngIf="getCommonClassificationFeature('format')">
+          <th>{{'olf.format' | cxTranslate}}:</th>
+          <td>{{getCommonClassificationFeature('format')}}</td>
+        </tr>
+        <tr *ngIf="getClassificationFeature('numberofpages')">
+          <th>{{'olf.pages' | cxTranslate}}:</th>
+          <td>{{getClassificationFeature('numberofpages')}}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="col">
+      <table style="width:100%">
+        <tr *ngIf="getCommonClassificationFeature('width')">
+          <th>{{'olf.width' | cxTranslate}}:</th>
+          <td>{{getCommonClassificationFeature('width')}}</td>
+        </tr>
+        <tr *ngIf="getCommonClassificationFeature('height')">
+          <th>{{'olf.length' | cxTranslate}}:</th>
+          <td>{{getCommonClassificationFeature('height')}}</td>
+        </tr>
+        <tr *ngIf="getCommonClassificationFeature('thickness')">
+          <th>{{'olf.thickness' | cxTranslate}}:</th>
+          <td>{{getCommonClassificationFeature('thickness')}}</td>
+        </tr>
+        <tr *ngIf="getCommonClassificationFeature('weight')">
+          <th>{{'olf.weight' | cxTranslate}}:</th>
+          <td>{{getCommonClassificationFeature('weight')}}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="col">
+      <table style="width:100%">
+        <tr *ngIf="getCommonClassificationFeature('language')">
+          <th>{{'olf.language' | cxTranslate}}:</th>
+          <td>{{getCommonClassificationFeature('language')}}</td>
+        </tr>
+        <tr *ngIf="currentProduct?.category">
+          <th>{{'olf.category' | cxTranslate}}:</th>
+          <td>{{currentProduct?.category}}</td>
+        </tr>
+        <tr *ngIf="getCommonClassificationFeature('publicationdate')">
+          <th>{{'olf.date' | cxTranslate}}:</th>
+          <td>{{getCommonClassificationFeature('publicationdate') | cxDate: "MM/YYYY"}}</td>
+        </tr>
+        <tr *ngIf="currentProduct?.ultimate == true">
+          <th>{{'olf.thema' | cxTranslate}}:</th>
+          <td>Ultimate</td>
+        </tr>
+        <tr *ngIf="getClassificationFeature('country')">
+          <th>Country</th>
+          <td>{{getClassificationFeature('country')}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

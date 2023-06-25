@@ -1,0 +1,24 @@
+{
+  "checkoutB2B": {
+    "noPoNumber": "Kein",
+    "poNumber": "Nummer des Bestellscheins (optional)",
+    "costCenter": "Kostenstelle",
+    "placeholder": "Geben Sie eine Bestellscheinnummer ein",
+    "availableLabel":
+    "Die verfügbaren Lieferadressen hängen von der Einheit der Kostenstelle ab",
+    "invalid": {
+      "accountType": "Ihr Konto erlaubt es Ihnen nicht, zur Kasse zu gehen"
+    },
+    "methodOfPayment": {
+      "paymentType": "Zahlungsweise"
+    },
+    "review": {
+      "poNumber": "Nummer des Bestellscheins"
+    },
+    "progress": {
+      "methodOfPayment": "Zahlungsweise"
+    },
+    "invalidCostCenter": "Kostenstelle ungültig."
+  }
+
+}

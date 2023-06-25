@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkolf_ch=self.webpackChunkolf_ch||[]).push([[342],{3342:(a,r,c)=>{c.r(r),c.d(r,{QuickOrderModule:()=>d});var u=c(4650),e=c(4477),_=c(4889);let d=(()=>{class o{}return o.\u0275fac=function(t){return new(t||o)},o.\u0275mod=u.oAB({type:o}),o.\u0275inj=u.cJS({imports:[_.mV,e.tJ]}),o})()}}]);

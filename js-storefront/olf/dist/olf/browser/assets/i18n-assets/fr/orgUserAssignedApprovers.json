@@ -1,8 +1,0 @@
-{
-  "orgUserAssignedApprovers":{
-    "title": "Approbateurs assignés",
-    "subtitle": "Utilisateur: {{ item.name }}",
-    "assigned": "Approbateur {{ item.name }} est assigné avec succès",
-    "unassigned": "Approbateur {{ item.name }} est retiré avec succès"
-  }
-}

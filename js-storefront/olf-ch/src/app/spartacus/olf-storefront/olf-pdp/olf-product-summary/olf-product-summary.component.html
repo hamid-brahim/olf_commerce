@@ -1,0 +1,72 @@
+<!--<ng-container *ngIf="product$ | async as product">-->
+<div class="product-summary">
+  <div class="row">
+    <div class="col">
+      <div class="author">
+        {{ getClassificationFeature("authors") }}
+        <div class="title">
+          {{ currentProduct?.name }}
+        </div>
+        <div class="subtitle">
+          {{ getCommonClassificationFeature("subtitle") }}
+        </div>
+        <div
+          class="description"
+          [innerHTML]="currentProduct?.description"
+        ></div>
+      </div>
+    </div>
+    <div class="col">
+      <h1>
+        {{ currentProduct?.price?.formattedValue }}
+        <small>{{ "olf.vat" | cxTranslate }}</small>
+      </h1>
+      <table style="width: 100%">
+        <tr class="show-bottom-border">
+          <th>{{ "olf.return" | cxTranslate }}:</th>
+          <td style="color: red">
+            <b>{{ getCommonClassificationFeature("finalsale") }}</b>
+          </td>
+          <hr style="width: 100%; text-align: left; margin-left: 0" />
+        </tr>
+        <tr
+          class="show-bottom-border"
+          *ngIf="currentProduct?.availabilityColor == 'GREEN'"
+        >
+          <th>{{ "olf.availability" | cxTranslate }}:</th>
+          <td><span class="{{ currentProduct?.availabilityColor }}"></span></td>
+        </tr>
+        <tr *ngIf="currentProduct?.availabilityColor !== 'GREEN'">
+          <th>{{ "olf.availability" | cxTranslate }}:</th>
+          <td><span class="{{ currentProduct?.availabilityColor }}"></span></td>
+        </tr>
+        <tr
+          class="show-bottom-border"
+          *ngIf="currentProduct?.availabilityColor !== 'GREEN'"
+        >
+          <!--                    <th>{{'olf.info' | cxTranslate}}:</th>-->
+          <th>&nbsp;</th>
+          <td>{{ getCommonClassificationFeature("availabilitymessage") }}</td>
+        </tr>
+        <tr *ngIf="currentProduct?.availabilityColor !== 'RED'">
+          <td colspan="2">
+            <cx-add-to-cart></cx-add-to-cart>
+          </td>
+        </tr>
+        <tr class="product-reference">
+          <td>
+            <app-olf-product-references
+              referenceType="Similar"
+            ></app-olf-product-references>
+          </td>
+          <td>
+            <app-olf-product-references
+              referenceType="Others"
+            ></app-olf-product-references>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<!--</ng-container>-->

@@ -1,0 +1,18 @@
+{
+    "quickOrderCartForm": {
+        "entriesWereAdded": "Einträge wurden hinzugefügt",
+        "entryWasAdded": "Einträg wurdenhinzugefügt",
+        "noResults": "Kein Ergebnis",
+        "stockLevelReached": "Lagerbestand erreicht",
+        "title": "Schnellbestellung",
+        "productCodePlaceholder": "EAN Nummer",
+        "entryProductCode": "EAN Nummer eintragen",
+        "quantity": "Menge",
+        "addToCart": "An den Warekorb hinzufügen",
+        "add": "hinzufügen.",
+        "product": "Produkt",
+        "products": "Produkte",
+        "productCodeLabel": "EAN Nummer",
+        "quantityLabel": "Menge"
+    }
+}

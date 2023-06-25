@@ -1,0 +1,28 @@
+<div *ngIf="product$| async as product">
+  <di *ngIf="product | async as prd">
+    <div class="container" [routerLink]="{ cxRoute: 'product', params: prd } | cxUrl">
+      <div class="row">
+        <div class="col-lg pdm">
+          <div class="row type">
+            {{ title$ | async}}
+          </div>
+          <div class="row">
+            <h1>{{ prd?.name.slice(0,15) }}</h1>
+          </div>
+          <div class="row summary" *ngIf="prd?.description">
+            <p><span [innerHTML]="prd?.description.slice(0,100).concat('...')"></span></p>
+          </div>
+          <div class="row price">
+            {{ prd.price?.formattedValue }}
+          </div>
+        </div>
+        <div class="col-sm content-image" *ngIf="prd?.images">
+          <!-- <cx-media container="../../../../../assets/prince_harry.png"></cx-media> -->
+          <img src="{{prd.images?.['PRIMARY']['product']?.url}}"/>
+        </div>
+      </div>
+    </div>
+  </di>
+</div>
+
+

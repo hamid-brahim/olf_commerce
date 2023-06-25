@@ -1,0 +1,187 @@
+{
+  "common": {
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "remove": "entfernen",
+    "edit": "bearbeiten",
+    "restore": "Wiederherstellen",
+    "back": "Zurück",
+    "submit": "Einreichen",
+    "continue": "Weiter",
+    "save": "Speichern Sie",
+    "done": "Erledigt",
+    "home": "Startseite",
+    "noData": "Keine Angaben.",
+    "confirm": "Bestätigen Sie",
+    "more": "mehr",
+    "close": "Schließen Sie",
+    "loading": "Laden",
+    "menu": "Menü",
+    "reset": "Zurücksetzen",
+    "search": "Suche",
+    "add": "hinzufügen",
+    "selectFile": "Datei auswählen"
+  },
+  "pageMetaResolver": {
+    "category": {
+      "title": "{{count}} Ergebnis gefunden",
+      "title_other": "{{count}} Ergebnisse gefunden"
+    },
+    "checkout": {
+      "title": "Kasse"
+    },
+    "search": {
+      "title": "{{count}} Ergebnis für \"{{query}}\"",
+      "title_other": "{{count}} Ergebnisse für \"{{query}}\"",
+      "findProductTitle": "{{count}} Ergebnis für Gutschein \"{{coupon}}\"",
+      "findProductTitle_other": "{{count}} Ergebnisse für Coupon \"{{coupon}}\"",
+      "default_title": "Alle Produkte"
+    },
+    "product": {
+      "description": "{{description}}",
+      "heading": "{{heading}}",
+      "title": "{{title}}"
+    }
+  },
+  "spinner": {
+    "loading": "Laden..."
+  },
+  "navigation": {
+    "shopAll": "Alle einkaufen {{ navNode}} >",
+    "categoryNavLabel": "Kategoriemenü",
+    "footerNavLabel": "Footer-Links",
+    "navigateTo": "Navigiere zu {{nav}}",
+    "scrollToTop": "Zurück zum Anfang der Seite scrollen"
+  },
+  "searchBox": {
+    "placeholder": "Hier suchen...",
+    "ariaLabelInput": "Hier suchen...",
+    "ariaLabelSuggestions": "Vorschläge für die Eingabe",
+    "ariaLabelProducts": "Produktergebnisse",
+    "initialDescription": "Wenn die Ergebnisse der automatischen Vervollständigung verfügbar sind, verwenden Sie die Pfeiltasten nach oben und nach unten zur Überprüfung und die Eingabetaste zur Auswahl. Benutzer von Touch-Geräten können durch Berührung oder mit Wischgesten suchen.",
+    "suggestionsResult": "{Vorschlag für die Anzahl und ",
+    "suggestionsResult_other": "{Vorschläge und ",
+    "productsResult": "{Das Produkt ist verfügbar.",
+    "productsResult_other": "{{ count }} Produkte sind verfügbar.",
+    "resetLabel": "Suche zurücksetzen",
+    "help": {
+      "insufficientChars": "Bitte mehr Zeichen eingeben",
+      "noMatch": "Wir konnten keine Ergebnisse finden",
+      "exactMatch": "{{ term }}",
+      "empty": "Fragen Sie uns irgendwas"
+    }
+  },
+  "sorting": {
+    "date": "Datum",
+    "orderNumber": "Bestellnummer",
+    "rma": "Rückgabe Nummer",
+    "replenishmentNumber": "Auffüllungsnummer",
+    "nextOrderDate": "Nächstes Bestelldatum"
+  },
+  "httpHandlers": {
+    "badRequest": {
+      "user_is_disabled": "Konto deaktiviert",
+      "bad_credentials": "Falscher Benutzername oder Passwort. Versuchen Sie es erneut."
+    },
+    "badGateway": "Es ist ein Serverfehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+    "badRequestPleaseLoginAgain": "{{ errorMessage }}. Bitte melden Sie sich erneut an.",
+    "badRequestOldPasswordIncorrect": "Altes Passwort falsch.",
+    "badRequestGuestDuplicateEmail": "{{ errorMessage }} E-Mail existiert bereits. Bitte melden Sie sich mit einer anderen E-Mail-Adresse an, um sich mit einem Gastkonto zu registrieren.",
+    "conflict": "Bereits vorhanden.",
+    "forbidden": "Sie sind nicht berechtigt, diese Aktion durchzuführen. Bitte wenden Sie sich an Ihren Administrator, wenn Sie glauben, dass dies ein Fehler ist.",
+    "gatewayTimeout": "Der Server hat nicht geantwortet, bitte versuchen Sie es später noch einmal.",
+    "internalServerError": "Es ist ein interner Serverfehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+    "sessionExpired": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an.",
+    "unknownError": "Ein unbekannter Fehler ist aufgetreten",
+    "unauthorized": {
+      "common": "Ein unbekannter Autorisierungsfehler ist aufgetreten",
+      "invalid_client": "Schlechte Client-Anmeldeinformationen"
+    },
+    "validationErrors": {
+      "missing": {
+        "card_cardType": "Die ausgewählte Kreditkarte wird nicht unterstützt. Bitte wählen Sie eine andere.",
+        "card_accountNumber": "Die eingegebene Kreditkartennummer ist ungültig.",
+        "card_cvNumber": "Der eingegebene Sicherheitscode ist ungültig.",
+        "card_expirationMonth": "Das eingegebene Ablaufdatum der Kreditkarte ist nicht gültig.",
+        "card_expirationYear": "Das eingegebene Ablaufdatum der Kreditkarte ist nicht gültig.",
+        "billTo_firstName": "Der erste eingegebene Name ist ungültig.",
+        "billTo_lastName": "Der eingegebene Nachname ist ungültig.",
+        "billTo_street1": "Die eingegebene Adresse ist ungültig.",
+        "billTo_street2": "Die eingegebene Adresse ist ungültig.",
+        "billTo_city": "Die eingegebene Stadt ist für diese Kreditkarte nicht gültig.",
+        "billTo_state": "Der eingegebene Staat/die eingegebene Provinz ist für diese Kreditkarte nicht gültig.",
+        "billTo_country": "Das eingegebene Land/Region ist für diese Kreditkarte nicht gültig.",
+        "billTo_postalCode": "Die Postleitzahl ist für diese Kreditkarte nicht gültig.",
+        "country": {
+          "isocode": "Fehlendes Land/Region"
+        }
+      },
+      "invalid": {
+        "card_expirationMonth": "Das eingegebene Ablaufdatum der Kreditkarte ist nicht gültig.",
+        "firstName": "Der eingegebene Vorname ist nicht gültig.",
+        "lastName": "Der eingegebene Nachname ist nicht gültig.",
+        "password": "Das eingegebene Passwort ist ungültig.",
+        "uid": "UID ist nicht gültig.",
+        "code": "Der Code ist nicht gültig.",
+        "email": "E-Mail ist nicht gültig."
+      }
+    },
+    "cartNotFound": "Warenkorb nicht gefunden.",
+    "invalidCodeProvided": "Der angegebene Code ist ungültig.",
+    "voucherExceeded":"Dieser Gutschein hat die Anzahl der Male überschritten, die er verwendet werden kann",
+    "unknownIdentifier": "Nichts gefunden.",
+    "otherCartErrors": "Einkaufswagenfehler aufgetreten."
+  },
+  "miniCart": {
+    "item": "{{count}} Artikel derzeit in Ihrem Warenkorb",
+    "item_other": "{{count}} Artikel, die sich derzeit in Ihrem Warenkorb befinden",
+    "total": "{{total}}§",
+    "count": "{{count}}"
+  },
+  "skipLink": {
+    "skipTo": "Sprung zu",
+    "labels": {
+      "header": "Kopfzeile",
+      "main": "Hauptinhalt",
+      "footer": "Fußzeile",
+      "productFacets": "Produkt-Facetten",
+      "productList": "Produktliste"
+    }
+  },
+  "carousel": {
+    "previousSlide": "Vorheriges Dia",
+    "nextSlide": "Nächste Folie",
+    "slideNumber": "Dia {{currentSlideNumber}}"
+  },
+  "formErrors": {
+    "globalMessage": "Das Formular, das Sie zu übermitteln versuchen, enthält Fehler.",
+    "required": "Dieses Feld ist erforderlich",
+    "cxInvalidEmail": "Dies ist kein gültiges E-Mail-Format",
+    "cxInvalidPassword": "Dies ist kein gültiges Passwortformat",
+    "cxPasswordsMustMatch": "Passwortfelder müssen übereinstimmen",
+    "cxEmailsMustMatch": "E-Mail-Felder müssen übereinstimmen",
+    "cxStarRatingEmpty": "Das Feld Bewertung ist erforderlich",
+    "cxNoSelectedItemToCancel": "Wählen Sie mindestens ein Element",
+    "cxNegativeAmount": "Der Betrag muss gleich oder größer als Null sein",
+    "cxContainsSpecialCharacters": "Feld darf keine Sonderzeichen enthalten",
+    "date": {
+      "required": "Dieses Feld ist erforderlich",
+      "min": "Datum kann nicht vor {{min}} liegen",
+      "max": "Datum kann nicht nach {{max}} liegen",
+      "pattern": "Datumsformat jjjj-mm-tt verwenden",
+      "invalid": "Verwenden Sie ein gültiges Datum"
+    },
+    "file": {
+      "required": "Datei ist erforderlich",
+      "empty": "Datei sollte nicht leer sein",
+      "invalidExtension": "Dateierweiterung ist nicht gültig",
+      "tooLarge": "Die Dateigröße sollte {{ maxSize }} nicht überschreiten MB",
+      "tooManyEntries": "Die Anzahl der Einträge ist größer als {{ maxEntries }}",
+      "notParsable": "Datei ist nicht parsbar"
+    }
+  },
+  "errorHandlers": {
+    "scriptFailedToLoad": "Das Skript konnte nicht geladen werden.",
+    "refreshThePage": "Bitte aktualisieren Sie die Seite."
+  }
+}

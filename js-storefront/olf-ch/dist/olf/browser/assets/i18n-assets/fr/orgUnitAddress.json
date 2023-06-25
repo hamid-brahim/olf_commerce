@@ -1,0 +1,41 @@
+{
+  "orgUnitAddress": {
+    "title": "Adresse de livraison",
+    "subtitle": "Unité: {{item.name}}",
+    "country": "Pays/Région",
+    "titles": "Titre",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "formattedAddress": "Adresse",
+    "address1": "Adresse",
+    "address2": "2ème adresse (facultatif)",
+    "city": "Ville",
+    "state": "Région",
+    "zipCode": "Code postal",
+    "phoneNumber": "Numéro de telephone (facultatif)",
+    "streetAddress": "Rue",
+    "aptSuite": "Apt",
+    "selectOne": "Choisir un...",
+    "hint": "Lorsqu'un acheteur passe à la caisse en utilisant la méthode d'achat par compte, il doit choisir un centre de coûts. Les adresses de livraison disponibles pour l'acheteur dépendent de l'unité du centre de coûts choisi.",
+    "details": {
+      "title": "Détails de l'adresse",
+      "subtitle": "Unité: {{item.name}}"
+    },
+    "edit": {
+      "title": "Modifier l'adresse"
+    },
+    "create": {
+      "title": "Créer une adresse"
+    },
+    "form": {
+      "subtitle": "Unité: {{item.name}}"
+    },
+    "messages": {
+      "create": "Adresse {{ item.firstName }} {{ item.lastName }} créée avec succès",
+      "update": "Adresse {{ item.firstName }} {{ item.lastName }} mise à jour avec succès",
+      "delete": "L'adresse ne peut pas être ramenée. Les commandes existantes ne sont pas affectées.",
+      "deleteTitle": "Supprimer cette adresse?",
+      "deleted": "Adresse {{ item.firstName }} {{ item.lastName }} est supprimée avec succès"
+    }
+  }
+}

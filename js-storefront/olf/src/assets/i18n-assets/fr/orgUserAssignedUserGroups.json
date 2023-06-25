@@ -1,9 +1,0 @@
-{
-
-  "orgUserAssignedUserGroups":{
-    "title": "Groupes d'utilisateurs assignés",
-    "subtitle": "Utilisateur: {{ item.name }}",
-    "assigned": "Groupe d'utilisateur '{{item.name}} assigné avec succès",
-    "unassigned": "Groupe d'utilisateur '{{item.name}} retiré avec succès"
-  }
-}

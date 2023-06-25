@@ -1,0 +1,12 @@
+{
+  "orgUnitAssignedRoles": {
+    "header": "Gérer les rôles dans {{code}}",
+    "name": "Nom",
+    "email": "Email",
+    "roles": "Rôles",
+    "roleCustomer": "Client",
+    "roleApprover": "Approbateur",
+    "roleManager": "Manager",
+    "roleAdministrator": "Admin"
+  }
+}

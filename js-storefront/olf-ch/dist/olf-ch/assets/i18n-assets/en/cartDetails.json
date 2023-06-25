@@ -1,0 +1,8 @@
+{
+  "cartDetails": {
+    "id": "ID",
+    "proceedToCheckout": "Proceed to Checkout",
+    "cartName": "Cart #{{code}}",
+    "remark": "Remark"
+  }
+}

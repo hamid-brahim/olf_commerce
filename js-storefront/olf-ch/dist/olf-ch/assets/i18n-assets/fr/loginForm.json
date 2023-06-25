@@ -1,0 +1,18 @@
+{
+ "loginForm": {
+      "forgotPassword": "Mot de passe oublié?",
+      "signIn": "Connectez-vous",
+      "register": "Enregistrez-vous",
+      "dontHaveAccount": "Vous n'avez pas encore de compte client?",
+      "guestCheckout": "Paiement visiteur",
+      "emailAddress": {
+        "label": "Adresse e-mail",
+        "placeholder": "Veuillez renseigner votre e-mail"
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Mot de passe"
+      },
+      "wrongEmailFormat": "Le format renseigné de l'e-mail n'est pas valide."
+    }
+}

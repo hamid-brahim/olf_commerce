@@ -1,8 +1,0 @@
-{
-  "orgCostCenterBudgets": {
-    "title": "Gérer les budgets",
-    "subtitle": "Centre de coûts: {{ item.name }}",
-    "assigned": "Budget {{ item.name }} assigné avec succès",
-    "unassigned": "Budget {{ item.name }} retiré avec succès"
-  }
-}

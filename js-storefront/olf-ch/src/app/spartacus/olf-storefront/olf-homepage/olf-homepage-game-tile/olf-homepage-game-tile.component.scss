@@ -1,0 +1,46 @@
+.container {
+    display: inline-block;
+    background-color: #B1B4BC;
+    color: #FFFFFF;
+    max-width: 570px;
+    width: auto;
+}
+
+.content {
+    padding-top: 29px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.73px;
+}
+
+.description {
+    padding-top: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.btn-parcourir {
+    color: #FFFFFF !important;
+    background-color: #B1B4BC;
+    padding-right: 0px;
+    border: solid 1px;
+    border-color: #FFFFFF;
+    font-size: 18px;
+    height: 42px;
+    width: 132.15px;
+    padding-right: 15px;
+    white-space: nowrap;
+    line-height: 21.78px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 196.26px;
+    height: 216px;
+    filter: grayscale(100%);
+}

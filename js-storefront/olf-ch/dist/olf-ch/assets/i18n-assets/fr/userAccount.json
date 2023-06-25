@@ -1,0 +1,22 @@
+{
+  "loginForm": {
+    "forgotPassword": "Mot de passe oublié?",
+    "signIn": "Se connecter",
+    "register": "S'enregistrer",
+    "dontHaveAccount": "Nous n'avez pas de compte?",
+    "guestCheckout": "Guest Checkout",
+    "emailAddress": {
+      "label": "Adresse E-mail",
+      "placeholder": "Saisissez l'email"
+    },
+    "password": {
+      "label": "Mot de passe",
+      "placeholder": "Mot de passe"
+    },
+    "wrongEmailFormat": "Le format d'email n'est pas valide."
+  },
+  "miniLogin": {
+    "userGreeting": "Bonjour, {{name}}",
+    "signInRegister": "S'identifier / S'enregistrer"
+  }
+}

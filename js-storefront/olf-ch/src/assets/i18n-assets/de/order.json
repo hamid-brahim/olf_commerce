@@ -1,0 +1,185 @@
+{    
+    "orderDetails": {
+        "orderId": "Bestell-Nr.",
+        "orderNumber": "Bestellnummer",
+        "replenishmentId": "Wiederauffüllung",
+        "purchaseOrderId": "Nummer des Bestellscheins",
+        "purchaseOrderNumber": "Nummer des Bestellscheins",
+        "emptyPurchaseOrderId": "Keine Bestellnummer",
+        "none": "Keine {{Wert}}",
+        "placed": "Aufgegeben",
+        "placedBy": "Aufgegeben von",
+        "unit": "Einheit",
+        "costCenter": "Kostenstelle",
+        "costCenterAndUnit": "Kostenstelle / Einheit",
+        "costCenterAndUnitValue": "{{costCenterName}} / {{unitName}}",
+        "methodOfPayment": "Zahlungsart",
+        "payByAccount": "Nach Konto bezahlen",
+        "paidByCreditCard": "(mit Kreditkarte bezahlt)",
+        "status": "Status",
+        "active": "Aktiv",
+        "shippedOn": "Versendet am",
+        "shippingMethod": "Versandart",
+        "placedOn": "Aufgegeben am",
+        "startOn": "Start",
+        "nextOrderDate": "Datum der nächsten Bestellung",
+        "frequency": "Frequenz",
+        "cancelled": " Storniert",
+        "deliveryStatus_IN_TRANSIT": "Unterwegs",
+        "deliveryStatus_READY_FOR_PICKUP": "Abholbereit",
+        "deliveryStatus_READY_FOR_SHIPPING": "Versandfertig",
+        "deliveryStatus_WAITING": "Warten",
+        "deliveryStatus_DELIVERING": "In Zustellung",
+        "deliveryStatus_PICKPACK": "Vorbereitung des Versands",
+        "deliveryStatus_PICKUP_COMPLETE": "Abholung vollständig",
+        "deliveryStatus_DELIVERY_COMPLETED": "Zugestellt",
+        "deliveryStatus_PAYMENT_NOT_CAPTURED": "Probleme bei der Bezahlung",
+        "deliveryStatus_READY": "In Arbeit",
+        "deliveryStatus_DELIVERY_REJECTED": "Annahme verweigert",
+        "deliveryStatus_SHIPPED": "Versendet",
+        "deliveryStatus_TAX_NOT_COMMITTED": "Probleme mit Steuern",
+        "deliveryStatus_CANCELLED": "Storniert",
+        "statusDisplay_cancelled": "Storniert",
+        "statusDisplay_cancelling": "Warten abbrechen",
+        "statusDisplay_completed": "Abgeschlossen",
+        "statusDisplay_created": "Erstellt",
+        "statusDisplay_error": "In der Warteschleife",
+        "statusDisplay_Error": "In der Warteschleife",
+        "statusDisplay_processing": "In der Warteschleife",
+        "statusDisplay_open": "Öffnen",
+        "statusDisplay_pending": {
+            "approval": "Wartet auf Genehmigung",
+            "merchant": {
+                "approval": "Wartet auf Zustimmung des Händlers"
+            }
+        },
+        "statusDisplay_approved": "Genehmigt",
+        "statusDisplay_rejected": "Abgelehnt",
+        "statusDisplay_merchant": {
+            "approved": "Vom Händler genehmigt",
+            "rejected": "Vom Händler abgelehnt"
+        },
+        "statusDisplay_assigned": {
+            "admin": "Dem Administrator zugewiesen"
+        },
+        "consignmentTracking": {
+            "action": "Paket verfolgen",
+            "dialog": {
+                "header": "Informationen zur Nachbereitung",
+                "shipped": "Versendet",
+                "estimate": "Geschätzte Lieferung",
+                "carrier": "Lieferservice",
+                "trackingId": "Tracking-Nummer",
+                "noTracking": "Das Paket wurde noch nicht vom Lager aus versandt. Die Tracking-Informationen werden verfügbar sein, nachdem das Paket versendet wurde.",
+                "loadingHeader": "Sendungen verfolgen"
+            }
+        },
+        "cancellationAndReturn": {
+            "returnAction": "Antrag auf Rückgabe",
+            "cancelAction": "Elemente rückgängig machen",
+            "item": "Objekt",
+            "itemPrice": "Preis",
+            "quantity": "Maximale Menge",
+            "returnQty": "Zurückzusendende Menge",
+            "cancelQty": "Zu stornierende Menge",
+            "setAll": "Alle Mengen auf Maximum einstellen",
+            "totalPrice": "Gesamt",
+            "submit": "Antrag einreichen",
+            "returnSuccess": "Ihr Antrag auf Rückgabe ({{rma}}) wurde eingereicht",
+            "cancelSuccess": "Ihre Stornierungsanfrage wurde eingereicht (die ursprüngliche {{orderCode}}-Bestellung wird aktualisiert)"
+        },
+        "cancelReplenishment": {
+            "title": "Nachschub abbrechen",
+            "description": "Alle zukünftigen Nachbestellungen stornieren?",
+            "accept": "Ja",
+            "reject": "Nicht",
+            "cancelSuccess": "Der Nachbestellungsauftrag #{{replenishmentOrderCode}} wurde erfolgreich storniert."
+        }
+    },
+    "orderHistory": {
+        "orderHistory": "Verlauf der Bestellungen",
+        "orderId": "Bestell-Nr.",
+        "emptyPurchaseOrderId": "Keine",
+        "date": "Datum",
+        "status": "Status",
+        "total": "Gesamt",
+        "noOrders": "Wir haben keine Bestellunterlagen für dieses Konto.",
+        "noReplenishmentOrders": "Wir haben keinen Datensatz für eine Wiederbeschaffungsanordnung für dieses Konto.",
+        "startShopping": "Mit dem Einkaufen beginnen",
+        "sortBy": "Sortieren nach",
+        "replenishmentOrderHistory": "Verlauf der Nachbestellungen",
+        "replenishmentOrderId": "Wiederauffüllung",
+        "purchaseOrderNumber": "PO #",
+        "startOn": "Start",
+        "frequency": "Frequenz",
+        "nextOrderDate": "Datum der nächsten Bestellung",
+        "cancel": "Abbrechen",
+        "cancelled": "Storniert",
+        "replenishmentHistory": "Wiederbeschaffungshistorie",
+        "notFound": "Keine Bestellungen gefunden"
+        "sortOrders": "Sortierreihenfolgen"
+    },
+    "AccountOrderHistoryTabContainer": {
+        "tabs": {
+            "AccountOrderHistoryComponent": "ALLE BEFEHLE ({{param}})",
+            "OrderReturnRequestListComponent": "RETOURS ({{param}})"
+        },
+        "tabPanelContainerRegion": "Gruppe mit Details zur Bestellhistorie"
+    },
+    "returnRequestList": {
+        "returnRequestId": "Zurück #",
+        "orderId": "Bestell-Nr.",
+        "date": "Datum der Erstellung",
+        "status": "Status",
+        "sortBy": "Sortieren nach",
+        "statusDisplay_APPROVAL_PENDING": "Genehmigung läuft",
+        "statusDisplay_CANCELED": "Abgesagt",
+        "statusDisplay_CANCELLING": "Absage",
+        "statusDisplay_WAIT": "Warten",
+        "statusDisplay_RECEIVED": "Empfangen",
+        "statusDisplay_RECEIVING": "Empfang",
+        "statusDisplay_APPROVING": "Genehmigung ",
+        "statusDisplay_REVERSING_PAYMENT": "Rückbuchung von Zahlungen",
+        "statusDisplay_PAYMENT_REVERSED": "Zahlung storniert",
+        "statusDisplay_PAYMENT_REVERSAL_FAILED": "Zahlungsabbruch fehlgeschlagen",
+        "statusDisplay_REVERSING_TAX": "Umkehrung der Steuer",
+        "statusDisplay_TAX_REVERSED": "Steuer annulliert",
+        "statusDisplay_TAX_REVERSAL_FAILED": "Scheitern der Steuerumkehr",
+        "statusDisplay_COMPLETED": "Abgeschlossen",
+        "sortReturns": "Rücksendungen sortieren"
+    },
+    "returnRequest": {
+        "returnRequestId": "Antrag auf Rückgabe",
+        "orderCode": "Für die Bestellnummer",
+        "status": "Status der Rückkehr",
+        "cancel": "Rückgabeantrag abbrechen",
+        "item": "Beschreibung",
+        "itemPrice": "Preis",
+        "returnQty": "Rückgabemenge",
+        "total": "Gesamt",
+        "summary": "Gesamtsumme der Rücksendungen",
+        "subtotal": "Zwischensumme",
+        "deliveryCode": "Kosten für die Lieferung",
+        "estimatedRefund": "Geschätzte Rückzahlung",
+        "note": "Die Gesamtbeträge sind Schätzungen und enthalten möglicherweise keine anwendbaren Steuern oder andere Gebühren.",
+        "cancelSuccess": "Ihr Antrag auf Rückgabe ({{rma}}) wurde storniert",
+        "caption": "Inhalt der Bestellung."
+    },
+    "reorder": {
+        "button": "Nochmals kaufen",
+        "dialog": {
+            "reorderProducts": "Nochmals kaufen",
+            "messages": {
+                "reviewConfiguration": "Bei der Konfiguration von \"{{ productCode}}\" ist ein Fehler aufgetreten.",
+                "lowStock": "Die Menge für {{ productName }}: {{ Menge }} wurde auf {{ hinzugefügte Menge }} reduziert.",
+                "noStock": "{{ productName }} ist derzeit ausverkauft.",
+                "pricingError": "Problem bei der Preisgestaltung mit \"{{ productCode }}\".",
+                "unresolvableIssues": "Unerkanntes Problem mit \"{{ productCode }}\".",
+                "success": "Die Produkte wurden erfolgreich zum Warenkorb hinzugefügt."
+            },
+            "areYouSureToReplaceCart": "Der aktuelle Warenkorb wird insgesamt durch neue Artikel ersetzt. Möchten Sie fortfahren?",
+            "cancel": "Abbrechen",
+            "continue": "Weiter"
+        }
+    }
+}

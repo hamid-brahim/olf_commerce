@@ -1,0 +1,44 @@
+{
+    "paymentForm": {
+        "payment": "Paiement",
+        "choosePaymentMethod": "Choisir un mode de paiement",
+        "paymentType": "Type de paiement",
+        "accountHolderName": {
+            "label": "Nom du titulaire du compte",
+            "placeholder": "Nom du titulaire du compte"
+        },
+        "cardNumber": "Numéro de la carte",
+        "expirationDate": "Date d'expiration",
+        "securityCode": "Code de sécurité (CVV)",
+        "securityCodeTitle": "Valeur de vérification de la carte",
+        "saveAsDefault": "Enregistrer comme valeur par défaut",
+        "setAsDefault": "Défini comme valeur par défaut",
+        "billingAddress": "Adresse de facturation",
+        "sameAsShippingAddress": "Identique à l'adresse de livraison",
+        "selectOne": "Sélectionnez un...",
+        "monthMask": "MM",
+        "yearMask": "YYYY",
+        "expirationYear": "Année d'expiration {{ sélectionnée }}",
+        "expirationMonth": "Mois d'expiration {{ sélectionné }}",
+        "useThisPayment": "Utiliser ce paiement",
+        "addNewPayment": "Ajouter un nouveau paiement",
+        "changePayment": "Modifier le paiement"
+    },
+    "paymentMethods": {
+        "paymentMethods": "Modes de paiement",
+        "newPaymentMethodsAreAddedDuringCheckout": "De nouvelles méthodes de paiement sont ajoutées lors du paiement.",
+        "invalidField": "InvalidField : {{ champ }}"
+    },
+    "paymentCard": {
+        "deleteConfirmation": "Êtes-vous sûr de vouloir supprimer ce mode de paiement ?",
+        "setAsDefault": "Défini comme valeur par défaut",
+        "expires": "Expire : {{ mois }}/{ année }}",
+        "defaultPaymentMethod": "✓ DÉFAUT",
+        "selected": "Sélectionné"
+    },
+    "paymentTypes": {
+        "title": "Mode de paiement",
+        "paymentType_CARD": "Carte de crédit",
+        "paymentType_ACCOUNT": "Compte"
+    }
+}

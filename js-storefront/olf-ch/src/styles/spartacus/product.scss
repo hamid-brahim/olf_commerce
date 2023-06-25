@@ -1,0 +1,37 @@
+@import "../../styles-config";
+@import "@spartacus/product";
+
+cx-page-layout.ProductDetailsPageTemplate cx-page-slot.Summary {
+    grid-template-columns: 30% 70%;
+}
+
+cx-product-images {
+    height: 70%;
+}
+
+.info {
+    visibility: hidden;
+}
+
+.quantity {
+    display: flex;
+}
+
+cx-add-to-cart .quantity .cx-counter-stock {
+    margin-left: auto;
+}
+
+.btn-primary {
+    background-color: #DA3A3A;
+    border-color:#DA3A3A;
+    color: #FFFFFF;
+    &:hover {
+        background-color: #DA3A3A;
+        border-color:#DA3A3A;
+        filter: brightness(calc(88 / 100));
+    }
+}
+
+//cx-carousel > h2 {
+//    visibility: hidden;
+//}

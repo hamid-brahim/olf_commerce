@@ -1,0 +1,71 @@
+{
+    "addressForm": {
+        "title": "Titel",
+        "defaultTitle": "Titel",
+        "firstName": {
+            "label": "Vorname",
+            "placeholder": "Vorname"
+        },
+        "lastName": {
+            "label": "Nachname",
+            "placeholder": "Nachname"
+        },
+        "address1": "Adresse",
+        "address2": "Firma (fakultativ)",
+        "country": "Land",
+        "city": {
+            "label": "Stadt",
+            "placeholder": "Stadt"
+        },
+        "state": "Staat",
+        "zipCode": {
+            "label": "Postleitzahl",
+            "placeholder": "Postleitzahl/Zip"
+        },
+        "phoneNumber": {
+            "label": "Telefonnummer (optional)",
+            "placeholder": "(555) 555 - 0123"
+        },
+        "cellphone": {
+          "label": "Mobilnummer (fakultativ)",
+          "placeholder": "022-767-6111"
+        },
+        "saveAsDefault": "Als Standard speichern",
+        "chooseAddress": "Adresse wählen",
+        "streetAddress": "Adresse (Straße + hausnummer)",
+        "aptSuite": "Name der Firma",
+        "selectRegion": "Staat wählen",
+        "selectOne": "Wählen Sie einen...",
+        "setAsDefault": "Als Standardwert festgelegt",
+        "titleRequired": "Der Titel ist obligatorisch.",
+        "userAddressAddSuccess": "Die neue Adresse wurde erfolgreich hinzugefügt!",
+        "userAddressUpdateSuccess": "Die Adresse wurde erfolgreich aktualisiert!",
+        "userAddressDeleteSuccess": "Adresse erfolgreich gelöscht!",
+        "invalidAddress": "Ungültige Adresse"
+    },
+    "addressBook": {
+        "addNewShippingAddress": "Eine neue Lieferadresse hinzufügen",
+        "editShippingAddress": "Lieferadresse ändern",
+        "areYouSureToDeleteAddress": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?",
+        "addNewAddress": "Eine neue Adresse hinzufügen",
+        "addAddress": "Adresse hinzufügen",
+        "updateAddress": "Aktualisieren der Adresse",
+        "backToAddressList": "Zurück zur Adressliste"
+    },
+    "addressCard": {
+        "default": "FEHLER",
+        "selected": "Ausgewählt",
+        "setAsDefault": "Als Standardwert festgelegt",
+        "shipTo": "Versenden an",
+        "billTo": "Rechnung an"
+    },
+    "addressSuggestion": {
+        "verifyYourAddress": "Überprüfen Sie Ihre Adresse",
+        "ensureAccuracySuggestChange": "Um die Genauigkeit der Lieferung zu gewährleisten, schlagen wir die unten ausgewählte Änderung vor.",
+        "chooseAddressToUse": "Bitte wählen Sie die Adresse, die Sie verwenden möchten :",
+        "suggestedAddress": "Vorgeschlagene Adresse",
+        "enteredAddress": "Adresse eingegeben",
+        "editAddress": "Adresse ändern",
+        "saveAddress": "Adresse speichern"
+    }
+}

@@ -1,0 +1,78 @@
+{
+  "quickOrderList": {
+    "addToCart": "Ajouter au panier",
+    "emptyList": "Vider la liste",
+    "header": "Ajouter le produit",
+    "subHeader": "Vous pouvez ajouter {{ limit }} EAN valides à la fois.",
+    "errorProceedingToCart": "Erreur lors de l'ajout au panier.",
+    "warningProceedingToCart": "Avertissement lors de l'ajout au panier.",
+    "successfullyAddedToCart": "Ajouté au panier avec succès.",
+    "errors": {
+      "productIsOutOfStock": "{{ name }} (#{{code}}) est hors stock.",
+      "reviewErrors": "Veuillez revoir ces erreurs.",
+      "listIsFull": "La liste est complète, ajoutez ces {{ count }} produits au panier pour continuer.",
+      "nonPurchasableError": "Le produit {{ name }} ne peut pas être acheté",
+      "outOfStockErrorFound": "{{count}} produit en rupture de stock n'a pas été ajouté.",
+      "outOfStockErrorFound_other": "{{count}} produits en rupture de stock n'ont pas été ajoutés."
+    },
+    "warnings": {
+      "productWasReduced": "Quantité pour {{ name }} (#{{code}}) a été réduite à {{ quantityAdded}}.",
+      "reviewWarnings": "Veuillez revoir ces avertissements.",
+      "reduceWarningFound": "{{count}} quantité de produits a été réduite.",
+      "reduceWarningFound_other": "{{count}} quantités de produits ont été réduites."
+    },
+    "successes": {
+      "productAddedToCart": "{{ name }} (#{{code}}) a été ajouté au panier.",
+      "addedToCartFound": "{{ count }} produit a été ajouté au panier.",
+      "addedToCartFound_other": "{{ count }} produits ont été ajoutés au panier."
+    },
+    "informations": {
+      "addProductBeforeAddingToCart": "Mettez les produits dans la lites avant de les ajouter au panier."
+    },
+    "undo": "ANNULER",
+    "revokeUndo": "Suppression du produit {{name}} est retirée.",
+    "productWasDeleted": "Le produit {{ name }} a été retiré de la liste."
+  },
+  "quickOrderForm": {
+    "placeholder": "Entrez un nom de produit/EAN",
+    "searchBoxLabel": "Entrez le nom du produit ou le numéro EAN pour une commande rapide. Vous pouvez ajouter {{ limit }} produits par commande.",
+    "listLimitReached": "La limite de produit a été atteinte.",
+    "id": "ID {{ id }}",
+    "noResults": "Nous n'avons pas trouvé de résultats",
+    "addProduct": "Ajouter le produit {{ product }}",
+    "initialDescription": "Lorsque les résultats de la saisie semi-automatique sont disponibles, utilisez les flèches vers le haut et vers le bas pour les vérifier et la touche Entrée pour les sélectionner.",
+    "productsResults": "{{ count }} produits sont disponibles.",
+    "quickOrderSearch": "Trouver le produit pour la commande rapide"
+  },
+  "quickOrderTable": {
+    "product": "Produit",
+    "id": "ID",
+    "price": "Prix",
+    "quantity": "Qté",
+    "itemPrice": "Prix unitaire",
+    "qty": "Qté",
+    "actions": "Actions",
+    "inStock": "En Stock",
+    "lowStock": "Stock faible",
+    "outOfStock": "Hors Stock",
+    "listCleared": "La liste de commande rapide a été vidée",
+    "addedtoCart": "La liste de commande rapide a été ajoutée au panier",
+    "caption": "Contenu de la commande rapide."
+  },
+  "quickOrderCartForm": {
+    "entriesWereAdded": "({{ quantity }}) {{ product }} ont été ajoutés au panier",
+    "entryWasAdded": "{{ product }} a été ajouté au panier",
+    "noResults": "Nous n'avons pas pu trouver de produits",
+    "stockLevelReached": "Le niveau de stock maximum a été atteint",
+    "title": "Commande rapide",
+    "productCodePlaceholder": "Saisissez le EAN",
+    "entryProductCode": "Saisissez le numéro EAN du produit pour commande rapide",
+    "quantity": "Quantité pour commande rapide",
+    "addToCart": "Ajouter au panier",
+    "add": "Ajouter",
+    "product": "Produit",
+    "products": "Produits",
+    "productCodeLabel": "Numéro EAN",
+    "quantityLabel": "Qté"
+  }
+}

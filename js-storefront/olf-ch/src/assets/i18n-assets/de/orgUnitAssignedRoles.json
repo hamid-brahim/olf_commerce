@@ -1,0 +1,12 @@
+{
+    "orgUnitAssignedRoles": {
+        "header": "Verwaltung von Kundenrollen in {{code}}",
+        "name": "Name",
+        "email": "E-Mail",
+        "roles": "Rollen",
+        "roleCustomer": "Kunde",
+        "roleApprover": "Genehmigender",
+        "roleManager": "Manager",
+        "roleAdministrator": "Admin"
+    }
+}

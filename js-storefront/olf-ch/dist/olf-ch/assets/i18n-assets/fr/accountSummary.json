@@ -1,0 +1,81 @@
+{
+    "orgAccountSummary": {
+        "header": "Tous les résumés de comptes ({{count}})",
+        "name": "Unité",
+        "details": {
+            "header": "Détails du résumé du compte",
+            "uid": "ID de l'unité",
+            "name": "Nom de l'unité",
+            "address": "Adresse",
+            "creditRep": "Représentant du crédit",
+            "creditLine": "Ligne de crédit",
+            "currentBalance": "Solde actuel",
+            "openBalance": "Solde ouvert",
+            "pastDueBalance": "Solde en souffrance",
+            "dayRange": "{{minBoundary}}-{{maxBoundary}} Jours",
+            "dayPlus": "{{minBoundary}}+ jours",
+            "notApplicable": "s/o"
+        },
+        "document": {
+            "header": "Documents",
+            "id": "Numéro du document",
+            "type": "Type de document",
+            "date": "Créé le",
+            "dueDate": "Échéance",
+            "originalAmount": "Montant original",
+            "openAmount": "Montant ouvert",
+            "status": "Statut",
+            "attachment": "Pièce jointe",
+            "download": "Télécharger",
+            "attachmentDescription": "Télécharger la pièce jointe pour {{type}} {{id}}.",
+            "noneFound": "Aucun document trouvé"
+        },
+        "sorts": {
+            "byCreatedAtDateAsc": "Créé à l'ascension",
+            "byCreatedAtDateDesc": "Créé à la descente",
+            "byDueAtDateAsc": "Due On Ascending (en anglais)",
+            "byDueAtDateDesc": "Due On Descending",
+            "byOriginalAmountAsc": "Montant original Ascendant",
+            "byOriginalAmountDesc": "Montant original Décroissant",
+            "byOpenAmountAsc": "Montant ouvert Ascendant",
+            "byOpenAmountDesc": "Montant ouvert Décroissant",
+            "byOrgDocumentTypeAsc": "Type de document Ascendant",
+            "byOrgDocumentTypeDesc": "Type de document Descendant",
+            "byStatusAsc": "Statut Ascendant",
+            "byStatusDesc": "Statut Descendant",
+            "byOrgDocumentIdAsc": "Numéro de document croissant",
+            "byOrgDocumentIdDesc": "Numéro de document descendant"
+        },
+        "statuses": {
+            "open": "Ouvert",
+            "closed": "Fermé",
+            "all": "Tout"
+        },
+        "filterByOptions": {
+            "orgDocumentId": "Numéro du document",
+            "orgDocumentIdRange": "Plage de numéros de documents",
+            "orgDocumentType": "Type de document",
+            "createdAtDateRange": "Créé sur l'aire de répartition",
+            "dueAtDateRange": "Due On Range",
+            "amountRange": "Montant initial Fourchette",
+            "openAmountRange": "Fourchette du montant ouvert"
+        },
+        "sortBy": "Trier par",
+        "sortDocuments": "Trier les documents",
+        "filter": {
+            "status": "Statut",
+            "filterBy": "Filtrer par",
+            "documentNumber": "Numéro du document",
+            "documentType": "Type de document",
+            "startRange": "De",
+            "endRange": "Pour",
+            "clear": "Tout effacer",
+            "search": "Recherche",
+            "errors": {
+                "toDateMustComeAfterFrom": "Choisissez une date de fin postérieure à la date de début.",
+                "toAmountMustBeLargeThanFrom": "Choisissez une valeur de fin de plage inférieure à la valeur de départ."
+            }
+        },
+        "hint": "Les résumés de compte vous permettent de consulter des informations générales sur une unité, y compris les soldes et le classement chronologique des factures. Vous pouvez également parcourir une liste de documents de transaction pour une unité."
+    }
+}

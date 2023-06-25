@@ -1,0 +1,38 @@
+@import '@spartacus/styles/index';
+app-olf-cart-totals {
+    padding-top: 2rem;
+    padding-inline-end: 0;
+    padding-inline-start: 3rem;
+  
+    @include media-breakpoint-down(md) {
+      padding-top: 2rem;
+      padding-inline-end: 3rem;
+      padding-inline-start: 0rem;
+    }
+  
+    @include media-breakpoint-down(sm) {
+      padding-inline-end: 0;
+    }
+  
+    app-olf-order-summary {
+      padding: 0 0 1rem;
+  
+      @include media-breakpoint-down(md) {
+        padding: 0 0 2rem;
+      }
+    }
+  }
+
+  .quick-order-margin {
+    margin-top: -140px;
+  }
+
+  .remark {
+    &:focus {
+      outline: none;
+    }
+    resize: none;
+    height: 144px !important;
+  }
+
+  

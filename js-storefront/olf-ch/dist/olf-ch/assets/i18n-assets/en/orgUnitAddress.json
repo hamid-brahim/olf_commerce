@@ -1,0 +1,41 @@
+{
+  "orgUnitAddress": {
+    "title": "Delivery addresses",
+    "subtitle": "Unit: {{item.name}}",
+    "country": "Country/Region",
+    "titles": "Title",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "formattedAddress": "Address",
+    "address1": "Address",
+    "address2": "2nd address (optional)",
+    "city": "City",
+    "state": "State",
+    "zipCode": "Zip code",
+    "phoneNumber": "Phone number (optional)",
+    "streetAddress": "Street Address",
+    "aptSuite": "Apt, Suite",
+    "selectOne": "Select One...",
+    "hint": "When a buyer is checking out using the Account purchase method, they much choose a cost center. The delivery addresses available to the buyer depend on the unit of the cost center chosen.",
+    "details": {
+      "title": "Address details",
+      "subtitle": "Unit: {{item.name}}"
+    },
+    "edit": {
+      "title": "Edit Address"
+    },
+    "create": {
+      "title": "Create Address"
+    },
+    "form": {
+      "subtitle": "Unit: {{item.name}}"
+    },
+    "messages": {
+      "create": "Address {{ item.firstName }} {{ item.lastName }} created successfully",
+      "update": "Address {{ item.firstName }} {{ item.lastName }} updated successfully",
+      "delete": "The address cannot be brought back. Existing orders are not affected.",
+      "deleteTitle": "Delete this address?",
+      "deleted": "Address {{ item.firstName }} {{ item.lastName }} deleted successfully"
+    }
+  }
+}

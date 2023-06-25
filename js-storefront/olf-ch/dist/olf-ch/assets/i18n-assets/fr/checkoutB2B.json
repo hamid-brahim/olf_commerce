@@ -1,0 +1,23 @@
+{
+  "checkoutB2B": {
+    "noPoNumber": "Aucun",
+    "poNumber": "Numéro de bon de commande (facultatif)",
+    "costCenter": "Centre de coût",
+    "placeholder": "Saisissez un numéro de bon de commande ",
+    "availableLabel":
+    "Les adresses de livraison disponibles dépendent de l'unité du centre de coûts",
+    "invalid": {
+      "accountType": "Votre compte ne vous permet pas de passer à la caisse"
+    },
+    "methodOfPayment": {
+      "paymentType": "Mode de paiement"
+    },
+    "review": {
+      "poNumber": "Numéro de bon de commande"
+    },
+    "progress": {
+      "methodOfPayment": "Mode de paiement"
+    },
+    "invalidCostCenter": "Centre de coût non valide."
+  }
+}

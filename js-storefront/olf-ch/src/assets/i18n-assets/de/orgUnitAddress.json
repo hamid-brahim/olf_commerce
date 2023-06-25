@@ -1,0 +1,41 @@
+{
+    "orgUnitAddress": {
+        "title": "Lieferadressen",
+        "subtitle": "Einheit: {{item.name}}",
+        "country": "Land/Region",
+        "titles": "Titel",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "formattedAddress": "Adresse",
+        "address1": "Adresse",
+        "address2": "2. Adresse (optional)",
+        "city": "Stadt",
+        "state": "Staat",
+        "zipCode": "Postleitzahl",
+        "phoneNumber": "Telefonnummer (optional)",
+        "streetAddress": "Adresse (Straße)",
+        "aptSuite": "Apt, Suite",
+        "selectOne": "Wählen Sie einen...",
+        "hint": "Wenn ein Käufer mit der Methode \"Kauf auf Rechnung\" zur Kasse geht, muss er eine Kostenstelle auswählen. Welche Lieferadressen dem Käufer zur Verfügung stehen, hängt von der Einheit der gewählten Kostenstelle ab.",
+        "details": {
+            "title": "Kontaktdaten",
+            "subtitle": "Einheit: {{item.name}}"
+        },
+        "edit": {
+            "title": "Adresse ändern"
+        },
+        "create": {
+            "title": "Eine Adresse erstellen"
+        },
+        "form": {
+            "subtitle": "Einheit: {{item.name}}"
+        },
+        "messages": {
+            "create": "Adresse {{ item.firstName }} {{ item.lastName }} erfolgreich erstellt",
+            "update": "Adresse {{ item.firstName }} {{ item.lastName }} erfolgreich aktualisiert",
+            "delete": "Die Adresse kann nicht wiederhergestellt werden. Laufende Bestellungen sind nicht betroffen.",
+            "deleteTitle": "Diese Adresse löschen?",
+            "deleted": "Adresse {{ item.firstName }} {{ item.lastName }} erfolgreich gelöscht"
+        }
+    }
+}

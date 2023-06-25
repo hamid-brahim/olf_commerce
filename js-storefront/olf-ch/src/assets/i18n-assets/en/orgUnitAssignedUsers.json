@@ -1,0 +1,6 @@
+{
+  "orgUnitAssignedUsers": {
+    "title": "Assigned users",
+    "subtitle": "Unit: {{item.name}}"
+  }
+}

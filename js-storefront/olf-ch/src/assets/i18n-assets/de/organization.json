@@ -1,0 +1,268 @@
+{
+    "organization": {
+      "enabled": "Aktiv",
+      "disabled": "Deaktiviert",
+      "enable": "Aktivieren",
+      "disable": "Deaktivieren",
+      "name": "Name",
+      "code": "Code",
+      "done": "macht",
+      "cancel": "Abbrechen",
+      "add": "Hinzufügen",
+      "create": "Anlegen {{Name}}",
+      "edit": "Bearbeiten",
+      "save": "Speichern {{Name}}",
+      "delete": "Löschen",
+      "assign": "Verwalten",
+      "active": "Aktiv",
+      "status": "Status",
+      "details": "Details",
+      "messages": {
+        "emptyList": "Die Liste ist leer"
+      },
+      "userRoles": {
+        "b2bcustomergroup": "Käufer",
+        "b2bapprovergroup": "Genehmigender",
+        "b2bmanagergroup": "Manager",
+        "b2badmingroup": "Administrator"
+      },
+      "breadcrumb": "Organisation",
+      "notification": {
+        "noSufficientPermissions": "Sie haben keine Berechtigung, um auf diese Seite zuzugreifen.",
+        "notExist": "Es ist ein Fehler aufgetreten",
+        "disabled": "Sie können ein deaktiviertes Element nicht bearbeiten"
+      },
+      "confirmation": {
+        "cancel": "ABBRECHEN",
+        "confirm": "BESTÄTIGEN",
+        "disable": "DEAKTIVIEREN",
+        "delete": "LÖSCHEN"
+      },
+      "httpHandlers": {
+        "conflict": {
+          "budget": "Das Budget mit dem Code {{ Code }} existiert bereits.",
+          "costCenter": "Die Kostenstelle mit dem Code {{ Code }} existiert bereits.",
+          "unit": "Die Organisationseinheit mit der uid {{ code }} existiert bereits.",
+          "user": "Der Benutzer mit der E-Mail {{ Code }} existiert bereits",
+          "userGroup": "Die Benutzergruppe mit der id {{ code }} existiert bereits",
+          "permission": "Die Genehmigungsberechtigung mit dem Code {{ Code }} existiert bereits.",
+          "unknown": "Fehler bei der Servervalidierung."
+        }
+      }
+    },
+  "orgUser": {
+    "header": "Nutzer ({{count}})",
+    "disabled": "(deaktiviert)",
+    "uid": "E-Mail",
+    "active": "Status",
+    "name": "Name",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "orgUnit": "Einheit",
+    "unit": "Einheit",
+    "roles": "Rollen",
+    "title": "Titel",
+    "hint": "Benutzer sind die Einkäufer, Genehmigenden, Manager und Administratoren Ihrer Organisation. Jedem Benutzer wird eine Rolle zugewiesen, die es ihm ermöglicht, Einkäufe zu tätigen oder zu genehmigen. Jeder Benutzer gehört einer Einheit an und hat Zugriff auf alle Tochtereinheiten seiner Haupteinheit.",
+    "unitApprover": "Genehmigender der Einheit",
+    "assignApprover": "Den Nutzer zu den Genehmigenden der Einheit hinzufügen",
+    "actions": "Aktionen",
+    "sortBy": "Sortieren nach",
+    "sort": {
+      "byName": "Name",
+      "byUnit": "Einheit"
+    },
+    "details": {
+      "title": "Details",
+      "subtitle": "Benutzer: {{ item.name }}"
+    },
+    "edit": {
+      "title": "Benutzer ändern",
+      "subtitle": "Benutzer: {{ item.name }}"
+    },
+    "create": {
+      "title": "Einen Benutzer erstellen",
+      "subtitle": ""
+    },
+    "links": {
+      "password": "Passwort ändern",
+      "approvers": "Zustimmende",
+      "userGroup": "Benutzergruppen",
+      "permission": "Limits für den Kauf"
+    },
+    "messages": {
+      "deactivateTitle": "Diesen Benutzer deaktivieren?",
+      "deactivate": "Benutzer/innen mit Behinderungen können sich nicht in das Schaufenster einloggen und Bestellungen aufgeben.",
+      "confirmEnabled": "Benutzer {{item.firstName}} {{item.lastName}} erfolgreich aktiviert",
+      "confirmDisabled": "Benutzer {{item.firstName}} {{item.lastName}} erfolgreich deaktiviert",
+      "update": "Benutzer {{item.firstName}} {{item.lastName}} erfolgreich aktualisiert",
+      "create": "Benutzer {{item.firstName}} {{item.lastName}} erfolgreich angelegt",
+      "updatePassword": "Benutzer {{item.firstName}} {{item.lastName}} Passwort erfolgreich aktualisiert"
+    },
+    "info": {
+      "disabledEdit": "Dem Nutzer erlauben, die Bearbeitung zuzulassen.",
+      "disabledEnable": "Die Einheit muss aktiviert werden, bevor dieser Benutzer aktiviert werden kann."
+    },
+    "approver": {
+      "link": "Zustimmende",
+      "header": "Zustimmende in {{code}}",
+      "assign": "Genehmigende zuweisen",
+      "assignHeader": "Zuweisen von Genehmigenden in {{code}}",
+      "back": "Zurück",
+      "new": "Neuer Genehmigender",
+      "instructions": {
+        "check": "Um diesem Benutzer einen Genehmigenden zuzuweisen, markieren Sie das Kästchen des Benutzers.",
+        "uncheck": "Um einen Genehmigenden zu entfernen, deaktivieren Sie das Kontrollkästchen des Benutzers.",
+        "changes": "Die Änderungen werden automatisch gespeichert."
+      }
+    },
+    "userGroup": {
+      "link": "Benutzergruppen",
+      "header": "Benutzergruppen in {{code}}",
+      "assign": "Benutzergruppen zuweisen",
+      "assignHeader": "Zuweisen von Benutzergruppen in {{code}}",
+      "back": "Zurück",
+      "instructions": {
+        "check": "Um diesem Benutzer eine Benutzergruppe zuzuweisen, markieren Sie das Kästchen des Benutzers.",
+        "uncheck": "Um eine Benutzergruppe zu löschen, deaktivieren Sie das Kontrollkästchen des Benutzers.",
+        "changes": "Die Änderungen werden automatisch gespeichert."
+      }
+    },
+    "permission": {
+      "link": "Limits für den Kauf",
+      "header": "Kauflimits in {{code}}",
+      "assign": "Kauflimits zuweisen",
+      "assignHeader": "Zuweisen von Kauflimits in {{code}}",
+      "back": "Zurück",
+      "instructions": {
+        "check": "Um diesem Benutzer ein Kauflimit zuzuweisen, markieren Sie das entsprechende Kästchen.",
+        "uncheck": "Um die Zuweisung eines Kauflimits aufzuheben, deaktivieren Sie das entsprechende Kontrollkästchen.",
+        "changes": "Die Änderungen werden automatisch gespeichert."
+      },
+      "per": {
+        "undefined": "undefiniert",
+        "MONTH": "pro Monat",
+        "YEAR": "pro Jahr",
+        "WEEK": "pro Woche",
+        "QUARTER": "pro Quartal"
+      }
+    },
+    "password": {
+      "title": "Passwort ändern",
+      "subtitle": "Benutzer: {{ item.email }}",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Bestätigen Sie das neue Passwort"
+    },
+    "breadcrumbs": {
+      "list": "Alle Nutzer",
+      "details": "{{Name}}",
+      "userGroups": "Benutzergruppen",
+      "approvers": "Zustimmende",
+      "permissions": "Limits für den Kauf"
+    }
+  },
+  "orgUnit": {
+    "header": "Alle Einheiten ({{count}})",
+    "unit": "Einheit",
+    "name": "Name",
+    "uid": "ID",
+    "approvalProcess": "Verfahren zur Genehmigung",
+    "parentUnit": "Elterliche Einheit",
+    "active": "Status",
+    "hint": "Einheiten stehen für Abteilungen, Geschäfte, Regionen oder jede andere logische Gruppierung, die Sie für sinnvoll erachten. Die Kostenstellen und Lieferadressen, die einem Käufer bei der Bestätigung seiner Bestellung zur Verfügung stehen, hängen von seiner Einheit ab. Benutzer haben Zugriff auf alle Tochtereinheiten ihrer Haupteinheit.",
+    "details": {
+      "title": "Details der Einheit",
+      "subtitle": "Einheit: {{ item.name }}",
+      "hint": "Einheiten stehen für Abteilungen, Geschäfte, Regionen oder jede andere logische Gruppierung, die Sie für sinnvoll erachten. Wenn Sie eine Einheit deaktivieren, werden auch alle untergeordneten Einheiten der Einheit deaktiviert, einschließlich untergeordneter Einheiten, Benutzer, Genehmigender und Kostenstellen. Deaktivierte Einheiten können nicht bearbeitet werden."
+    },
+    "edit": {
+      "title": "Ausgabeeinheit",
+      "subtitle": "Einheit: {{ item.name }}"
+    },
+    "create": {
+      "title": "Eine Einheit erstellen",
+      "subtitle": ""
+    },
+    "messages": {
+      "deactivateTitle": "Diese Einheit deaktivieren?",
+      "deactivate": "Die Deaktivierung einer Einheit hat erhebliche Auswirkungen auf Ihre Geschäftsorganisation. Alle Tochtereinheiten, Benutzer, Budgets und Kostenstellen der Einheit werden ebenfalls deaktiviert.",
+      "confirmEnabled": "Die Einheit {{item.name}} wurde erfolgreich aktiviert",
+      "confirmDisabled": "Einheit {{item.name}} erfolgreich deaktiviert",
+      "update": "Einheit {{ item.name }} erfolgreich aktualisiert",
+      "create": "Einheit {{ item.name }} erfolgreich erstellt"
+    },
+    "info": {
+      "disabledEdit": "Aktivieren Sie die Einheit, um die Bearbeitung zu ermöglichen.",
+      "disabledEnable": "Das Elternteil muss aktiviert werden, bevor diese Einheit aktiviert werden kann.",
+      "disabledDisable": "Die Root Unit kann nicht deaktiviert werden."
+    },
+    "links": {
+      "units": "Einheiten für Kinder",
+      "users": "Nutzer",
+      "approvers": "Zustimmende",
+      "shippingAddresses": "Lieferadressen",
+      "costCenters": "Kostenstellen"
+    },
+    "tree": {
+      "expandAll": "Alles entwickeln",
+      "collapseAll": "Alle anzeigen"
+    },
+    "children": {
+      "create": {
+        "title": "Erstellen einer Kindereinheit",
+        "subtitle": ""
+      },
+      "messages": {
+        "create": "Einheit {{ item.name }} erfolgreich erstellt"
+      }
+    },
+    "costCenters": {
+      "create": {
+        "title": "Eine Kostenstelle anlegen",
+        "subtitle": ""
+      }
+    },
+    "form": {
+      "parentOrgUnit": "Mutter-Geschäftseinheit",
+      "create": "Eine Einheit erstellen",
+      "parentOrgUnitNotes": "Diese Einheit ist die Einheit der ersten Ebene in Ihrer Organisation. Sie kann keiner anderen Einheit zugewiesen werden."
+    },
+    "users": {
+      "header": "Die Nutzer von {{code}}",
+      "changeUserRoles": "Benutzerrollen ändern",
+      "newUser": "Neuer Nutzer"
+    },
+    "assignRoles": {
+      "header": "Verwalten von Rollen in {{code}}",
+      "instructions": {
+        "check": "Um einem Nutzer eine Rolle zuzuweisen, markieren Sie das entsprechende Kästchen.",
+        "uncheck": "Um eine Rolle zu entfernen, deaktivieren Sie das entsprechende Kontrollkästchen.",
+        "changes": "Die Änderungen werden automatisch gespeichert."
+      }
+    },
+    "approvers": {
+      "header": "Zustimmende in {{code}}",
+      "assign": "Genehmigende verwalten",
+      "new": "Neuer Genehmigender"
+    },
+    "assignApprovers": {
+      "header": "Verwalten von Genehmigenden in {{code}}",
+      "instructions": {
+        "check": "Um dieser Einheit einen Genehmigenden zuzuweisen, markieren Sie das Kästchen des Benutzers.",
+        "uncheck": "Um einen Genehmigenden zu entfernen, deaktivieren Sie das Kontrollkästchen des Benutzers.",
+        "changes": "Die Änderungen werden automatisch gespeichert."
+      },
+      "hint": "Benutzern, die in der Liste der Genehmigenden aufgeführt sind, werden Genehmigungsprivilegien für die Käufer dieser Einheit und der Tochtereinheiten zugewiesen. Beachten Sie, dass sich ein Benutzer mit der Rolle eines Genehmigenden von einem Genehmigenden unterscheidet, der in der Liste der Genehmigenden aufgeführt ist. Wenn es für eine Einheit keinen Genehmigenden gibt oder wenn die Genehmigenden nicht genügend Genehmigungsprivilegien für Einkäufer haben, wird ein Genehmigender weiter oben in der Hierarchie der Einheit gefunden, bis eine Verwaltung ausgewählt wird."
+    },
+    "breadcrumbs": {
+      "list": "Alle Einheiten",
+      "details": "{{Name}}",
+      "children": "Einheiten für Kinder",
+      "users": "Nutzer",
+      "approvers": "Zustimmende",
+      "addresses": "Lieferadressen",
+      "addressDetails": "{{formattedAddress}}",
+      "costCenters": "Kostenstellen"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<ng-container *ngIf="cart$ | async as cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <textarea *ngIf="data == 'Cart'" class="form-control ng-pristine ng-invalid ng-touched remark"
+              formcontrolname="cartRemark" type="text" placeholder="{{ 'olf.remark' | cxTranslate }}"></textarea>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-3">
+                <app-olf-order-summary [cart]="cart"></app-olf-order-summary>
+            </div>
+        </div>
+        <div *ngIf="data == 'Cart'" class="row">
+            <div class="col-6"></div>
+            <div class="col-3"></div>
+            <div class="col-3 quick-order-margin">
+                <cx-cart-quick-order-form></cx-cart-quick-order-form>
+                <cx-cart-proceed-to-checkout></cx-cart-proceed-to-checkout>
+            </div>
+        </div>
+    </div>
+</ng-container>
+

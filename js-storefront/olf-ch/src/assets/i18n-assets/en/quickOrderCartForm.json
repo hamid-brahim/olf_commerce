@@ -1,0 +1,18 @@
+{
+  "quickOrderCartForm": {
+    "entriesWereAdded": "({{ quantity }}) {{ product }} has been added to the cart",
+    "entryWasAdded": "{{ product }} has been added to the cart",
+    "noResults": "We could not find any products",
+    "stockLevelReached": "The maximum stock level has been reached",
+    "title": "Quick Order",
+    "productCodePlaceholder": "Enter EAN",
+    "entryProductCode": "Enter Product EAN for Quick Order",
+    "quantity": "Quantity for Quick Order",
+    "addToCart": "Add Product to Quick Order",
+    "add": "Add",
+    "product": "Product",
+    "products": "Products",
+    "productCodeLabel": "Product EAN",
+    "quantityLabel": "Qty"
+  }
+}

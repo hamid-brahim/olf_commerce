@@ -1,0 +1,70 @@
+<div *ngIf="node$ | async as node" class="container-fluid footer-container">
+  <div *ngFor="let column of node.children" class="col footer-column">
+    <ul>
+      <li class="footer-column-title">
+        {{ column.title }}
+      </li>
+      <li *ngIf="column.title == 'olf sa' || column.title == 'OLF SA'">
+        <span>
+          ZI 3, Corminboeuf <br />
+          P.O Box <br />
+          1701 Fribourg <br />
+          {{ "olf.country" | cxTranslate }}<br />
+          {{ "olf.phone" | cxTranslate }} : +41 26 467 51 11<br />
+          {{ "olf.fax" | cxTranslate }}: +41 26 467 54 66<br />
+          {{ "olf.mail" | cxTranslate }} : information@olf.ch
+        </span>
+      </li>
+      <li *ngIf="isSocialMediaNode(column)">
+        <span>
+          <div class="row socials">
+            <div class="column">
+              <a href="{{ facebookUrl }}" target="_blank"
+                ><cx-icon type="FB"></cx-icon
+              ></a>
+            </div>
+            <div class="column">
+              <a href="{{ linkedinUrl }}" target="_blank"
+                ><cx-icon type="LINKEDIN"></cx-icon
+              ></a>
+            </div>
+            <div class="column">
+              <a href="{{ instagramUrl }}" target="_blank"
+                ><cx-icon type="INSTAGRAM"></cx-icon
+              ></a>
+            </div>
+            <div class="column">
+              <a href="{{ tiktokUrl }}" target="_blank"
+                ><cx-icon type="TIKTOK"></cx-icon
+              ></a>
+            </div>
+          </div>
+        </span>
+      </li>
+      <li
+        *ngIf="
+          column.title == 'quick order'.toLowerCase() ||
+          column.title == 'commande rapide'.toLowerCase() ||
+          column.title == 'schnellbestellung'.toLowerCase()
+        "
+      >
+        <span>
+          {{ "olf.footerQuickOrder" | cxTranslate }} <br />
+          {{ "olf.footerQuick" | cxTranslate }} <br />
+        </span>
+        <a href="/my-account/quick-order" class="btn btn-commande-rapide"
+          >{{ "olf.quickOrder" | cxTranslate }} &nbsp;<cx-icon
+            type="BOLT"
+          ></cx-icon
+        ></a>
+      </li>
+      <div *ngIf="!isSocialMediaNode(column)">
+        <li *ngFor="let item of column.children" class="footer-menu-item">
+          <a [href]="item.url" [target]="item.target">
+            {{ item.title }}
+          </a>
+        </li>
+      </div>
+    </ul>
+  </div>
+</div>

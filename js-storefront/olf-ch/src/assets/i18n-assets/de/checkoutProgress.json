@@ -1,0 +1,74 @@
+{
+    "checkoutAddress": {
+        "deliveryAddress": "Delivery Address",
+        "selectYourDeliveryAddress": "Wählen Sie Ihre Lieferadresse",
+        "defaultDeliveryAddress": "Default Delivery Address",
+        "addNewAddress": "Add New Address",
+        "shipToThisAddress": "Ship to this address",
+        "deliveryAddressSelected": "Ausgewählte Lieferadresse",
+        "shippingAddress": "Lieferadresse",
+        "selectYourShippingAddress": "Wählen Sie Ihre Lieferadresse",
+        "defaultShippingAddress": "Standard-Lieferadresse"
+    },
+    "checkout": {
+        "backToCart": "Zurück zum Warenkorb"
+    },
+    "checkoutProgress": {
+        "label": "Fortschritt der Zahlung",
+        "deliveryAddress": "Lieferadresse",
+        "deliveryMode": "Art der Lieferung",
+        "paymentDetails": "Zahlungsmodalitäten",
+        "reviewOrder": "Bestellung überprüfen",
+        "methodOfPayment": "Zahlungsweise",
+        "shippingAddress": "Lieferadresse"
+    },
+    "checkoutAddresscheckoutMode": {
+        "deliveryMethod": "Methode der Lieferung",
+        "standardDelivery": "Standardlieferung",
+        "premiumDelivery": "Premium-Versand"
+    },
+    "checkoutReview": {
+        "review": "Überarbeitung",
+        "orderItems": "Artikel bestellen",
+        "confirmThatRead": "Ich bestätige, dass ich die",
+        "placeOrder": "Bestellung aufgeben",
+        "termsAndConditions": "Allgemeine Nutzungsbedingungen",
+        "editDeliveryAddressDetails": "Details der Lieferadresse bearbeiten, öffnet die Seite Lieferadresse",
+        "editPaymentDetails": "Zahlungsdetails bearbeiten, öffnet die Seite Zahlungsdetails",
+        "editPaymentType": "Zahlungsmethode ändern, öffnet die Seite Zahlungsmethode",
+        "editDeliveryMode": "Liefermethode ändern, öffnet die Seite Liefermethode",
+        "orderInProcess": "Die Bestellung wird bearbeitet. Bitte haben Sie etwas Geduld.",
+        "poNumber": "Bestellnummer",
+        "orderType_PLACE_ORDER": "Bestellung aufgeben",
+        "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Programmierung der Nachbestellungsreihenfolge",
+        "every": "Alle",
+        "recurrencePeriodType_DAILY": "Tag(e)",
+        "recurrencePeriodType_WEEKLY": "Woche(n)",
+        "recurrencePeriodType_MONTHLY": "Monat",
+        "dayOfMonth": "der Tag",
+        "startOn": "Starten Sie den",
+        "repeatOnDays": "An den folgenden Tagen wiederholen"
+    },
+    "checkoutOrderConfirmation": {
+        "confirmationOfOrder": "Bestätigung der Bestellung :",
+        "thankYou": "Vielen Dank für Ihre Bestellung!",
+        "invoiceHasBeenSentByEmail": "Eine Rechnung wurde per E-Mail versandt. Sie sollten sie in Kürze erhalten.",
+        "orderItems": "Bestellte Artikel",
+        "orderPlacedSuccessfully": "Bestellung erfolgreich abgeschlossen",
+        "createAccount": "Ein Konto erstellen?",
+        "createAccountForNext": "Erstellen Sie ein Konto für <{{email}}>, damit Sie bei Ihrem nächsten Besuch schneller zur Kasse gehen können."
+    },
+    "orderDetails": {
+        "purchaseOrderNumber": "PO"
+    },
+    "checkoutPO": {
+        "noPoNumber": "Keine",
+        "poNumber": "Bestellnummer (optional)",
+        "costCenter": "Kostenstelle",
+        "placeholder": "PO eingeben.",
+        "availableLabel": "Die verfügbaren Lieferadressen hängen von der Einheit der Kostenstelle ab."
+    },
+    "checkoutShipping": {
+        "shippingMethod": "Art der Lieferung"
+    }
+}

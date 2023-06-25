@@ -1,0 +1,47 @@
+{
+    "orgUserGroup": {
+        "header": "Alle Benutzergruppen ({{count}})",
+        "disabled": "(deaktiviert)",
+        "uid": "Code",
+        "name": "Name",
+        "unit": "Einheit",
+        "orgUnit": "Einheit",
+        "actions": "Aktionen",
+        "sortBy": "Sortieren nach",
+        "sort": {
+            "byName": "Name",
+            "byUnitName": "Einheit",
+            "byGroupID": "Gruppe"
+        },
+        "hint": "Mithilfe von Benutzergruppen können Sie Benutzer in einer Gruppe zusammenfassen, um mehreren Benutzern gleichzeitig Kauflimits zuzuweisen.",
+        "details": {
+            "title": "Benutzergruppe Details",
+            "subtitle": "Benutzergruppe: {{ item.name }}"
+        },
+        "edit": {
+            "title": "Bearbeiten der Benutzergruppe",
+            "subtitle": "Benutzergruppe: {{ item.name }}"
+        },
+        "create": {
+            "title": "Erstellen einer Benutzergruppe",
+            "subtitle": "Untertitel"
+        },
+        "links": {
+            "user": "Nutzer",
+            "permission": "Limits für den Kauf"
+        },
+        "messages": {
+            "update": "Benutzergruppe {{ item.name }} erfolgreich aktualisiert",
+            "create": "Benutzergruppe {{ item.name }} erfolgreich erstellt",
+            "deleteTitle": "Diese Benutzergruppe löschen?",
+            "delete": "Die Benutzer dieser Gruppe sind nicht vom Löschen der Benutzergruppe betroffen.",
+            "deleted": "Benutzergruppe {{ item.name }} erfolgreich gelöscht"
+        },
+        "breadcrumbs": {
+            "list": "Alle Nutzergruppen",
+            "details": "{{Name}}",
+            "users": "Nutzer",
+            "permissions": "Limits für den Kauf"
+        }
+    }
+}

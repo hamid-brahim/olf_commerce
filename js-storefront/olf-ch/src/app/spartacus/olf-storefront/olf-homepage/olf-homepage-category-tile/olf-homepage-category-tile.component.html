@@ -1,0 +1,24 @@
+<ng-container *ngIf="data$ | async as data">
+  <div class="container" *ngIf="data != null">
+    <div class="row">
+      <cx-media class="Imagecategory" [container]="getImage(data)"></cx-media>
+    </div>
+    <div class="row category">
+      <div class="content">
+        <div class="row title">
+          <div class="col" [innerHTML]="data?.title"></div>
+        </div>
+        <div class="row description">
+          <div class="col" [innerHTML]="data?.description"></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="{{ data.urlLink }}" class="btn btn-parcourir"
+              >{{ "olf.browseBtn" | cxTranslate }} &nbsp;</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

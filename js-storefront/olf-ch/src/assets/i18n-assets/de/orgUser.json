@@ -1,0 +1,113 @@
+{
+    "orgUser": {
+        "header": "Alle Nutzer ({{count}})",
+        "disabled": "(deaktiviert)",
+        "uid": "E-Mail",
+        "active": "Status",
+        "name": "Name",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "orgUnit": "Einheit",
+        "unit": "Einheit",
+        "roles": "Rollen",
+        "title": "Titel",
+        "hint": "Benutzer sind die Einkäufer, Genehmigenden, Manager und Administratoren Ihrer Organisation. Jedem Benutzer wird eine Rolle zugewiesen, die es ihm ermöglicht, Einkäufe zu tätigen oder zu genehmigen. Jeder Benutzer gehört einer Einheit an und hat Zugriff auf alle Tochtereinheiten seiner Haupteinheit.",
+        "unitApprover": "Genehmigender der Einheit",
+        "assignApprover": "Den Nutzer zu den Genehmigenden der Einheit hinzufügen",
+        "actions": "Aktionen",
+        "sortBy": "Sortieren nach",
+        "sort": {
+            "byName": "Name",
+            "byUnit": "Einheit"
+        },
+        "details": {
+            "title": "Details zum Nutzer",
+            "subtitle": "Benutzer: {{ item.name }}"
+        },
+        "edit": {
+            "title": "Benutzer ändern",
+            "subtitle": "Benutzer: {{ item.name }}"
+        },
+        "create": {
+            "title": "Einen Benutzer erstellen",
+            "subtitle": "Untertitel"
+        },
+        "links": {
+            "password": "Passwort ändern",
+            "approvers": "Zustimmende",
+            "userGroup": "Benutzergruppen",
+            "permission": "Limits für den Kauf"
+        },
+        "messages": {
+            "deactivateTitle": "Diesen Benutzer deaktivieren?",
+            "deactivate": "Benutzer/innen mit Behinderungen können sich nicht in das Schaufenster einloggen und Bestellungen aufgeben.",
+            "confirmEnabled": "Benutzer {{item.firstName}} {{item.lastName}} erfolgreich aktiviert",
+            "confirmDisabled": "Benutzer {{item.firstName}} {{item.lastName}} erfolgreich deaktiviert",
+            "update": "Benutzer {{item.firstName}} {{item.lastName}} erfolgreich aktualisiert",
+            "create": "Benutzer {{item.firstName}} {{item.lastName}} erfolgreich angelegt",
+            "updatePassword": "Benutzer {{item.firstName}} {{item.lastName}} Passwort erfolgreich aktualisiert"
+        },
+        "info": {
+            "disabledEdit": "Dem Nutzer erlauben, die Bearbeitung zuzulassen.",
+            "disabledEnable": "Die Einheit muss aktiviert werden, bevor dieser Benutzer aktiviert werden kann."
+        },
+        "approver": {
+            "link": "Zustimmende",
+            "header": "Zustimmende in {{code}}",
+            "assign": "Genehmigende zuweisen",
+            "assignHeader": "Zuweisen von Genehmigenden in {{code}}",
+            "back": "Zurück",
+            "new": "Neuer Genehmigender",
+            "instructions": {
+                "check": "Um diesem Benutzer einen Genehmigenden zuzuweisen, markieren Sie das Kästchen des Benutzers.",
+                "uncheck": "Um einen Genehmigenden zu entfernen, deaktivieren Sie das Kontrollkästchen des Benutzers.",
+                "changes": "Die Änderungen werden automatisch gespeichert."
+            }
+        },
+        "userGroup": {
+            "link": "Benutzergruppen",
+            "header": "Benutzergruppen in {{code}}",
+            "assign": "Benutzergruppen zuweisen",
+            "assignHeader": "Zuweisen von Benutzergruppen in {{code}}",
+            "back": "Zurück",
+            "instructions": {
+                "check": "Um diesem Benutzer eine Benutzergruppe zuzuweisen, markieren Sie das Kästchen des Benutzers.",
+                "uncheck": "Um eine Benutzergruppe zu löschen, deaktivieren Sie das Kontrollkästchen des Benutzers.",
+                "changes": "Die Änderungen werden automatisch gespeichert."
+            }
+        },
+        "permission": {
+            "link": "Limits für den Kauf",
+            "header": "Kauflimits in {{code}}",
+            "assign": "Kauflimits zuweisen",
+            "assignHeader": "Zuweisen von Kauflimits in {{code}}",
+            "back": "Zurück",
+            "instructions": {
+                "check": "Um diesem Benutzer ein Kauflimit zuzuweisen, markieren Sie das entsprechende Kästchen.",
+                "uncheck": "Um die Zuweisung eines Kauflimits aufzuheben, deaktivieren Sie das entsprechende Kontrollkästchen.",
+                "changes": "Die Änderungen werden automatisch gespeichert."
+            },
+            "per": {
+                "undefined": "undefiniert",
+                "MONTH": "pro Monat",
+                "YEAR": "pro Jahr",
+                "WEEK": "pro Woche",
+                "QUARTER": "pro Quartal"
+            }
+        },
+        "password": {
+            "title": "Passwort ändern",
+            "subtitle": "Benutzer: {{ item.email }}",
+            "newPassword": "Neues Passwort",
+            "confirmPassword": "Bestätigen Sie das neue Passwort"
+        },
+        "breadcrumbs": {
+            "list": "Alle Nutzer",
+            "details": "{{Name}}",
+            "userGroups": "Benutzergruppen",
+            "approvers": "Zustimmende",
+            "permissions": "Limits für den Kauf"
+        }
+    }
+}

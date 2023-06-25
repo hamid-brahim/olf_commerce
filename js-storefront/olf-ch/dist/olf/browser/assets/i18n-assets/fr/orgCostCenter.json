@@ -1,0 +1,62 @@
+{
+  "orgCostCenter": {
+    "header": "Tous les centres des coûts ({{count}})",
+    "code": "Code",
+    "active": "Statut",
+    "name": "Nom",
+    "currency": "Devise",
+    "unit": "Unité parent",
+    "actions": "",
+    "sortBy": "Trier par",
+    "sort": {
+      "byName": "Nom",
+      "byUnitName": "Unité",
+      "byCode": "Code"
+    },
+
+    "hint": "Toutes les commandes passées par le biais du compte d'achats de votre organisation sont liées à un centre de coûts à des fins de suivi. Chaque unité peut avoir plusieurs centres de coûts. Pour limiter les dépenses, des budgets sont affectés aux centres de coûts. Un acheteur sélectionne un centre de coûts lorsqu'il passe sa commande.",
+    "disable": {
+      "confirm": "Désactiver"
+    },
+
+    "messages": {
+      "deactivateTitle": "Désactiver ce centre de coûts?",
+      "deactivate":
+      "Les centres de coûts désactivés ne peuvent pas être utilisés pour passer de nouvelles commandes. Assurez-vous que votre unité possède au moins un centre de coûts. Les commandes existantes ne sont pas affectées",
+      "confirmEnabled": "Centre de coûts {{ item.name }} activé avec succès",
+      "confirmDisabled": "Centre de coûts {{ item.name }} désactivé avec succès",
+      "update": "Centre de coûts {{ item.name }} mis à jour avec succès",
+      "create": "Centre de coûts {{ item.name }} crée avec succès"
+    },
+    "info": {
+      "disabledEdit": "Activez le centre de coût pour permettre la modification.",
+      "disabledEnable":
+      "L'unité doit être activée avant que ce centre de coût puisse être activé."
+    },
+
+    "details": {
+      "title": "Détails du centre de coût",
+      "subtitle": "Centre de coûts: {{ item.name }}"
+    },
+
+    "edit": {
+      "title": "Modifier le centre de coût",
+      "subtitle": "Centre de coûts:{{ item.name }}"
+    },
+
+    "create": {
+      "title": "Créer le centre de coûts",
+      "subtitle": ""
+    },
+
+    "budget": {
+      "link": "Budgets"
+    },
+
+    "breadcrumbs": {
+      "list": "Tous les centres de coûts",
+      "details": "{{name}}",
+      "budgets": "Budgets"
+    }
+  }
+}

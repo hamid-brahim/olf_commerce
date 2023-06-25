@@ -1,0 +1,79 @@
+{
+    "checkout": {
+        "backToCart": "Retour au panier"
+    },
+    "checkoutProgress": {
+        "label": "Progression du paiement",
+        "deliveryAddress": "Adresse de livraison",
+        "deliveryMode": "Mode de livraison",
+        "paymentDetails": "Modalités de paiement",
+        "reviewOrder": "Vérifier Commande",
+        "methodOfPayment": "Mode de paiement",
+        "shippingAddress": "Adresse de livraison"
+    },
+    "checkoutAddress": {
+        "deliveryAddress": "Adresse de livraison",
+        "selectYourDeliveryAddress": "Sélectionnez votre adresse de livraison",
+        "defaultDeliveryAddress": "Adresse de livraison par défaut",
+        "addNewAddress": "Ajouter une nouvelle adresse",
+        "shipToThisAddress": "Envoyer à cette adresse",
+        "deliveryAddressSelected": "Adresse de livraison sélectionnée",
+        "shippingAddress": "Adresse de livraison",
+        "selectYourShippingAddress": "Sélectionnez votre adresse de livraison",
+        "defaultShippingAddress": "Adresse de livraison par défaut"
+    },
+    "checkoutAddresscheckoutMode": {
+        "deliveryMethod": "Méthode de livraison",
+        "standardDelivery": "Livraison standard",
+        "premiumDelivery": "Livraison Premium"
+    },
+    "checkoutReview": {
+        "review": "Révision",
+        "orderItems": "Commander des articles",
+        "confirmThatRead": "Je confirme que j'ai lu et que j'accepte la",
+        "placeOrder": "Passer commande",
+        "termsAndConditions": "Conditions générales d'utilisation",
+        "editDeliveryAddressDetails": "Modifier les détails de l'adresse de livraison, ouvre la page Adresse de livraison",
+        "editPaymentDetails": "Modifier les détails du paiement, ouvre la page Détails du paiement",
+        "editPaymentType": "Modifier le mode de paiement, ouvre la page Mode de paiement",
+        "editDeliveryMode": "Modifier le mode de livraison, ouvre la page Mode de livraison",
+        "orderInProcess": "La commande est en cours de traitement. Veuillez patienter.",
+        "poNumber": "Numéro de commande",
+        "orderType_PLACE_ORDER": "Passer commande",
+        "orderType_SCHEDULE_REPLENISHMENT_ORDER": "Programmation de l'ordre de réapprovisionnement",
+        "every": "Tous les",
+        "recurrencePeriodType_DAILY": "Jour(s)",
+        "recurrencePeriodType_WEEKLY": "Semaine(s)",
+        "recurrencePeriodType_MONTHLY": "Mois",
+        "dayOfMonth": "le jour",
+        "startOn": "Démarrer le",
+        "repeatOnDays": "Répéter les jours suivants"
+    },
+    "checkoutOrderConfirmation": {
+        "confirmationOfOrder": "Confirmation de la commande :",
+        "thankYou": "Merci pour votre commande !",
+        "invoiceHasBeenSentByEmail": "Une confirmation de commande a été envoyée par e-mail. Vous devriez la recevoir prochainement.",
+        "orderItems": "Articles commandés",
+        "orderPlacedSuccessfully": "Commande passée avec succès",
+        "createAccount": "Créer un compte ?",
+        "createAccountForNext": "Créez un compte pour <{{email}}> afin de passer plus rapidement à la caisse lors de votre prochaine visite."
+    },
+    "orderDetails": {
+        "purchaseOrderNumber": "PO"
+    },
+    "checkoutPO": {
+        "noPoNumber": "Aucun",
+        "poNumber": "Numéro de commande (facultatif)",
+        "costCenter": "Centre de coût",
+        "placeholder": "Entrer PO.",
+        "availableLabel": "Les adresses de livraison disponibles dépendent de l'unité du centre de coûts."
+    },
+    "checkoutShipping": {
+        "shippingMethod": "Mode de livraison"
+    },
+  "checkoutMode": {
+    "deliveryMethod": "Mode de livraison",
+    "standardDelivery": "Standard Delivery",
+    "premiumDelivery": "Premium Delivery"
+  }
+}

@@ -1,0 +1,112 @@
+{
+    "userAccount": {
+        "loginForm": {
+            "forgotPassword": "Passwort vergessen?",
+            "signIn": "Anmelden",
+            "register": "Registrieren",
+            "dontHaveAccount": "Sie haben kein Konto?",
+            "guestCheckout": "Gastzahlung",
+            "emailAddress": {
+                "label": "E-Mail-Adresse",
+                "placeholder": "E-Mail-Adresse eingeben"
+            },
+            "password": {
+                "label": "Passwort",
+                "placeholder": "Passwort"
+            },
+            "wrongEmailFormat": "Es handelt sich nicht um ein gültiges E-Mail-Format."
+        },
+        "miniLogin": {
+            "userGreeting": "Hallo, {{Name}}",
+            "signInRegister": "Anmelden / Registrieren"
+        }
+    },
+    "userProfile": {
+        "updateEmailForm": {
+            "newEmailAddress": {
+                "label": "Neue E-Mail-Adresse",
+                "placeholder": "E-Mail-Adresse eingeben"
+            },
+            "confirmNewEmailAddress": {
+                "label": "Bestätigen Sie die neue E-Mail-Adresse",
+                "placeholder": "E-Mail-Adresse eingeben"
+            },
+            "enterValidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+            "bothEmailMustMatch": "Die beiden E-Mails müssen übereinstimmen",
+            "password": {
+                "label": "Passwort",
+                "placeholder": "Geben Sie das Passwort ein"
+            },
+            "pleaseInputPassword": "Bitte geben Sie das Passwort ein",
+            "emailUpdateSuccess": "Erfolgreich. Bitte melden Sie sich an mit {{ newUid }}"
+        },
+        "register": {
+            "confirmPassword": {
+                "action": "Bestätigen Sie das Passwort",
+                "label": "Bestätigen Sie das Passwort",
+                "placeholder": "Bestätigen Sie das Passwort"
+            },
+            "managementInMyAccount": "Verwaltung in Mein Konto.",
+            "termsAndConditions": "Allgemeine Nutzungsbedingungen",
+            "signIn": "Ich habe bereits ein Konto. Anmelden",
+            "register": "Registrieren",
+            "confirmNewPassword": "Bestätigen Sie das neue Passwort",
+            "resetPassword": "Das Passwort zurücksetzen",
+            "createAccount": "Ein Konto erstellen",
+            "title": "Titel",
+            "firstName": {
+                "label": "Vorname",
+                "placeholder": "Vorname"
+            },
+            "lastName": {
+                "label": "Nachname",
+                "placeholder": "Nachname"
+            },
+            "emailAddress": {
+                "label": "E-Mail-Adresse",
+                "placeholder": "E-Mail-Adresse"
+            },
+            "password": {
+                "label": "Passwort",
+                "placeholder": "Passwort"
+            },
+            "newPassword": "Neues Passwort",
+            "emailMarketing": "Meine persönlichen Daten verwenden, um im Rahmen von Marketingkampagnen E-Mail-Newsletter zu erhalten. Um Ihre Einstellungen zu ändern, besuchen Sie die Seite Einwilligungen verwalten in Mein Konto.",
+            "confirmThatRead": "Ich bestätige, dass ich die",
+            "selectTitle": "Titel auswählen",
+            "passwordMinRequirements": "Das Passwort muss aus mindestens sechs Zeichen bestehen, darunter ein Großbuchstabe, eine Zahl und ein Symbol.",
+            "bothPasswordMustMatch": "Die beiden Passwörter müssen übereinstimmen",
+            "titleRequired": "Der Titel ist obligatorisch.",
+            "postRegisterMessage": "Bitte melden Sie sich mit den bereitgestellten Anmeldeinformationen an."
+        },
+        "forgottenPassword": {
+            "resetPassword": "Das Passwort zurücksetzen",
+            "enterEmailAddressAssociatedWithYourAccount": "Geben Sie die mit Ihrem Konto verknüpfte E-Mail-Adresse ein",
+            "emailAddress": {
+                "label": "E-Mail-Adresse",
+                "placeholder": "E-Mail-Adresse eingeben"
+            },
+            "enterValidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+            "passwordResetEmailSent": "Sie haben eine E-Mail mit Informationen darüber erhalten, wie Sie Ihr Passwort zurücksetzen können.",
+            "passwordResetSuccess": "Erfolg! Sie können sich nun mit Ihrem neuen Passwort anmelden."
+        }
+    },
+    "anonymousConsents": {
+        "preferences": "Präferenzen in Bezug auf die Zustimmung",
+        "dialog": {
+            "title": "Verwaltung von Einwilligungen",
+            "legalDescription": "Wir verwenden Cookies/Browserspeicher, um Inhalte zu personalisieren und die Nutzererfahrung zu verbessern. Wir können auch Daten über Ihre Nutzung der Website an unsere sozialen Medien weitergeben. Weitere Informationen finden Sie in unserer Datenschutzrichtlinie.",
+            "selectAll": "Alles auswählen",
+            "clearAll": "Alles löschen"
+        },
+        "banner": {
+            "title": "Diese Website verwendet Cookies",
+            "description": "Wir verwenden Cookies/Browserspeicher, um Inhalte zu personalisieren und die Nutzererfahrung zu verbessern.",
+            "allowAll": "Alles erlauben",
+            "viewDetails": "Details anzeigen"
+        }
+    },
+  "authMessages": {
+    "signedOutSuccessfully": "Sie haben sich erfolgreich abgemeldet"
+  }
+}

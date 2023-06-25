@@ -1,0 +1,269 @@
+{
+    "orderDetails": {
+        "orderId": "Bestell-Nr.",
+        "orderNumber": "Bestellnummer",
+        "replenishmentId": "Wiederauffüllung",
+        "purchaseOrderId": "Nummer des Bestellscheins",
+        "purchaseOrderNumber": "Nummer des Bestellscheins",
+        "emptyPurchaseOrderId": "Keine Bestellnummer",
+        "none": "Keine {{Wert}}",
+        "placed": "Aufgegeben",
+        "placedBy": "Aufgegeben von",
+        "unit": "Einheit",
+        "costCenter": "Kostenstelle",
+        "costCenterAndUnit": "Kostenstelle / Einheit",
+        "costCenterAndUnitValue": "{{costCenterName}} / {{unitName}}",
+        "methodOfPayment": "Zahlungsart",
+        "payByAccount": "Nach Konto bezahlen",
+        "paidByCreditCard": "(mit Kreditkarte bezahlt)",
+        "status": "Status",
+        "active": "Aktiv",
+        "shippedOn": "Versendet am",
+        "shippingMethod": "Versandart",
+        "placedOn": "Aufgegeben am",
+        "startOn": "Start",
+        "nextOrderDate": "Datum der nächsten Bestellung",
+        "frequency": "Frequenz",
+        "cancelled": " Storniert",
+        "deliveryStatus_IN_TRANSIT": "Unterwegs",
+        "deliveryStatus_READY_FOR_PICKUP": "Abholbereit",
+        "deliveryStatus_READY_FOR_SHIPPING": "Versandfertig",
+        "deliveryStatus_WAITING": "Warten",
+        "deliveryStatus_DELIVERING": "In Zustellung",
+        "deliveryStatus_PICKPACK": "Vorbereitung des Versands",
+        "deliveryStatus_PICKUP_COMPLETE": "Abholung vollständig",
+        "deliveryStatus_DELIVERY_COMPLETED": "Zugestellt",
+        "deliveryStatus_PAYMENT_NOT_CAPTURED": "Probleme bei der Bezahlung",
+        "deliveryStatus_READY": "In Arbeit",
+        "deliveryStatus_DELIVERY_REJECTED": "Annahme verweigert",
+        "deliveryStatus_SHIPPED": "Versendet",
+        "deliveryStatus_TAX_NOT_COMMITTED": "Probleme mit Steuern",
+        "deliveryStatus_CANCELLED": "Storniert",
+        "statusDisplay_cancelled": "Storniert",
+        "statusDisplay_cancelling": "Warten abbrechen",
+        "statusDisplay_completed": "Abgeschlossen",
+        "statusDisplay_created": "Erstellt",
+        "statusDisplay_error": "In der Warteschleife",
+        "statusDisplay_Error": "In der Warteschleife",
+        "statusDisplay_processing": "In der Warteschleife",
+        "statusDisplay_open": "Öffnen",
+        "statusDisplay_pending": {
+            "approval": "Wartet auf Genehmigung",
+            "merchant": {
+                "approval": "Wartet auf Zustimmung des Händlers"
+            }
+        },
+        "statusDisplay_approved": "Genehmigt",
+        "statusDisplay_rejected": "Abgelehnt",
+        "statusDisplay_merchant": {
+            "approved": "Vom Händler genehmigt",
+            "rejected": "Vom Händler abgelehnt"
+        },
+        "statusDisplay_assigned": {
+            "admin": "Dem Administrator zugewiesen"
+        },
+        "consignmentTracking": {
+            "action": "Paket verfolgen",
+            "dialog": {
+                "header": "Informationen zur Nachbereitung",
+                "shipped": "Versendet",
+                "estimate": "Geschätzte Lieferung",
+                "carrier": "Lieferservice",
+                "trackingId": "Tracking-Nummer",
+                "noTracking": "Das Paket wurde noch nicht vom Lager aus versandt. Die Tracking-Informationen werden verfügbar sein, nachdem das Paket versendet wurde.",
+                "loadingHeader": "Sendungen verfolgen"
+            }
+        },
+        "cancellationAndReturn": {
+            "returnAction": "Antrag auf Rückgabe",
+            "cancelAction": "Elemente rückgängig machen",
+            "item": "Objekt",
+            "itemPrice": "Preis",
+            "quantity": "Maximale Menge",
+            "returnQty": "Zurückzusendende Menge",
+            "cancelQty": "Zu stornierende Menge",
+            "setAll": "Alle Mengen auf Maximum einstellen",
+            "totalPrice": "Gesamt",
+            "submit": "Antrag einreichen",
+            "returnSuccess": "Ihr Antrag auf Rückgabe ({{rma}}) wurde eingereicht",
+            "cancelSuccess": "Ihre Stornierungsanfrage wurde eingereicht (die ursprüngliche {{orderCode}}-Bestellung wird aktualisiert)"
+        },
+        "cancelReplenishment": {
+            "title": "Nachschub abbrechen",
+            "description": "Alle zukünftigen Nachbestellungen stornieren?",
+            "accept": "Ja",
+            "reject": "Nicht",
+            "cancelSuccess": "Der Nachbestellungsauftrag #{{replenishmentOrderCode}} wurde erfolgreich storniert."
+        }
+    },
+    "orderHistory": {
+        "orderHistory": "Verlauf der Bestellungen",
+        "orderId": "Bestell-Nr.",
+        "emptyPurchaseOrderId": "Keine",
+        "date": "Datum",
+        "status": "Status",
+        "total": "Gesamt",
+        "noOrders": "Wir haben keine Bestellunterlagen für dieses Konto.",
+        "noReplenishmentOrders": "Wir haben keinen Datensatz für eine Wiederbeschaffungsanordnung für dieses Konto.",
+        "startShopping": "Mit dem Einkaufen beginnen",
+        "sortBy": "Sortieren nach",
+        "replenishmentOrderHistory": "Verlauf der Nachbestellungen",
+        "replenishmentOrderId": "Wiederauffüllung",
+        "purchaseOrderNumber": "PO #",
+        "startOn": "Start",
+        "frequency": "Frequenz",
+        "nextOrderDate": "Datum der nächsten Bestellung",
+        "cancel": "Abbrechen",
+        "cancelled": "Storniert",
+        "replenishmentHistory": "Wiederbeschaffungshistorie",
+        "notFound": "Keine Bestellungen gefunden",
+        "PONumber": "Bestellschein",
+        "costCenter": "Kostenstelle"
+    },
+    "closeAccount": {
+        "confirmAccountClosure": "Bestätigen Sie die Schließung des Kontos",
+        "confirmAccountClosureMessage": "Sind Sie sicher, dass Sie Ihr Konto schließen möchten?",
+        "closeMyAccount": "MEIN KONTO SCHLIESSEN",
+        "accountClosedSuccessfully": "Konto erfolgreich geschlossen",
+        "accountClosedFailure": "Kontoabschluss fehlgeschlagen"
+    },
+    "updatePasswordForm": {
+        "oldPassword": {
+            "label": "Altes Passwort",
+            "placeholder": "Altes Passwort"
+        },
+        "oldPasswordIsRequired": "Das alte Passwort ist erforderlich.",
+        "newPassword": {
+            "label": "Neues Passwort",
+            "placeholder": "Neues Passwort"
+        },
+        "passwordMinRequirements": "Das Passwort muss aus mindestens sechs Zeichen bestehen, darunter ein Großbuchstabe, eine Zahl und ein Symbol.",
+        "confirmPassword": {
+            "label": "Bestätigen Sie das neue Passwort",
+            "placeholder": "Bestätigen Sie das Passwort"
+        },
+        "bothPasswordMustMatch": "Die beiden Passwörter müssen übereinstimmen",
+        "passwordUpdateSuccess": "Passwort erfolgreich aktualisiert"
+    },
+    "updateProfileForm": {
+        "title": "Titel",
+        "none": "Keine",
+        "firstName": {
+            "label": "Vorname",
+            "placeholder": "Vorname"
+        },
+        "firstNameIsRequired": "Der Vorname ist obligatorisch.",
+        "lastName": {
+            "label": "Nachname",
+            "placeholder": "Nachname"
+        },
+        "lastNameIsRequired": "Der Nachname ist obligatorisch.",
+        "profileUpdateSuccess": "Erfolgreiche Aktualisierung der persönlichen Daten",
+        "customerId": "Kunde #"
+    },
+    "consentManagementForm": {
+        "clearAll": "Alles löschen",
+        "selectAll": "Alles auswählen",
+        "message": {
+            "success": {
+                "given": "Erfolgreich erteilte Zustimmung.",
+                "withdrawn": "Zustimmung erfolgreich zurückgezogen."
+            }
+        }
+    },
+    "myCoupons": {
+        "noCouponsMessage": "Sie haben keine Gutscheine zur Verfügung.",
+        "effectiveTitle": "effektiv :",
+        "Effective": "EFFEKTIVE",
+        "PreSession": "EFFEKTIV BALD",
+        "ExpireSoon": "BEVORSTEHENDER ABLAUF",
+        "readMore": "Mehr erfahren",
+        "notification": "Benachrichtigung",
+        "findProducts": "Produkte finden",
+        "status": "Status :",
+        "dialogTitle": "Coupon",
+        "claimCustomerCoupon": "Sie haben diesen Coupon erfolgreich eingefordert.",
+        "myCoupons": "Meine Gutscheine",
+        "startDateAsc": "Startdatum (in aufsteigender Reihenfolge)",
+        "startDateDesc": "Startdatum (in absteigender Reihenfolge)",
+        "endDateAsc": "Enddatum (in aufsteigender Reihenfolge)",
+        "endDateDesc": "Enddatum (in absteigender Reihenfolge)",
+        "sortBy": "Sortieren nach",
+        "notesPreffix": "Sie können Ihre bevorzugten Kanäle für den Empfang von Coupon-Benachrichtigungen auf der Startseite der Anwendung festlegen ",
+        "notesLink": "Benachrichtigungskanäle",
+        "notesSuffix": " Seite."
+    },
+    "notificationPreference": {
+        "message": "Wählen Sie Ihre bevorzugten Benachrichtigungskanäle aus",
+        "note": "Bemerkung : ",
+        "noteMessage": "Wenn Sie alle Kanäle deaktivieren, können Sie keine Benachrichtigungen mehr erhalten.",
+        "EMAIL": "E-Mail:",
+        "SMS": "SMS:",
+        "SITE_MESSAGE": "Nachricht von der Seite"
+    },
+    "myInterests": {
+        "header": "Meine Interessen",
+        "item": "ITEM",
+        "price": "PREIS",
+        "notifications": "NOTIFIKATIONEN",
+        "noInterests": "Sie haben noch keine registrierten Zinsen.",
+        "inStock": "Auf Lager",
+        "lowStock": "Geringer Bestand ",
+        "outOfStock": "Ausverkauft",
+        "BACK_IN_STOCK": "Auf Lager",
+        "sortBy": "Sortieren nach",
+        "expirationDate": " - Bis {{ expirationDate }}",
+        "productId": "ID {{ Code }}",
+        "remove": "ENTFERNEN",
+        "sorting": {
+            "byNameAsc": "Name (aufsteigend)",
+            "byNameDesc": "Name (in absteigender Reihenfolge)"
+        }
+    },
+    "AccountOrderHistoryTabContainer": {
+        "tabs": {
+            "AccountOrderHistoryComponent": "ALLE BEFEHLE ({{param}})",
+            "OrderReturnRequestListComponent": "RETOURS ({{param}})"
+        }
+    },
+    "returnRequestList": {
+        "returnRequestId": "Zurück #",
+        "orderId": "Bestell-Nr.",
+        "date": "Datum der Erstellung",
+        "status": "Status",
+        "sortBy": "Sortieren nach",
+        "statusDisplay_APPROVAL_PENDING": "Genehmigung läuft",
+        "statusDisplay_CANCELED": "Storniert",
+        "statusDisplay_CANCELLING": "Stornierung",
+        "statusDisplay_WAIT": "Warten",
+        "statusDisplay_RECEIVED": "Empfangen",
+        "statusDisplay_RECEIVING": "Empfang",
+        "statusDisplay_APPROVING": "Genehmigung ",
+        "statusDisplay_REVERSING_PAYMENT": "Rückbuchung von Zahlungen",
+        "statusDisplay_PAYMENT_REVERSED": "Zahlung storniert",
+        "statusDisplay_PAYMENT_REVERSAL_FAILED": "Zahlungsabbruch fehlgeschlagen",
+        "statusDisplay_REVERSING_TAX": "Umkehrung der Steuer",
+        "statusDisplay_TAX_REVERSED": "Steuer annulliert",
+        "statusDisplay_TAX_REVERSAL_FAILED": "Scheitern der Steuerumkehr",
+        "statusDisplay_COMPLETED": "Abgeschlossen"
+    },
+    "returnRequest": {
+        "returnRequestId": "Antrag auf Rückgabe",
+        "orderCode": "Für die Bestellnummer",
+        "status": "Status der Rückkehr",
+        "cancel": "Rückgabeantrag abbrechen",
+        "item": "Beschreibung",
+        "itemPrice": "Preis",
+        "returnQty": "Rückgabemenge",
+        "total": "Gesamt",
+        "summary": "Gesamtsumme der Rücksendungen",
+        "subtotal": "Zwischensumme",
+        "deliveryCode": "Kosten für die Lieferung",
+        "estimatedRefund": "Geschätzte Rückzahlung",
+        "note": "Die Gesamtbeträge sind Schätzungen und enthalten möglicherweise keine anwendbaren Steuern oder andere Gebühren.",
+        "cancelSuccess": "Ihr Antrag auf Rückgabe ({{rma}}) wurde storniert"
+    },
+    "wishlist": {
+        "empty": "Es gibt noch keine Produkte in Ihrer Wunschliste"
+    }
+}

@@ -1,8 +1,0 @@
-{
-  "orgUserApprovers":{
-    "title": "Manage approvers",
-    "subtitle": "User: {{ item.name }}",
-    "assigned": "Approver {{ item.name }} assigned successfully",
-    "unassigned": "Approver {{ item.name }} unassigned successfully"
-  }
-}

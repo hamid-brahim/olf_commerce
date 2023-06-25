@@ -1,0 +1,31 @@
+{
+    "storeFinder": {
+        "openUntil": "Ouvert jusqu'à",
+        "closed": "Fermé",
+        "back": "Retour",
+        "call": "Appeler",
+        "getDirections": "Obtenir un itinéraire",
+        "ariaLabelGetDirections": "Obtenir un itinéraire, ce lien s'ouvre dans une nouvelle fenêtre",
+        "ariaLabelCountriesCount": "Magasins dans les pays {{ count }} trouvés",
+        "listView": "Vue de la liste",
+        "mapView": "Voir la carte",
+        "noStoresFound": "Aucun magasin n'a été trouvé.",
+        "storeHours": "Heures d'ouverture du magasin",
+        "storeFeatures": "Caractéristiques du magasin",
+        "storeFinder": "Recherche de magasins",
+        "storesFound": "{{ count }} magasin trouvé",
+        "storesFound_other": "{{ count }} magasins trouvés",
+        "fromStoresFound": "de {{ count }} magasin trouvé",
+        "fromStoresFound_other": "de {{ count }} magasins trouvés",
+        "findStore": "Trouver un magasin",
+        "useMyLocation": "Utiliser ma localisation",
+        "viewAllStores": "Voir tous les magasins",
+        "contactUs": "Contactez nous",
+        "searchBox": "Code postal, ville ou adresse",
+        "backToList": "Retour à la liste",
+        "noStoresMessage": "Aucun magasin n'a été trouvé dans la base de données...",
+        "geolocationNotEnabled": "Impossible de localiser les magasins à proximité. Le consentement à la géolocalisation n'a pas été activé",
+        "searchNearestStores": "Rechercher les magasins les plus proches",
+        "searchBoxLabel": "Saisir le code postal, la ville ou l'adresse"
+    }
+}
