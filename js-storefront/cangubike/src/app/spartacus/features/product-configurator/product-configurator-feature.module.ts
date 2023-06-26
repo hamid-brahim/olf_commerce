@@ -39,7 +39,7 @@ import { PRODUCT_CONFIGURATOR_TEXTFIELD_FEATURE, TextfieldConfiguratorRootModule
         module: () =>
           import('@spartacus/product-configurator/rulebased').then((m) => m.RulebasedConfiguratorModule),
       },
-    }
+   }
   })
   ]
 })

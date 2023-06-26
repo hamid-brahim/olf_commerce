@@ -1,0 +1,108 @@
+.top-header {
+  background-color: var(--cx-color-secondary);
+  font-size: 0.900rem;
+}
+
+.header-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.SiteLinks {
+  // this is a trick to pass a margin parameter to child cx-generic-link component
+  // which are dynamically rendered in the slot
+  --cx-margin: 0.5rem 8px;
+}
+img {
+  height: 60px;
+  width: 100px;
+}
+.cx-link {
+  color: #f1f2f3;
+}
+.cx-page-slot {
+  position: relative;
+  opacity: 0;
+}
+.header-links{
+  position: absolute;
+}
+//cx-navigation-ui {
+//  .flyout {
+//    nav {
+//      span {
+//        height: 40px;
+//        margin: 0;
+//        opacity: 0;
+//        overflow: hidden;
+//        padding: 0;
+//        position: absolute;
+//        bottom: -7px;
+//        width: 40px;
+//      }
+//    }
+//  }
+//}
+//.HeaderLinks {
+//  .accNavComponent {
+//      nav {
+//        span {
+//          height: 40px;
+//          margin: 0;
+//          opacity: 0;
+//          overflow: hidden;
+//          padding: 0;
+//          position: absolute;
+//          bottom: -7px;
+//          width: 40px;
+//        }
+//      }
+//  }
+//}
+//.fa-angle-down {
+//  opacity:0;
+//}
+//cx-navigation-ui {
+//  padding-left: 40px;
+//  padding-top: 40px;
+//  opacity: 0;
+//
+//  h5 {
+//    display: none !important;
+//  }
+//  .wrapper {
+//    visibility: visible !important;
+//    opacity: 1 !important;
+//    margin: 0 !important;
+//    border: none !important;
+//    padding: 0 !important;
+//    position: initial !important;
+//
+//    cx-generic-link {
+//      text-decoration: none !important;
+//
+//      &:hover {
+//        a {
+//          color: #f34a5e !important;
+//          //--ssf-dark-primary
+//        }
+//      }
+//
+//      a {
+//        &:hover {
+//          color: #f34a5e !important;
+//        }
+//      }
+//    }
+//
+//    .childs {
+//      flex-direction: column;
+//
+//      cx-generic-link:not(.all) {
+//        color: var(--ssf-gray-primary);
+//      }
+//    }
+//  }
+//}
+//
+//

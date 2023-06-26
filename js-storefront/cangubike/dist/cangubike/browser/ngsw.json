@@ -1,0 +1,145 @@
+{
+  "configVersion": 1,
+  "timestamp": 1676640415745,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/112.ae58d547cf6b7df1.js",
+        "/182.c6d31caa206bbbbc.js",
+        "/26.f29cde75f05cd5ba.js",
+        "/277.bb6e6a77cbd2d8ac.js",
+        "/300.a26cf6bb4213d06d.js",
+        "/393.ffaa06c6493cabac.js",
+        "/442.bb9b2268fa576fe5.js",
+        "/446.e62dfc67936e0f67.js",
+        "/464.bf6aecbe685c043a.js",
+        "/479.5b6334b2b2550bb6.js",
+        "/487.4961a00e97c5d140.js",
+        "/537.a34c0f9acd86da52.js",
+        "/599.80863664f60ffc1b.js",
+        "/617.f883d2bffc95160c.js",
+        "/680.1f93aa86838b28e2.js",
+        "/694.0b10b9d1fba65120.js",
+        "/697.e15c10bae71de4e2.js",
+        "/725.4c14ca69e0d53b5f.js",
+        "/745.5ad904ee3774d0ec.js",
+        "/827.ea5d831efe19fca0.js",
+        "/865.628a7e1e2cc1d98e.js",
+        "/972.18fb8599c03187fe.js",
+        "/980.3500decce121d0b5.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.aa650594eca789da.js",
+        "/manifest.webmanifest",
+        "/polyfills.299729a1cbd59369.js",
+        "/runtime.fe82159201b89117.js",
+        "/styles.780879f297362786.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/i18n-assets/en/address.json",
+        "/assets/i18n-assets/en/cart.json",
+        "/assets/i18n-assets/en/common.json",
+        "/assets/i18n-assets/en/myAccount.json",
+        "/assets/i18n-assets/en/payment.json",
+        "/assets/i18n-assets/en/product.json",
+        "/assets/i18n-assets/en/pwa.json",
+        "/assets/i18n-assets/en/user.json",
+        "/assets/i18n-assets/fr/address.json",
+        "/assets/i18n-assets/fr/cart.json",
+        "/assets/i18n-assets/fr/common.json",
+        "/assets/i18n-assets/fr/myAccount.json",
+        "/assets/i18n-assets/fr/payment.json",
+        "/assets/i18n-assets/fr/product.json",
+        "/assets/i18n-assets/fr/pwa.json",
+        "/assets/i18n-assets/fr/user.json",
+        "/assets/webApplicationInjector.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/112.ae58d547cf6b7df1.js": "c598c6dfa8ffb0cdeea4fa5d0630ca7dabac442d",
+    "/182.c6d31caa206bbbbc.js": "4d185a93837f596b43c9801c31b864b2d7997125",
+    "/26.f29cde75f05cd5ba.js": "99ae8257391a634e192c8616d1dc7d26cf0a1339",
+    "/277.bb6e6a77cbd2d8ac.js": "bb7a36c9d7490abfe2e3468568e71b5f3d958a83",
+    "/300.a26cf6bb4213d06d.js": "8e7b102215cebda2ca7fe890d79b3a5d72d37592",
+    "/393.ffaa06c6493cabac.js": "4ace7411fd14c37f8f5a4e20adf97fdfc955965e",
+    "/442.bb9b2268fa576fe5.js": "f5720ba2404bc9a1e0a32af72c9ee98955cf87aa",
+    "/446.e62dfc67936e0f67.js": "861f6d8c53b40301bd3c8231ebf7db0b1d15bc51",
+    "/464.bf6aecbe685c043a.js": "0f43fda66a3cb1c723e801a1330296e095f826ff",
+    "/479.5b6334b2b2550bb6.js": "f5a76466fe7a2ab3d2688c27af62cdec216ef8df",
+    "/487.4961a00e97c5d140.js": "30fbe6b1e58db35482524aa38ab460a4d43629d6",
+    "/537.a34c0f9acd86da52.js": "b568c8450a48b2cde03e493d68df4d4db36ac549",
+    "/599.80863664f60ffc1b.js": "658783abac7d114b5fb234a2ee2f06a94e253c79",
+    "/617.f883d2bffc95160c.js": "df964787a69172e0ee99fd1ab7936dff60f7142b",
+    "/680.1f93aa86838b28e2.js": "4953c3bc929f63acce788211999563251e7862e4",
+    "/694.0b10b9d1fba65120.js": "66f46ff344b1d1ecc6ae3785cc0eb62fb7d5bab9",
+    "/697.e15c10bae71de4e2.js": "91b6b53ae03e03ea5635246af154c686356842c5",
+    "/725.4c14ca69e0d53b5f.js": "8f10968ccc5a84c023aef4433decf5b878032f1b",
+    "/745.5ad904ee3774d0ec.js": "c552c62dded66e31c268d376e8ee48f4c48390d5",
+    "/827.ea5d831efe19fca0.js": "d344a63dd37bb7bc3de87884fe467c1797b20b56",
+    "/865.628a7e1e2cc1d98e.js": "ac199baa3ece0a911b6f5f69c94f32fa60164a5f",
+    "/972.18fb8599c03187fe.js": "71bd6c54fd7db086512fa27796b32663684824a6",
+    "/980.3500decce121d0b5.js": "f920e824508c3dcd433368c062a1d95a86ebe2ba",
+    "/assets/i18n-assets/en/address.json": "dfc747b8c2fc809b0f027a10860508f08bb7933d",
+    "/assets/i18n-assets/en/cart.json": "a3d5f14c8b0225977f4ab8b90aad7b961f1970ba",
+    "/assets/i18n-assets/en/common.json": "e98efa7e6a825ed46455cb5df36031c0b0cff113",
+    "/assets/i18n-assets/en/myAccount.json": "939eae66254322ed8262c525946cc2030c463439",
+    "/assets/i18n-assets/en/payment.json": "f4cc9422a199aecf351f4446cb88f74173d5c72d",
+    "/assets/i18n-assets/en/product.json": "0deb56917b9069bbba4bc654baa4e1695486afbb",
+    "/assets/i18n-assets/en/pwa.json": "4f94b0c3ed2960f38023716e8688da7eec1e49ea",
+    "/assets/i18n-assets/en/user.json": "08b6053b5d56cc2d588c917d489a0c25978dfa63",
+    "/assets/i18n-assets/fr/address.json": "c9b4080e7d11df908e09207442c45f31a6b5de92",
+    "/assets/i18n-assets/fr/cart.json": "a86258bfc434ff6d01561175bb89aa16d4813e70",
+    "/assets/i18n-assets/fr/common.json": "eeab90bdc71ea1a733ec9c94b1128324487e5b9e",
+    "/assets/i18n-assets/fr/myAccount.json": "aff655a93a9e69eeb25d16656b373e3b7b710524",
+    "/assets/i18n-assets/fr/payment.json": "3043284850b83329c591b88a785b017fab733294",
+    "/assets/i18n-assets/fr/product.json": "f2b924fb412e56054fb356ad46eda6afc0cf913b",
+    "/assets/i18n-assets/fr/pwa.json": "4f94b0c3ed2960f38023716e8688da7eec1e49ea",
+    "/assets/i18n-assets/fr/user.json": "ca41b08bfc6a7d3014ac9aa702275349f372ee00",
+    "/assets/webApplicationInjector.js": "b8b08268ceaa75fe468134580d98b07884db7106",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "b4d7fc5447b69b9b105d752adf39530c00290b89",
+    "/main.aa650594eca789da.js": "28da28f2999736071c1df4789b22589afb43e5f0",
+    "/manifest.webmanifest": "f1aa73ddfee256e422f5d670c69d047be5a4f786",
+    "/polyfills.299729a1cbd59369.js": "e86d56f7cb7575c8d0d13f28bb0270e48c3c3295",
+    "/runtime.fe82159201b89117.js": "6eab04c9ece2ff116f96ebedbb4d102026e56788",
+    "/styles.780879f297362786.css": "8d3da6377c153e6b207a54ae81f9f7911e297b70"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
