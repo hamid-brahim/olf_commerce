@@ -3,6 +3,7 @@ import { translationChunksConfig } from "@spartacus/assets";
 import { FeaturesConfig, I18nConfig, OccConfig, provideConfig, SiteContextConfig } from "@spartacus/core";
 import { defaultB2bOccConfig } from "@spartacus/setup";
 import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacus/storefront";
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [],
@@ -10,9 +11,9 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
   ],
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
     backend: {
-    //  occ: {
-    //    baseUrl: environment.occBaseUrl
-    //  }
+      occ: {
+        baseUrl: environment.occBaseUrl
+      }
     },
   }), provideConfig(<SiteContextConfig>{
     context: {
