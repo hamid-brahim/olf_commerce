@@ -9,6 +9,7 @@ import {
   layoutConfig,
   mediaConfig
 } from "@spartacus/storefront";
+import {environment} from "../../environments/environment";
 
 
 @NgModule({
@@ -17,16 +18,16 @@ import {
   ],
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
     backend: {
-     // occ: {
-     //   baseUrl: environment.occBaseUrl
-     // }
+     occ: {
+       baseUrl: environment.occBaseUrl
+     }
     },
   }), provideConfig(<SiteContextConfig>{
     context: {
       urlParameters: ['baseSite', 'language', 'currency'],
-      baseSite: ['olf'],
+      baseSite: ['cangubike-spa'],
       language: ['fr', 'en'],
-      currency: ['EUR', 'CHF'],
+      currency: ['EUR'],
     },
   }), provideConfig(<I18nConfig>{
     i18n: {

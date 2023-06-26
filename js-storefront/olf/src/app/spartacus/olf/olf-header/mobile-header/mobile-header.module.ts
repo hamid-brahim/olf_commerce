@@ -1,14 +1,9 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { MobileHeaderComponent } from './mobile-header.component';
-import {I18nTestingModule, UrlModule} from "@spartacus/core";
-import {
-  GenericLinkModule,
-  HamburgerMenuModule,
-  IconModule,
-  MiniCartModule,
-  PageSlotModule
-} from "@spartacus/storefront";
+import {CommonModule} from "@angular/common";
+import {GenericLinkModule, HamburgerMenuModule, IconModule, PageSlotModule} from "@spartacus/storefront";
+import {I18nModule, UrlModule} from "@spartacus/core";
+import {MiniCartModule} from "@spartacus/cart/base/components/mini-cart";
+import {MobileHeaderComponent} from "./mobile-header.component";
 
 
 
@@ -24,7 +19,7 @@ import {
     HamburgerMenuModule,
     IconModule,
     MiniCartModule,
-    I18nTestingModule
+    I18nModule
   ],
   exports: [
     MobileHeaderComponent
