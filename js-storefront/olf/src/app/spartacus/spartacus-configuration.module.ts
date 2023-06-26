@@ -25,9 +25,9 @@ import {environment} from "../../environments/environment";
   }), provideConfig(<SiteContextConfig>{
     context: {
       urlParameters: ['baseSite', 'language', 'currency'],
-      baseSite: ['cangubike-spa'],
+      baseSite: ['olf'],
       language: ['fr', 'en'],
-      currency: ['EUR'],
+      currency: ['EUR','CHF'],
     },
   }), provideConfig(<I18nConfig>{
     i18n: {
