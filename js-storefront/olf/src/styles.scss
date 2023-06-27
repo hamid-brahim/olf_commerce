@@ -8,27 +8,33 @@ $font-family-base: "Raleway", sans-serif;
 
 $styleVersion: 4.3;
 // remove default styles for the header section and some components
-$skipComponentStyles: (header, cx-mini-cart, cx-login-form);
+$skipComponentStyles: (
+  header,
+  cx-mini-cart,
+  cx-login-form
+);
 
 $styleVersion: 4.3;
 @import '~@spartacus/styles/index';
 
 
-cx-navigation-ui > nav:nth-of-type(n + 6) {
+cx-navigation-ui>nav:nth-of-type(n + 6) {
   display: none;
 }
 
 // define color variables
 :root {
-  // --cx-color-secondary: #f1f2f3;
-  --cx-color-primary: #43464e;
-  --ssf-light-primary: #f1f2f3;
-  --ssf-dark-primary-base: 29, 31, 34;
-  --ssf-green-primary: #5ece7b;
-  --ssf-red-olf: #e51139;
+  --cx-color-secondary: #2ad463;
+  --cx-color-primary: #084564;
+}
+
+.Footer {
+  background-color: var(--cx-color-primary);
+  border-top: 2px solid var(--cx-color-secondary);
 }
 
 cx-navigation-ui.flyout {
+
   a,
   span {
     font-weight: 400;
@@ -53,9 +59,13 @@ cx-navigation-ui.accNavComponent {
 }
 
 // generic link component styles
-cx-generic-link {
-  a {
-    text-decoration: underline;
+nav {
+  cx-generic-link {
+    a {
+      text-decoration: none;
+      border-bottom: 2px solid var(--cx-color-secondary);
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -92,13 +102,14 @@ cx-mini-cart {
 }
 
 // searchbox component styles
-cx-searchbox > * {
+cx-searchbox>* {
   background-color: transparent;
 }
 
 cx-searchbox {
   position: relative;
   z-index: 20;
+
   //border-bottom: 2px solid var(--cx-color-primary);
   //color: var(--cx-color-primary);
   //margin-bottom: 0.25rem;
@@ -156,7 +167,7 @@ cx-add-to-cart {
 
 cx-product-images {
   cx-media {
-      width: 100%;
-      height: 80%;
+    width: 100%;
+    height: 80%;
   }
 }

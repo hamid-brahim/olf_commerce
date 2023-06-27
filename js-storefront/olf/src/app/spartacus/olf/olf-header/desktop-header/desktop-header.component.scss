@@ -1,6 +1,7 @@
 .top-header {
-  background-color: var(--cx-color-secondary);
+  background-color: var(--cx-color-inverse);
   font-size: 0.900rem;
+  color: var(--cx-color-primary);
 }
 
 .header-icons {
@@ -17,7 +18,7 @@ img {
   height: 60px;
   width: 100px;
 }
-.cx-link {
+cx-link {
   color: #f1f2f3;
 }
 .cx-page-slot {
@@ -104,5 +105,7 @@ cx-navigation-ui {
     }
   }
 }
+
+
 
 
