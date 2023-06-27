@@ -9,6 +9,7 @@ import {
   layoutConfig,
   mediaConfig
 } from "@spartacus/storefront";
+import { environment } from 'src/environments/environment';
 
 
 @NgModule({
@@ -17,9 +18,9 @@ import {
   ],
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
     backend: {
-     // occ: {
-     //   baseUrl: environment.occBaseUrl
-     // }
+     occ: {
+       baseUrl: environment.occBaseUrl
+     }
     },
   }), provideConfig(<SiteContextConfig>{
     context: {

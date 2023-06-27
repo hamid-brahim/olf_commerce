@@ -6,9 +6,9 @@ import {
   GenericLinkModule,
   HamburgerMenuModule,
   IconModule,
-  MiniCartModule,
   PageSlotModule
 } from "@spartacus/storefront";
+import { MiniCartModule } from '@spartacus/cart/base/components/mini-cart';
 
 
 
