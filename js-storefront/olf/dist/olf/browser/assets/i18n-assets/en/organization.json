@@ -1,0 +1,53 @@
+{
+  "organization": {
+    "enabled": "Active",
+    "disabled": "Disabled",
+    "enable": "Enable",
+    "disable": "Disable",
+    "name": "Name",
+    "code": "Code",
+    "done": "done",
+    "cancel": "Cancel",
+    "add": "Add",
+    "create": "Create {{name}}",
+    "edit": "Edit",
+    "save": "Save {{name}}",
+    "delete": "Delete",
+    "assign": "Manage",
+    "active": "Active",
+    "status": "Status",
+    "details": "Details",
+    "messages": {
+      "emptyList": "The list is empty"
+    },
+    "userRoles": {
+      "b2bcustomergroup": "Customer",
+      "b2bapprovergroup": "Approver",
+      "b2bmanagergroup": "Manager",
+      "b2badmingroup": "Admin"
+    },
+    "breadcrumb": "Organization",
+    "notification": {
+      "noSufficientPermissions": "No sufficient permissions to access this page",
+      "notExist": "This item does not exist",
+      "disabled": "You cannot edit a disabled item"
+    },
+    "confirmation": {
+      "cancel": "CANCEL",
+      "confirm": "CONFIRM",
+      "disable": "DISABLE",
+      "delete": "DELETE"
+    },
+    "httpHandlers": {
+      "conflict": {
+        "budget": "Budget with code {{ code }} already exists.",
+        "costCenter": "Cost center with code {{ code }} already exists.",
+        "unit": "Organizational unit with uid {{ code }} already exists.",
+        "user": "User with email {{ code }} already exists",
+        "userGroup": "User Group with id {{ code }} already exists",
+        "permission": "Approval Permission with code {{ code }} already exists.",
+        "unknown": "Server validation error."
+      }
+    }
+  }
+}

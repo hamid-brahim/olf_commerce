@@ -1,0 +1,10 @@
+{
+  "orgCostCenterAssignedBudgets": {
+    "title": "Budgets assigné",
+    "subtitle": "Centre de coûts: {{ item.name }} assigné avec succès",
+    "assigned": "Budget {{ item.name }} ",
+    "unassigned": "Budget {{ item.name }} retiré avec succès"
+  }
+}
+
+

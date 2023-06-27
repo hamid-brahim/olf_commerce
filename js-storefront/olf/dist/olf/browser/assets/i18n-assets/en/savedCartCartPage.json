@@ -1,0 +1,7 @@
+{
+  "savedCartCartPage": {
+    "messages": {
+      "cartSaved": "Your cart items have been successfully saved for later in the \"{{cartName}}\" cart"
+    }
+  }
+}

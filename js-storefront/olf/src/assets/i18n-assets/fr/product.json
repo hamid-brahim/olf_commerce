@@ -65,7 +65,9 @@
     "inStock": "En stock",
     "selectStyleAndSize": "Sélectionnez le style la taille pour vérifier le stock",
     "removeFromCart": "Supprimer le produit du panier",
-    "closeModal": "Close Modal"
+    "closeModal": "Close Modal",
+    "buyItAgain": "Réacheter",
+    "addToActiveCart": "Ajouter au panier"
   },
   "TabPanelContainer": {
     "tabs": {

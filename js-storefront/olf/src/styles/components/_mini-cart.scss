@@ -1,0 +1,28 @@
+
+cx-mini-cart {
+  margin-right: -1rem;
+  position: relative;
+
+  a {
+    background:var(--cx-color-transparent) !important;
+    text-decoration: none;
+  }
+
+  .total {
+    display: compact;
+  }
+
+  .count {
+    padding: 0 0.20rem;
+    position: absolute;
+    top: -0.2rem;
+    right: 1rem;
+    background-color: var(--ssf-red-olf);
+    border-radius: 50%;
+    font-size: 12px !important;
+    font-weight: bold !important;
+
+
+  }
+}
+

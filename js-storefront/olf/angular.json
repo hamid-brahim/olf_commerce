@@ -49,7 +49,12 @@
             ],
             "scripts": [],
             "serviceWorker": true,
-            "ngswConfigPath": "ngsw-config.json"
+            "ngswConfigPath": "ngsw-config.json",
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/"
+              ]
+            }
           },
           "configurations": {
             "production": {
@@ -131,7 +136,12 @@
               "src/styles/spartacus/cart.scss",
               "src/styles/spartacus/asm.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "node_modules/"
+              ]
+            }
           }
         },
         "server": {
@@ -196,5 +206,7 @@
       }
     }
   },
-  "defaultProject": "olf"
+  "cli": {
+    "analytics": false
+  }
 }
