@@ -17,7 +17,8 @@ import { MiniCartModule } from '@spartacus/cart/base/components/mini-cart';
     IconModule,
     MiniCartModule,
     UrlModule,
-    RouterModule
+    RouterModule,
+    MiniCartModule
   ],
   declarations: [
     DesktopHeaderComponent

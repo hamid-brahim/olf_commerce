@@ -1,8 +1,8 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import { AuthService, RoutingService} from '@spartacus/core';
+import { ActiveCartService } from '@spartacus/cart/base/core';
 import {Observable} from "rxjs";
 import {map, startWith} from "rxjs/operators";
-import { ActiveCartService } from '@spartacus/cart/base/core';
+
 
 @Component({
   selector: 'app-mobile-header',
